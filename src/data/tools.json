@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "version": "1.0",
+    "lastUpdated": "2026-02-03"
+  },
+  "tools": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "description": "AI chatbot for text generation and Q&A.",
+      "url": "https://chat.openai.com/",
+      "categories": ["Chatbot", "Productivity"],
+      "pricing": {
+        "tiers": ["Free", "Plus"],
+        "default": "Free" 
+      }
+    },
+    {
+      "id": 2,
+      "name": "Gamma",
+      "description": "Create beautiful presentations with AI.",
+      "url": "https://gamma.app/",
+      "categories": ["Presentation", "Design"],
+      "pricing": {
+        "tiers": ["Free"]
+      }
+    }
+  ]
+}
