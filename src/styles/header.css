@@ -1,0 +1,35 @@
+header {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: background-color var(--transition-speed),
+              color var(--transition-speed);
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+header .ai-verse {
+  display: flex;
+  align-items: center;
+  padding-right: 0.5rem;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+
+header .description {
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 1rem 0 1rem;
+}
+
+header .logo {
+  height: 60px;
+  margin-right: 20px;
+}
+
