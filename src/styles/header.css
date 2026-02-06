@@ -25,7 +25,7 @@ header .description {
   font-size: 1.4rem;
   text-align: center;
   font-weight: bold;
-  margin: 0 1rem 0 1rem;
+  margin: 0 80px 0 80px
 }
 
 header .logo {
@@ -39,13 +39,14 @@ header .logo {
   }
 
   header .logo {
-    height: 40px;
+    height: 50px;
     margin-right: 20px;
   }
 
     
   header .description {
     font-size: 0.9rem;
+    margin: 0 40px 0 40px;
   }
 
 }

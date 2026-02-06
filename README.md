@@ -1,139 +1,110 @@
 <p align="center">
   <a href="https://a-i-verse.netlify.app/">
-    <img src="https://a-i-verse.netlify.app/" alt="Project Logo" width="200">
+    <img src="README/main.png" alt="Project Logo" width="200">
   </a>
 </p>
 
 <h1 align="center"><a href="">AI Verse</a></h1>
 
-A curated directory of AI tools, built with React and Vite. This project serves as a central hub to discover, categorize, and explore various artificial intelligence tools available in the market.
+## 📖 Overview
 
-## 🛠️ Data Source
-The data for the tools is stored in `src/data/tools.json`.
+**AI Verse** is a centralized hub built with **React** and **Vite**, designed to help users discover, categorize, and explore the rapidly evolving landscape of Artificial Intelligence. Whether you are looking for LLMs, image generators, or productivity boosters, AI Verse simplifies the search.
+
+## 💻 Tech Stack
+
+* **Framework:** [React 18](https://reactjs.org/)
+* **Build Tool:** [Vite](https://vitejs.dev/)
 
 ## 🚀 Getting Started
 
-To get a local copy up and running, follow these simple steps.
+Follow these steps to set up the project locally.
 
+### Prerequisites
+
+* Node.js (v16.0 or higher)
+* npm or yarn
 
 ### Installation
 
-1.  Clone the repo:
-    ```sh
-    git clone https://github.com/thisal-d/ai-verse.git
-    ```
-2.  Install NPM packages:
-    ```sh
-    npm install
-    ```
-3.  Start the development server:
-    ```sh
-    npm run dev
-    ```
+1. **Clone the repository:**
+```sh
+git clone https://github.com/thisal-d/ai-verse.git
+cd ai-verse
+
+```
+
+
+2. **Install dependencies:**
+```sh
+npm install
+
+```
+
+
+3. **Launch the development server:**
+```sh
+npm run dev
+
+```
+
+
+The app will be available at `http://localhost:5173`.
+
+---
 
 ## 🏗️ Project Structure
 
-*   `src/data/tools.json`: The core database of AI tools.
-*   `public/ai-tools/logo`: Directory where tool logos are stored.
-*   `src/`: source code for the React application.
+```text
+src/
+├── data/tools.json        # The core database of AI tools
+└── components/            # React components
+public/
+└── ai-tools/logo/         # Directory for tool logos (PNG/SVG)
 
-Here’s the updated **Contributing** section you can add to your README — it includes your rule for naming **dark/light logos** clearly and fits naturally into the contribution instructions:
+```
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! If you know of an awesome AI tool that isn't listed, please feel free to add it.
+We love community contributions! Adding a new tool is as simple as updating a JSON file.
 
 ### How to Add a New AI Tool
 
-To add a new tool, you need to modify `src/data/tools.json` and add the corresponding logo images.
-
 #### 1. Add Entry to `tools.json`
 
-Open `src/data/tools.json` and add a new object to the `tools` array. Use the following schema:
+Locate `src/data/tools.json` and add a new object to the `tools` array:
 
 ```json
 {
-  "id": 101, // Unique Integer ID
+  "id": 101,
   "name": "Tool Name",
   "description": "Short description of what the tool does.",
   "url": "https://tool-website.com/",
-  "categories": [
-    "Category1",
-    "Category2"
-  ],
-  "keywords": [
-    "keyword1",
-    "keyword2"
-  ],
+  "categories": ["Productivity", "Writing"],
+  "keywords": ["ai", "editor", "copywriting"],
   "pricing": {
-    "tiers": [
-      "Free",
-      "Pro"
-    ],
-    "default": "Free" // "Free", "Paid", or "Freemium"
+    "tiers": ["Free", "Pro"],
+    "default": "Free"
   },
   "logo": {
     "dark": "ai-tools/logo/png/tool-name-dark.png",
     "light": "ai-tools/logo/png/tool-name-light.png"
   }
 }
-```
 
-* **id**: Ensure this is a unique integer not already used by another tool.
-* **logo**: Paths should be relative to the `public` folder (start with `ai-tools/...`).
+```
 
 #### 2. Add Logo Images
 
-Upload the tool's logo to the `public/ai-tools/logo` directory.
+Place the logo files in `public/ai-tools/logo/png/` or `public/ai-tools/logo/svg/`.
 
-* **Format**: Supported formats are `SVG` and `PNG`.
-* **Theme Support**:
-
-  * If your tool needs **different logos** for dark and light themes (for example, white text for dark mode and black text for light mode), name the files with `-dark` and `-light` suffixes.
-  * If your logo works for **both themes**, you can upload **one file** (e.g. `tool-name.png`) and reference the same path for both `dark` and `light` in `tools.json`.
-
-**Example Directory Structure:**
+* **Theme Support:** * **Dual Theme:** If the logo needs different colors for light/dark modes, use the `-dark` and `-light` suffixes.
+* **Single Logo:** If one logo works for both, use the same path for both keys in the JSON.
 
 
 
-**Example JSON (Single Logo Used for Both Themes):**
-
-```
-public/
-└── ai-tools/
-    └── logo/
-        └── png/
-            └── superai.png
-```
-
-```json
-"logo": {
-  "dark": "ai-tools/logo/png/superai.png",
-  "light": "ai-tools/logo/png/superai.png"
-}
-```
-
-**Example JSON (Separate Dark/Light Logos):**
-
-
-```
-public/
-└── ai-tools/
-    └── logo/
-        └── png/
-            ├── superai-dark.png
-            └── superai-light.png
-```
-
-```json
-"logo": {
-  "dark": "ai-tools/logo/png/superai-dark.png",
-  "light": "ai-tools/logo/png/superai-light.png"
-}
-```
-
+---
 
 ## 👥 Contributors
 
@@ -143,3 +114,9 @@ public/
 | [<img src="https://github.com/thisurika.png?size=25" width="25">](https://github.com/thisurika)         | [Thisurika Hasajith](https://github.com/childeyouyu)                |
 | [<img src="https://github.com/senuda-d.png?size=25" width="25">](https://github.com/senuda-d)             | [Senuda Dilvan](https://github.com/Navindu21)       |
 | [<img src="https://github.com/fathi-asma.png?size=25" width="25">](https://github.com/fathi-asma)             | [Fathima Asma](https://github.com/fathi-asma)       |
+
+
+---
+
+<p align="center">Made with ❤️</p>
+

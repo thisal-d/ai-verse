@@ -2,17 +2,16 @@
     background-color: var(--color-card);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     margin: 20px;
+    padding: 10px;
     width: 200px;
-    height: 300px;
+    height: 320px;
     transition: transform 0.3s ease;
 }
 
 .ai-card:hover {
     transform: scale(1.05);
 }
-
 
 .image-container {
     text-align: center;
@@ -33,7 +32,6 @@
     margin-top: 10px;
     color: var(--color-text);
     text-align: center;
-    text-decoration: none;
 }
 
 a {
@@ -52,18 +50,18 @@ a {
     .ai-card {
         box-sizing: border-box;
         width: 100%;
-        height: 100px;
+        height: fit-content;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: left;
         padding-left: 10px;
         padding-right: 10px;
+        margin: 0 5px 5px 5px;
     }
 
     .image-container {
-        text-align: center;
-        height: 80px;
-        width: 80px;
+        height: 66px;
+        width: 66px;
     }
 
     .ai-card .ai-image{
@@ -71,17 +69,17 @@ a {
     }
 
     .ai-card .name {
-        font-size: 1em;
+        font-size: 0.9rem;
         color: var(--color-text);
         text-align: left;
-        margin-left: 20px;
-
+        margin-top:0;
+        margin-left: 10px;
     }
 
     .ai-card .description {
         text-align: center;
         margin-left: 20px;
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
 }
