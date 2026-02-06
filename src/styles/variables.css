@@ -1,0 +1,51 @@
+:root {
+  /* 🎨 Core theme colors (Light) */
+  --color-primary: #4f46e5;
+  --color-secondary: #9333ea;
+  --color-accent: #6366f1;
+
+  /* 🧱 Backgrounds & surfaces */
+  --color-bg: #ffffff;
+  --color-surface: #f9fafb;
+  --color-card: #f3f4f6;
+
+  /* 🖋️ Text & borders */
+  --color-text: #1f2937;
+  --color-muted: #6b7280;
+  --color-border: #e5e7eb;
+
+  /* ✅ Status colors */
+  --color-success: #10b981;
+  --color-warning: #facc15;
+  --color-error: #ef4444;
+
+  /* 💎 Shadows, radii, transitions */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.2);
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --transition-speed: 0.3s;
+
+  /* ✨ Typography */
+  --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+}
+
+/* 🌙 Dark theme overrides */
+.dark {
+  --color-bg: hsl(0, 14%, 5%);
+  --color-surface: #151515;
+  --color-card: #252525;
+  --color-text: #f9fafb;
+  --color-muted: #9ca3af;
+  --color-border: #334155;
+  --color-accent: #818cf8;
+
+  --shadow-sm: 0 1px 3px rgba(255, 255, 255, 0.05);
+  --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.08);
+  --shadow-lg: 0 10px 20px rgba(255, 255, 255, 0.1);
+}

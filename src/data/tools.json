@@ -1,28 +1,840 @@
 {
   "meta": {
-    "version": "1.0",
-    "lastUpdated": "2026-02-03"
+    "version": "1.2",
+    "lastUpdated": "2026-02-06"
   },
   "tools": [
     {
       "id": 1,
       "name": "ChatGPT",
-      "description": "AI chatbot for text generation and Q&A.",
+      "description": "AI chatbot by OpenAI for text generation, coding, and Q&A.",
       "url": "https://chat.openai.com/",
-      "categories": ["Chatbot", "Productivity"],
+      "categories": [
+        "Chatbot",
+        "Writing",
+        "Coding",
+        "Productivity"
+      ],
+      "keywords": [
+        "OpenAI",
+        "GPT-4",
+        "GPT-3.5",
+        "LLM",
+        "conversational ai",
+        "text generation",
+        "debugging",
+        "dall-e"
+      ],
       "pricing": {
-        "tiers": ["Free", "Plus"],
-        "default": "Free" 
+        "tiers": [
+          "Free",
+          "Plus",
+          "Team"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatgpt-dark.svg",
+        "light": "ai-tools/logo/svg/chatgpt-light.svg"
       }
     },
     {
       "id": 2,
-      "name": "Gamma",
-      "description": "Create beautiful presentations with AI.",
-      "url": "https://gamma.app/",
-      "categories": ["Presentation", "Design"],
+      "name": "Gemini",
+      "description": "Google's multimodal AI that can process text, code, images, and video.",
+      "url": "https://gemini.google.com/",
+      "categories": [
+        "Chatbot",
+        "Multimodal",
+        "Writing",
+        "Analysis"
+      ],
+      "keywords": [
+        "Google",
+        "Bard",
+        "DeepMind",
+        "image recognition",
+        "video analysis",
+        "workspace",
+        "reasoning"
+      ],
       "pricing": {
-        "tiers": ["Free"]
+        "tiers": [
+          "Free",
+          "Advanced"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/gemini.png",
+        "light": "ai-tools/logo/png/gemini.png"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chat.Z.ai",
+      "description": "AI development platform and assistant for coding and automation.",
+      "url": "https://chat.z.ai/",
+      "categories": [
+        "Developer Tools",
+        "Coding",
+        "Automation"
+      ],
+      "keywords": [
+        "programming",
+        "software engineering",
+        "workflow",
+        "scripting",
+        "debugging",
+        "IDE integration"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Claude",
+      "description": "AI assistant by Anthropic, known for advanced reasoning and large context windows.",
+      "url": "https://claude.ai/",
+      "categories": [
+        "Chatbot",
+        "Writing",
+        "Research",
+        "Coding"
+      ],
+      "keywords": [
+        "Anthropic",
+        "context window",
+        "summarization",
+        "analysis",
+        "safety",
+        "constitutional ai",
+        "long-form"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/claude.png",
+        "light": "ai-tools/logo/png/claude.png"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Gamma",
+      "description": "Create beautiful presentations, documents, and websites with AI.",
+      "url": "https://gamma.app/",
+      "categories": [
+        "Presentation",
+        "Design",
+        "Productivity"
+      ],
+      "keywords": [
+        "slides",
+        "deck",
+        "powerpoint alternative",
+        "website builder",
+        "visual storytelling",
+        "pitch deck"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Plus",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/gamma.png",
+        "light": "ai-tools/logo/png/gamma.png"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Image.Z.ai",
+      "description": "AI-powered image generation and editing suite.",
+      "url": "https://image.z.ai/",
+      "categories": [
+        "Image Generator",
+        "Design",
+        "Art"
+      ],
+      "keywords": [
+        "text-to-image",
+        "visuals",
+        "graphic design",
+        "illustration",
+        "editing",
+        "photos"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Premium"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Audio.Z.ai",
+      "description": "AI tools for voice generation, text-to-speech, and audio enhancing.",
+      "url": "https://audio.z.ai/",
+      "categories": [
+        "Audio",
+        "Speech",
+        "Text-to-Speech"
+      ],
+      "keywords": [
+        "TTS",
+        "voice cloning",
+        "narration",
+        "sound editing",
+        "cleanup",
+        "voiceover"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Premium"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Canva AI",
+      "description": "Magic Studio tools for AI graphic design and photo editing.",
+      "url": "https://www.canva.com/ai/",
+      "categories": [
+        "Design",
+        "Presentation",
+        "Marketing"
+      ],
+      "keywords": [
+        "magic studio",
+        "photo editor",
+        "social media",
+        "templates",
+        "magic erase",
+        "branding"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/canva.png",
+        "light": "ai-tools/logo/png/canva.png"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Midjourney",
+      "description": "High-fidelity AI image generator known for artistic quality.",
+      "url": "https://www.midjourney.com/",
+      "categories": [
+        "Image Generator",
+        "Art"
+      ],
+      "keywords": [
+        "discord",
+        "photorealistic",
+        "creative",
+        "digital art",
+        "concept art",
+        "high resolution"
+      ],
+      "pricing": {
+        "tiers": [
+          "Basic",
+          "Standard",
+          "Pro"
+        ],
+        "default": "Basic"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/midjourney.png",
+        "light": "ai-tools/logo/png/midjourney.png"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Runway",
+      "description": "Advanced AI for video generation (Gen-2) and editing.",
+      "url": "https://runwayml.com/",
+      "categories": [
+        "Video",
+        "Editor",
+        "VFX"
+      ],
+      "keywords": [
+        "Gen-2",
+        "Gen-3",
+        "text-to-video",
+        "inpainting",
+        "filmmaking",
+        "motion brush",
+        "green screen"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Standard",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/runway.png",
+        "light": "ai-tools/logo/png/runway.png"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Perplexity",
+      "description": "AI-powered search engine that provides real-time answers with citations.",
+      "url": "https://www.perplexity.ai/",
+      "categories": [
+        "Search",
+        "Research",
+        "Chatbot"
+      ],
+      "keywords": [
+        "citations",
+        "sources",
+        "web browsing",
+        "information retrieval",
+        "academic",
+        "news"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/perplexity.png",
+        "light": "ai-tools/logo/png/perplexity.png"
+      }
+    },
+    {
+      "id": 12,
+      "name": "ElevenLabs",
+      "description": "Realistic AI voice generator and text-to-speech platform.",
+      "url": "https://elevenlabs.io/",
+      "categories": [
+        "Audio",
+        "Speech",
+        "Text-to-Speech"
+      ],
+      "keywords": [
+        "voice cloning",
+        "dubbing",
+        "audiobooks",
+        "narration",
+        "localization",
+        "emotional speech"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Starter",
+          "Creator"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/elevenlabs.png",
+        "light": "ai-tools/logo/png/elevenlabs.png"
+      }
+    },
+    {
+      "id": 13,
+      "name": "GitHub Copilot",
+      "description": "AI coding assistant that suggests code in your IDE.",
+      "url": "https://github.com/features/copilot",
+      "categories": [
+        "Coding",
+        "Developer Tools"
+      ],
+      "keywords": [
+        "vscode",
+        "autocomplete",
+        "code suggestions",
+        "pair programming",
+        "syntax",
+        "functions"
+      ],
+      "pricing": {
+        "tiers": [
+          "Individual",
+          "Business"
+        ],
+        "default": "Individual"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/github-copilot.png",
+        "light": "ai-tools/logo/png/github-copilot.png"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Suno",
+      "description": "Generate full songs with lyrics and vocals using AI.",
+      "url": "https://suno.com/",
+      "categories": [
+        "Music",
+        "Audio"
+      ],
+      "keywords": [
+        "song generation",
+        "lyrics",
+        "vocals",
+        "composition",
+        "mp3",
+        "instrumental",
+        "radio"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro",
+          "Premier"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/suno.png",
+        "light": "ai-tools/logo/png/suno.png"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Leonardo.ai",
+      "description": "AI art generator for creating production-quality game assets and art.",
+      "url": "https://leonardo.ai/",
+      "categories": [
+        "Image Generator",
+        "Game Dev",
+        "Design"
+      ],
+      "keywords": [
+        "assets",
+        "textures",
+        "character design",
+        "stable diffusion",
+        "canvas editor",
+        "concept art"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Apprentice",
+          "Artisan"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/leonardo.png",
+        "light": "ai-tools/logo/png/leonardo.png"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Microsoft Copilot",
+      "description": "AI productivity assistant integrated into Windows and Microsoft 365.",
+      "url": "https://copilot.microsoft.com/",
+      "categories": [
+        "Productivity",
+        "Chatbot",
+        "Enterprise"
+      ],
+      "keywords": [
+        "Office 365",
+        "Windows",
+        "Bing Chat",
+        "Word",
+        "Excel",
+        "PowerPoint",
+        "business"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/microsoft-copilot.png",
+        "light": "ai-tools/logo/png/microsoft-copilot.png"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Notion AI",
+      "description": "Integrated AI writing and database management within Notion.",
+      "url": "https://www.notion.so/product/ai",
+      "categories": [
+        "Productivity",
+        "Writing",
+        "Management"
+      ],
+      "keywords": [
+        "notes",
+        "summarization",
+        "wiki",
+        "translation",
+        "brainstorming",
+        "organization"
+      ],
+      "pricing": {
+        "tiers": [
+          "Add-on"
+        ],
+        "default": "Add-on"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/notion.png",
+        "light": "ai-tools/logo/png/notion.png"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Stable Diffusion",
+      "description": "Open-source text-to-image model with extensive customization options.",
+      "url": "https://stability.ai/",
+      "categories": [
+        "Image Generator",
+        "Art",
+        "Open Source",
+        "Developer Tools"
+      ],
+      "keywords": [
+        "local",
+        "weights",
+        "SDXL",
+        "hugging face",
+        "model training",
+        "Python"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro",
+          "Enterprise"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/stability.png",
+        "light": "ai-tools/logo/png/stability.png"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Jasper",
+      "description": "AI content creation platform for marketing copy, blog posts, and social media content.",
+      "url": "https://www.jasper.ai/",
+      "categories": [
+        "Writing",
+        "Marketing",
+        "Content Creation"
+      ],
+      "keywords": [
+        "copywriting",
+        "SEO",
+        "blog posts",
+        "brand voice",
+        "emails",
+        "ads"
+      ],
+      "pricing": {
+        "tiers": [
+          "Creator",
+          "Pro",
+          "Business"
+        ],
+        "default": "Creator"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/jasper.png",
+        "light": "ai-tools/logo/png/jasper.png"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Hugging Face",
+      "description": "Platform for sharing and discovering AI models, datasets, and applications.",
+      "url": "https://huggingface.co/",
+      "categories": [
+        "Developer Tools",
+        "Research",
+        "Open Source",
+        "Machine Learning"
+      ],
+      "keywords": [
+        "models",
+        "datasets",
+        "transformers",
+        "NLP",
+        "community",
+        "hosting"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro",
+          "Enterprise"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/huggingface.png",
+        "light": "ai-tools/logo/png/huggingface.png"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Pika",
+      "description": "AI video generation platform that creates and edits videos from text and images.",
+      "url": "https://pika.art/",
+      "categories": [
+        "Video",
+        "Animation",
+        "Image Generator"
+      ],
+      "keywords": [
+        "text-to-video",
+        "lip sync",
+        "motion",
+        "cinematic",
+        "cartoons",
+        "effects"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Basic",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/pika.png",
+        "light": "ai-tools/logo/png/pika.png"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Grammarly",
+      "description": "AI-powered writing assistant that improves grammar, clarity, and tone.",
+      "url": "https://www.grammarly.com/",
+      "categories": [
+        "Writing",
+        "Productivity",
+        "Education"
+      ],
+      "keywords": [
+        "spell check",
+        "grammar",
+        "tone detector",
+        "plagiarism",
+        "proofreading",
+        "browser extension"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Premium",
+          "Business"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/grammarly.png",
+        "light": "ai-tools/logo/png/grammarly.png"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Luma Labs AI",
+      "description": "3D capture and generation platform using NeRF technology.",
+      "url": "https://lumalabs.ai/",
+      "categories": [
+        "3D",
+        "Video",
+        "AR/VR"
+      ],
+      "keywords": [
+        "NeRF",
+        "Gaussian Splatting",
+        "Dream Machine",
+        "interactive scenes",
+        "VFX",
+        "capture"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/luma-labs.png",
+        "light": "ai-tools/logo/png/luma-labs.png"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Replit AI",
+      "description": "AI-powered coding assistant integrated into the Replit development environment.",
+      "url": "https://replit.com/ai",
+      "categories": [
+        "Coding",
+        "Developer Tools",
+        "Education"
+      ],
+      "keywords": [
+        "IDE",
+        "browser based",
+        "collaboration",
+        "deployment",
+        "hosting",
+        "learning"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Hacker",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/replit.png",
+        "light": "ai-tools/logo/png/replit.png"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Reka",
+      "description": "Multimodal AI company developing models that can understand text, images, and video for advanced AI applications.",
+      "url": "https://reka.ai/",
+      "categories": [
+        "Multimodal",
+        "Research",
+        "Developer Tools"
+      ],
+      "keywords": [
+        "Reka Core",
+        "Reka Flash",
+        "visual language model",
+        "edge AI",
+        "enterprise",
+        "API"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro",
+          "Enterprise"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/reka.png",
+        "light": "ai-tools/logo/png/reka.png"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Luma AI",
+      "description": "NeRF-based 3D capture and generation platform that creates realistic 3D models from videos and images.",
+      "url": "https://luma.ai/",
+      "categories": [
+        "3D",
+        "Image Generator",
+        "AR/VR"
+      ],
+      "keywords": [
+        "photogrammetry",
+        "3D models",
+        "game assets",
+        "scanning",
+        "mobile capture",
+        "Genie"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/png/luma.png",
+        "light": "ai-tools/logo/png/luma.png"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Luna AI",
+      "description": "AI-powered video generation platform for creating professional videos from text prompts and images.",
+      "url": "https://lunaai.video/",
+      "categories": [
+        "Video",
+        "Marketing",
+        "Animation"
+      ],
+      "keywords": [
+        "social video",
+        "content marketing",
+        "avatars",
+        "presenters",
+        "ads",
+        "promos"
+      ],
+      "pricing": {
+        "tiers": [
+          "Free",
+          "Pro",
+          "Enterprise"
+        ],
+        "default": "Free"
+      },
+      "logo": {
+        "dark": "ai-tools/logo/svg/luna-dark.svg",
+        "light": "ai-tools/logo/svg/luna-light.svg"
       }
     }
   ]
