@@ -1,10 +1,10 @@
-<a href="">
-<div align="center">
-  <img src="./public/main.png" alt="Project Logo" width="200">
-</div>
+<p align="center">
+  <a href="https://your-link.com">
+    <img src="./public/main.png" alt="Project Logo" width="200">
+  </a>
+</p>
 
-<h1 align="center">AI Verse</h1>
-</a>
+<h1 align="center"><a href="">AI Verse</a></h1>
 
 A curated directory of AI tools, built with React and Vite. This project serves as a central hub to discover, categorize, and explore various artificial intelligence tools available in the market.
 
