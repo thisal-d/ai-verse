@@ -6,3 +6,12 @@
     width: 80px;
     height: 40px;
 } 
+
+
+@media (max-width: 600px) {    
+    .theme-switcher-btn {
+        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+        width: 80px;
+        height: 40px;
+    } 
+}

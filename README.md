@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://your-link.com">
-    <img src="./public/main.png" alt="Project Logo" width="200">
+  <a href="https://a-i-verse.netlify.app/">
+    <img src="https://a-i-verse.netlify.app/" alt="Project Logo" width="200">
   </a>
 </p>
 
@@ -133,3 +133,13 @@ public/
   "light": "ai-tools/logo/png/superai-light.png"
 }
 ```
+
+
+## 👥 Contributors
+
+
+| Contributor                                                                                                 | Profile                                                |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| [<img src="https://github.com/thisurika.png?size=25" width="25">](https://github.com/thisurika)         | [Thisurika Hasajith](https://github.com/childeyouyu)                |
+| [<img src="https://github.com/senuda-d.png?size=25" width="25">](https://github.com/senuda-d)             | [Senuda Dilvan](https://github.com/Navindu21)       |
+| [<img src="https://github.com/fathi-asma.png?size=25" width="25">](https://github.com/fathi-asma)             | [Fathima Asma](https://github.com/fathi-asma)       |
