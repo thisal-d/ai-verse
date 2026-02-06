@@ -33,3 +33,19 @@ header .logo {
   margin-right: 20px;
 }
 
+@media (max-width: 600px) {    
+  header .ai-verse {
+    font-size: 1rem;
+  }
+
+  header .logo {
+    height: 40px;
+    margin-right: 20px;
+  }
+
+    
+  header .description {
+    font-size: 0.9rem;
+  }
+
+}

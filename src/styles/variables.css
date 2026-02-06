@@ -19,6 +19,8 @@
   --color-warning: #facc15;
   --color-error: #ef4444;
 
+  --shadow-color: #bbbbbb;
+
   /* 💎 Shadows, radii, transitions */
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
@@ -44,6 +46,10 @@
   --color-muted: #9ca3af;
   --color-border: #334155;
   --color-accent: #818cf8;
+
+
+  --shadow-color: #404040;
+
 
   --shadow-sm: 0 1px 3px rgba(255, 255, 255, 0.05);
   --shadow-md: 0 4px 6px rgba(255, 255, 255, 0.08);
