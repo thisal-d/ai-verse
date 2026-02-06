@@ -1,7 +1,7 @@
 <a href="">
-<p align="center">
+<div align="center">
   <img src="./public/main.png" alt="Project Logo" width="200">
-</p>
+</div>
 
 <h1 align="center">AI Verse</h1>
 </a>
