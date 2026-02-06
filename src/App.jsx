@@ -1,7 +1,6 @@
 import "./styles/variables.css";
-import "./app.css";
+import "./App.css";
 import Header from "./components/Header.jsx";
-import ThemeSwitcher from "./components/ThemeSwitcher.jsx";
 import AIComponent from "./components/AIComponent.jsx";
 import AI_Tools from "./data/tools.json";
 import { useTheme } from "./context/ThemeContext";
