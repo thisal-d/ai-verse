@@ -22,7 +22,7 @@
 .ai-card .ai-image{
     width: 80%;
     height: auto;
-    border-radius: 4px;
+    border-radius: 1rem;
     margin-bottom: 15px;
     height: 100%;
 }

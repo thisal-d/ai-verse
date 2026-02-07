@@ -653,8 +653,8 @@
       ],
       "pricing": "Freemium",
       "logo": {
-        "dark": "ai-tools/logo/svg/luna-dark.svg",
-        "light": "ai-tools/logo/svg/luna-light.svg"
+        "dark": "ai-tools/logo/png/luna-dark.png",
+        "light": "ai-tools/logo/png/luna-light.png"
       }
     },
     {
@@ -756,7 +756,7 @@
     {
       "id": 33,
       "name": "Ali Tongyi",
-      "description": "      ",
+      "description": "Alibaba’s versatile AI assistant for text generation, translation, and multimodal analysis.",
       "url": "https://tongyi.aliyun.com/",
       "categories": [
         "Video",
@@ -772,14 +772,14 @@
       ],
       "pricing": "Freemium",
       "logo": {
-        "dark": "ai-tools/logo/png/tongyi.svg",
-        "light": "ai-tools/logo/png/tongyi.svg"
+        "dark": "ai-tools/logo/svg/tongyi.svg",
+        "light": "ai-tools/logo/svg/tongyi.svg"
       }
     },
     {
       "id": 34,
       "name": "Doubao",
-      "description": "",
+      "description": "ByteDance’s multimodal AI assistant for conversation, content creation, and image generation.",
       "url": "https://www.doubao.com/",
       "categories": [
         "Video",
@@ -795,14 +795,14 @@
       ],
       "pricing": "Freemium",
       "logo": {
-        "dark": "ai-tools/logo/png/doubao-icon-white-bg.png",
-        "light": "ai-tools/logo/png/doubao-icon-white-bg.png"
+        "dark": "ai-tools/logo/png/doubao.png",
+        "light": "ai-tools/logo/png/doubao.png"
       }
     },
     {
       "id": 35,
       "name": "DeepSeek",
-      "description": "",
+      "description": "Advanced open-source AI models specializing in reasoning, coding, and data analysis.",
       "url": "https://chat.deepseek.com/",
       "categories": [
         "Marketing"
@@ -813,14 +813,14 @@
       ],
       "pricing": "Freemium",
       "logo": {
-        "dark": "ai-tools/logo/png/deepseek.svg",
-        "light": "ai-tools/logo/png/deepseek.svg"
+        "dark": "ai-tools/logo/svg/deepseek.svg",
+        "light": "ai-tools/logo/svg/deepseek.svg"
       }
     },
     {
       "id": 36,
       "name": "Tencent Yuanbao",
-      "description": "",
+      "description": "Tencent’s AI assistant integrated with WeChat for search, productivity, and social interaction.",
       "url": "https://yuanbao.tencent.com/chat",
       "categories": [
         "Marketing"
@@ -833,8 +833,35 @@
       ],
       "pricing": "Freemium",
       "logo": {
-        "dark": "ai-tools/logo/png/yuanbao.svg",
-        "light": "ai-tools/logo/png/yuanbao.svg"
+        "dark": "ai-tools/logo/svg/tencent-yuanbao.svg",
+        "light": "ai-tools/logo/svg/tencent-yuanbao.svg"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Nova AI",
+      "description": "AI assistant that integrates multiple models like GPT, Claude, and Gemini for cross-platform productivity.",
+      "url": "https://chat.novaapp.ai/",
+      "categories": [
+        "Chatbot",
+        "Productivity",
+        "Writing",
+        "Assistant"
+      ],
+      "keywords": [
+        "GPT-4o",
+        "Claude",
+        "Gemini",
+        "AI assistant",
+        "writing assistant",
+        "cross-platform",
+        "personal bot",
+        "multilingual"
+      ],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/nova.png",
+        "light": "ai-tools/logo/png/nova.png"
       }
     }
   ]
