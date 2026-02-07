@@ -56,7 +56,7 @@ a {
         justify-content: left;
         padding-left: 10px;
         padding-right: 10px;
-        margin: 0 5px 5px 5px;
+        margin: 10px 5px 5px 0px;
     }
 
     .image-container {
@@ -69,7 +69,7 @@ a {
     }
 
     .ai-card .name {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         color: var(--color-text);
         text-align: left;
         margin-top: none;
@@ -79,7 +79,8 @@ a {
     .ai-card .description {
         text-align: center;
         margin-left: 20px;
-        font-size: 0.8rem;
+        font-size: 0.7rem;
+        font-weight: lighter;
     }
 
 }
