@@ -20,7 +20,7 @@ function App() {
   const { theme } = useTheme();
   const ai_tools = AI_Tools.tools;
 
-  console.log(ai_tools);
+  // console.log(ai_tools);
 
   const [filter, setFilter] = useState("");
 
@@ -38,16 +38,18 @@ function App() {
         />
       </div>
 
-      <div className="ai-view-container">
-        {ai_tools.filter((tool) => checkMatch(tool, filter)).map((tool, index) => (
-          <AIComponent
-            key={index}
-            image={theme === "light" ? tool.logo.light : tool.logo.dark}
-            name={tool.name}
-            url={tool.url}
-            description={tool.description}
-          />
-        ))}
+      <div className="ai-view-container-main">
+        <div className="ai-view-container">
+          {ai_tools.filter((tool) => checkMatch(tool, filter)).map((tool, index) => (
+            <AIComponent
+              key={index}
+              image={theme === "light" ? tool.logo.light : tool.logo.dark}
+              name={tool.name}
+              url={tool.url}
+              description={tool.description}
+            />
+          ))}
+        </div>
       </div>
     </>
   );

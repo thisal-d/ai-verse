@@ -40,8 +40,8 @@
 /* 🌙 Dark theme overrides */
 .dark {
   --color-bg: hsl(0, 14%, 5%);
-  --color-surface: #151515;
-  --color-card: #252525;
+  --color-surface: #171717;
+  --color-card: #202020;
   --color-text: #f9fafb;
   --color-muted: #9ca3af;
   --color-border: #334155;
