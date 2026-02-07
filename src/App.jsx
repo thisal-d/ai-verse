@@ -5,6 +5,7 @@ import AIComponent from "./components/AIComponent.jsx";
 import AI_Tools from "./data/tools.json";
 import { useTheme } from "./context/ThemeContext";
 import { useState } from "react";
+import Footer from "./components/Footer.jsx";
 
 
 function checkMatch(tool, filter) {
@@ -51,6 +52,8 @@ function App() {
           ))}
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }

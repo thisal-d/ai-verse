@@ -1,8 +1,7 @@
 header {
-  background-color: var(--color-bg);
+  background-color: var(--color-card);
   color: var(--color-text);
-  transition: background-color var(--transition-speed),
-              color var(--transition-speed);
+  padding-bottom: 20px;
 }
 
 .header{

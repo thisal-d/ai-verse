@@ -779,7 +779,7 @@
     {
       "id": 34,
       "name": "Doubao",
-      "description": "ByteDance’s multimodal AI assistant for conversation, content creation, and image generation.",
+      "description": "Multimodal AI assistant for conversation, content creation, and image generation.",
       "url": "https://www.doubao.com/",
       "categories": [
         "Video",
@@ -840,7 +840,7 @@
     {
       "id": 37,
       "name": "Nova AI",
-      "description": "AI assistant that integrates multiple models like GPT, Claude, and Gemini for cross-platform productivity.",
+      "description": "Integrates multiple models like GPT, Claude, and Gemini for cross-platform productivity.",
       "url": "https://chat.novaapp.ai/",
       "categories": [
         "Chatbot",
