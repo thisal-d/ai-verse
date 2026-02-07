@@ -4,7 +4,7 @@ import "../styles/footer.css";
 const Footer = () => {
   return (
     <footer>
-        <a href="https://a-i-verse.netlify.app/" target="_blank">
+        <a href="https://github.com/thisal-d/ai-verse/" target="_blank">
             <div className="app-title-container">
                 <img src="main.png" alt="app-logo" className="logo" />
 
