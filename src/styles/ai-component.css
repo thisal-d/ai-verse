@@ -65,11 +65,13 @@ a {
     }
 
     .ai-card .ai-image{
-        width: fit-content;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     .ai-card .name {
-        font-size: 0.8rem;
+        font-size: 0.85rem;
         color: var(--color-text);
         text-align: left;
         margin-top: none;
@@ -79,7 +81,7 @@ a {
     .ai-card .description {
         text-align: center;
         margin-left: 20px;
-        font-size: 0.7rem;
+        font-size: 0.75rem;
         font-weight: lighter;
     }
 
