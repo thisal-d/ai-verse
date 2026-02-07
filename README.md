@@ -111,8 +111,8 @@ Place the logo files in `public/ai-tools/logo/png/` or `public/ai-tools/logo/svg
 
 | Contributor                                                                                                 | Profile                                                |
 | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| [<img src="https://github.com/thisurika.png?size=25" width="25">](https://github.com/thisurika)         | [Thisurika Hasajith](https://github.com/childeyouyu)                |
-| [<img src="https://github.com/senuda-d.png?size=25" width="25">](https://github.com/senuda-d)             | [Senuda Dilvan](https://github.com/Navindu21)       |
+| [<img src="https://github.com/thisurika.png?size=25" width="25">](https://github.com/thisurika)         | [Thisurika Hasajith](https://github.com/thisurika)                |
+| [<img src="https://github.com/senuda-d.png?size=25" width="25">](https://github.com/senuda-d)             | [Senuda Dilvan](https://github.com/senuda-d)       |
 | [<img src="https://github.com/fathi-asma.png?size=25" width="25">](https://github.com/fathi-asma)             | [Fathima Asma](https://github.com/fathi-asma)       |
 | [<img src="https://github.com/childeyouyu.png?size=25" width="25">](https://github.com/childeyouyu)             | [Childe Youyu](https://github.com/childeyouyu)       |
 
