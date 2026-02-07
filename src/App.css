@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin-top: 20px
 
 }
 
@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .ai-view-container{
@@ -36,17 +37,22 @@
     flex-wrap: wrap;
     width: 80%;
     justify-content: center;
-    margin: 5px;
     background-color: var(--color-bg);
 }
 
-@media (max-width: 600px) {    
+@media (max-width: 1000px) {    
+    .ai-view-container{
+        width: 96%;
+    }
+}
 
+
+@media (max-width: 600px) {    
     .ai-view-container{
         display: block;
         justify-content: center;
         align-items: center;
-        margin: 5px;
+        margin-top: 10px;
         width: 90%;
         background-color: var(--color-bg);
     }
