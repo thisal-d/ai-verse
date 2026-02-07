@@ -40,13 +40,13 @@ header .logo {
 
   header .logo {
     height: 50px;
-    margin-right: 20px;
+    margin-right: 15px;
   }
 
     
   header .description {
     font-size: 0.9rem;
-    margin: 0 40px 0 40px;
+    margin: 0 60px 0 60px;
   }
 
 }

@@ -20,7 +20,7 @@ function App() {
   const { theme } = useTheme();
   const ai_tools = AI_Tools.tools;
 
-  console.log(ai_tools);
+  // console.log(ai_tools);
 
   const [filter, setFilter] = useState("");
 

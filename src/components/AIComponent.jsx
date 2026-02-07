@@ -2,7 +2,7 @@ import React from 'react'
 import "../styles/ai-component.css"
 
 const AIComponent = (props) => {
-    console.log(props);
+    // console.log(props);
 
     return (
         <>

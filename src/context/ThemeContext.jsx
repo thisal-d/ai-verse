@@ -4,10 +4,16 @@ import { createContext, useContext, useState, useEffect } from "react";
 const ThemeContext = createContext();
 
 export function ThemeProvider({ children }) {
-  const [theme, setTheme] = useState("light");
+  // Get theme from local storage
+  let selected_theme = localStorage.getItem("theme");
+  selected_theme = (selected_theme==null)? "light" : selected_theme;
+
+  //console.log("selected_theme : ", selected_theme);
+  const [theme, setTheme] = useState(selected_theme);
 
   useEffect(() => {
     document.documentElement.classList.toggle("dark", theme === "dark");
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   const toggleTheme = () =>
