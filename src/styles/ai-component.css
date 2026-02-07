@@ -3,7 +3,7 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px;
-    padding: 10px;
+    padding: 20px;
     width: 200px;
     height: 320px;
     transition: transform 0.3s ease;
@@ -28,10 +28,9 @@
 }
 
 .ai-card .ai-image {
-    width: 100%;
+    width: auto;
     height: 100%;
-    object-fit: contain; /* Keeps image ratio, no stretching */
-    border-radius: 1rem;
+    border-radius: 16px;
     margin-bottom: 10px;
 }
 
