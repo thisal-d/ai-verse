@@ -4,7 +4,7 @@
   </a>
 </p>
 
-<h1 align="center"><a href="">AI Verse</a></h1>
+<h1 align="center"><a href="https://a-i-verse.netlify.app/">AI Verse</a></h1>
 
 ## 📖 Overview
 

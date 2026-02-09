@@ -863,6 +863,33 @@
         "dark": "ai-tools/logo/png/nova.png",
         "light": "ai-tools/logo/png/nova.png"
       }
+    },
+    {
+      "id": 38,
+      "name": "OCR.Z.ai",
+      "description": "High-accuracy AI for complex document parsing, png, jpg, jpeg, pdf.",
+      "url": "https://ocr.z.ai/",
+      "categories": [
+        "OCR",
+        "Data Extraction",
+        "Analysis",
+        "Developer Tools"
+      ],
+      "keywords": [
+        "OCR",
+        "text extraction",
+        "pdf extraction",
+        "pdf to text",
+        "table recognition",
+        "document understanding",
+        "digitization",
+        "AI vision"
+      ],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
+      }
     }
   ]
 }
