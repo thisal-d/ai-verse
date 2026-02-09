@@ -890,6 +890,97 @@
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
       }
+    },
+    {
+      "id": 40,
+      "name": "Qodo",
+      "description": "AI coding platform for automated code reviews, unit test generation, and pull request analysis.",
+      "url": "https://www.qodo.ai/",
+      "categories": [
+        "Coding Assistant",
+        "Developer Tools",
+        "Code Review",
+        "Testing"
+      ],
+      "keywords": [
+        "AI code review",
+        "unit tests",
+        "PR-Agent",
+        "code integrity",
+        "test generation",
+        "agentic workflows",
+        "software quality"
+      ],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/webp/qodo.webp",
+        "light": "ai-tools/logo/webp/qodo.webp"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Cursor",
+      "description": "AI-native code editor built on VS Code with deep indexing and agentic editing.",
+      "url": "https://www.cursor.com/",
+      "categories": ["Coding Assistant", "Developer Tools", "IDE"],
+      "keywords": ["IDE", "VS Code", "codebase indexing", "Composer", "AI coding", "pair programming"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/cursor.png",
+        "light": "ai-tools/logo/png/cursor.png"
+      }
+    },
+    {
+      "id": 42,
+      "name": "HeyGen",
+      "description": "AI video platform for creating realistic talking avatars and instant translations.",
+      "url": "https://www.heygen.com/",
+      "categories": ["Video", "Marketing", "Content Creation"],
+      "keywords": ["AI avatars", "video translation", "lip-sync", "business video", "personalized video"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/webp/heygen.webp",
+        "light": "ai-tools/logo/webp/heygen.webp"
+      }
+    },
+    {
+      "id": 43,
+      "name": "v0.dev",
+      "description": "Generative UI tool by Vercel creating React components from text prompts.",
+      "url": "https://v0.dev/",
+      "categories": ["Design", "Developer Tools", "UI/UX"],
+      "keywords": ["generative UI", "Vercel", "React", "Tailwind CSS", "web development", "frontend"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/v0.dev.png",
+        "light": "ai-tools/logo/png/v0.dev.png"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Elicit",
+      "description": "AI research assistant automating literature reviews and extracting data from papers.",
+      "url": "https://elicit.com/",
+      "categories": ["Research", "Academic", "Analysis"],
+      "keywords": ["literature review", "scientific papers", "citations", "data extraction", "academic search"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/elicit.png",
+        "light": "ai-tools/logo/png/elicit.png"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Kling AI",
+      "description": "Advanced video generator producing high-definition, physics-compliant cinematic clips.",
+      "url": "https://klingai.com/",
+      "categories": ["Video", "Art", "Content Creation"],
+      "keywords": ["text-to-video", "cinematic AI", "video generation", "high resolution", "Sora rival"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/klingai.png",
+        "light": "ai-tools/logo/png/klingai.png"
+      }
     }
   ]
 }
