@@ -890,6 +890,32 @@
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
       }
+    },
+    {
+      "id": 40,
+      "name": "Qodo",
+      "description": "AI coding platform for automated code reviews, unit test generation, and pull request analysis.",
+      "url": "https://www.qodo.ai/",
+      "categories": [
+        "Coding Assistant",
+        "Developer Tools",
+        "Code Review",
+        "Testing"
+      ],
+      "keywords": [
+        "AI code review",
+        "unit tests",
+        "PR-Agent",
+        "code integrity",
+        "test generation",
+        "agentic workflows",
+        "software quality"
+      ],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/webp/qodo.webp",
+        "light": "ai-tools/logo/webp/qodo.webp"
+      }
     }
   ]
 }
