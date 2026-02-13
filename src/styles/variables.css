@@ -25,16 +25,16 @@
   --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.15);
   --shadow-lg: 0 10px 20px rgba(0, 0, 0, 0.2);
-  --radius-sm: 6px;
-  --radius-md: 12px;
-  --radius-lg: 20px;
+  --radius-sm: 4.5px;
+  --radius-md: 9px;
+  --radius-lg: 15px;
   --transition-speed: 0.3s;
 
   /* ✨ Typography */
   --font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --font-size-base: 16px;
-  --font-size-sm: 14px;
-  --font-size-lg: 18px;
+  --font-size-base: 12px;
+  --font-size-sm: 10.5px;
+  --font-size-lg: 13.5px;
 }
 
 /* 🌙 Dark theme overrides */

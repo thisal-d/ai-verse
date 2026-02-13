@@ -1,21 +1,8 @@
 {
   "meta": {
     "version": "1.5",
-    "lastUpdated": "2025-02-13",
-    "notes": "Standardized categories and fixed metadata for DeepSeek, Tongyi, Doubao, Yuanbao."
+    "lastUpdated": "2025-02-13"
   },
-  "categories_ref": [
-    "Text & Writing",
-    "Image Generation",
-    "Video & Animation",
-    "Audio & Voice",
-    "Coding & Dev",
-    "Productivity",
-    "Research & Analysis",
-    "3D & AR/VR",
-    "Marketing",
-    "Education"
-  ],
   "tools": [
     {
       "id": 1,
@@ -36,7 +23,9 @@
         "writing assistant",
         "DALL-E"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/chatgpt-dark.svg",
         "light": "ai-tools/logo/svg/chatgpt-light.svg"
@@ -61,7 +50,9 @@
         "workspace",
         "reasoning"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/gemini.png",
         "light": "ai-tools/logo/png/gemini.png"
@@ -85,7 +76,10 @@
         "IDE",
         "programming"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
@@ -110,7 +104,9 @@
         "context window",
         "long-form writing"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/claude.png",
         "light": "ai-tools/logo/png/claude.png"
@@ -134,7 +130,9 @@
         "visual storytelling",
         "AI presentation"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/gamma.png",
         "light": "ai-tools/logo/png/gamma.png"
@@ -157,7 +155,10 @@
         "graphics",
         "creative design"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
@@ -180,7 +181,10 @@
         "speech synthesis",
         "audio tools"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
@@ -204,7 +208,9 @@
         "templates",
         "AI design"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/canva.png",
         "light": "ai-tools/logo/png/canva.png"
@@ -227,7 +233,9 @@
         "concept art",
         "Discord"
       ],
-      "pricing": "Paid",
+      "pricing": [
+        "Paid"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/midjourney.png",
         "light": "ai-tools/logo/png/midjourney.png"
@@ -250,7 +258,9 @@
         "green screen",
         "video editing"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/runway.png",
         "light": "ai-tools/logo/png/runway.png"
@@ -273,7 +283,9 @@
         "academic",
         "question answering"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/perplexity.png",
         "light": "ai-tools/logo/png/perplexity.png"
@@ -296,7 +308,9 @@
         "localization",
         "realistic speech"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/elevenlabs.png",
         "light": "ai-tools/logo/png/elevenlabs.png"
@@ -319,7 +333,9 @@
         "code suggestions",
         "developer AI"
       ],
-      "pricing": "Paid",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/github-copilot.png",
         "light": "ai-tools/logo/png/github-copilot.png"
@@ -342,7 +358,9 @@
         "composition",
         "soundtrack"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/suno.png",
         "light": "ai-tools/logo/png/suno.png"
@@ -366,7 +384,9 @@
         "concept art",
         "3D design"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/leonardo.png",
         "light": "ai-tools/logo/png/leonardo.png"
@@ -391,7 +411,9 @@
         "Copilot",
         "business tools"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/microsoft-copilot.png",
         "light": "ai-tools/logo/png/microsoft-copilot.png"
@@ -414,7 +436,9 @@
         "notes",
         "database"
       ],
-      "pricing": "Paid",
+      "pricing": [
+        "Paid"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/notion.png",
         "light": "ai-tools/logo/png/notion.png"
@@ -437,7 +461,9 @@
         "Python",
         "stable diffusion"
       ],
-      "pricing": "Free",
+      "pricing": [
+        "Free"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/stability.png",
         "light": "ai-tools/logo/png/stability.png"
@@ -460,7 +486,9 @@
         "social media",
         "blog writing"
       ],
-      "pricing": "Paid",
+      "pricing": [
+        "Paid"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/jasper.png",
         "light": "ai-tools/logo/png/jasper.png"
@@ -483,7 +511,9 @@
         "model hosting",
         "AI community"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/huggingface.png",
         "light": "ai-tools/logo/png/huggingface.png"
@@ -505,7 +535,9 @@
         "effects",
         "AI video"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/pika.png",
         "light": "ai-tools/logo/png/pika.png"
@@ -528,7 +560,9 @@
         "spell check",
         "tone correction"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/grammarly.png",
         "light": "ai-tools/logo/png/grammarly.png"
@@ -551,7 +585,9 @@
         "Gaussian Splatting",
         "scenes"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/luma-labs.png",
         "light": "ai-tools/logo/png/luma-labs.png"
@@ -574,7 +610,9 @@
         "learning",
         "deployment"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/replit.png",
         "light": "ai-tools/logo/png/replit.png"
@@ -597,7 +635,9 @@
         "enterprise AI",
         "visual reasoning"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/reka.png",
         "light": "ai-tools/logo/png/reka.png"
@@ -620,7 +660,9 @@
         "photogrammetry",
         "Genie"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/luma.png",
         "light": "ai-tools/logo/png/luma.png"
@@ -643,7 +685,9 @@
         "promo",
         "AI video"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/luna-dark.png",
         "light": "ai-tools/logo/png/luna-light.png"
@@ -666,7 +710,9 @@
         "AI search",
         "Reka AI"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/reka.png",
         "light": "ai-tools/logo/png/reka.png"
@@ -689,7 +735,9 @@
         "Reka Flash",
         "edge AI"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/reka.png",
         "light": "ai-tools/logo/png/reka.png"
@@ -712,7 +760,9 @@
         "audio model",
         "voice recognition"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/reka.png",
         "light": "ai-tools/logo/png/reka.png"
@@ -735,7 +785,9 @@
         "video generation",
         "editing"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/reka.png",
         "light": "ai-tools/logo/png/reka.png"
@@ -758,7 +810,9 @@
         "China AI",
         "Assistant"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/tongyi.svg",
         "light": "ai-tools/logo/svg/tongyi.svg"
@@ -781,7 +835,9 @@
         "Chatbot",
         "Content Creation"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/doubao.png",
         "light": "ai-tools/logo/png/doubao.png"
@@ -805,7 +861,10 @@
         "LLM",
         "Math"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/deepseek.svg",
         "light": "ai-tools/logo/svg/deepseek.svg"
@@ -828,7 +887,9 @@
         "Search",
         "China AI"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/tencent-yuanbao.svg",
         "light": "ai-tools/logo/svg/tencent-yuanbao.svg"
@@ -853,7 +914,9 @@
         "personal bot",
         "multilingual"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/nova.png",
         "light": "ai-tools/logo/png/nova.png"
@@ -878,7 +941,10 @@
         "digitization",
         "AI vision"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Free",
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
@@ -902,7 +968,9 @@
         "agentic workflows",
         "software quality"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/webp/qodo.webp",
         "light": "ai-tools/logo/webp/qodo.webp"
@@ -924,7 +992,9 @@
         "AI coding",
         "pair programming"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/cursor.png",
         "light": "ai-tools/logo/png/cursor.png"
@@ -946,7 +1016,9 @@
         "business video",
         "personalized video"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/webp/heygen.webp",
         "light": "ai-tools/logo/webp/heygen.webp"
@@ -969,7 +1041,9 @@
         "web development",
         "frontend"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/v0.dev.png",
         "light": "ai-tools/logo/png/v0.dev.png"
@@ -991,7 +1065,9 @@
         "data extraction",
         "academic search"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/elicit.png",
         "light": "ai-tools/logo/png/elicit.png"
@@ -1012,7 +1088,9 @@
         "high resolution",
         "Sora rival"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/klingai.png",
         "light": "ai-tools/logo/png/klingai.png"
@@ -1034,7 +1112,9 @@
         "research assistant",
         "ask pdf"
       ],
-      "pricing": "Freemium",
+      "pricing": [
+        "Freemium"
+      ],
       "logo": {
         "dark": "ai-tools/logo/png/chat-pdf.png",
         "light": "ai-tools/logo/png/chat-pdf.png"

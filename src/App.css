@@ -3,58 +3,146 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-    gap: 10px;
+    margin-top: 15px;
+    gap: 7.5px;
 }
+
+.ai-tools-count {
+    text-align: center;
+    margin: 10px 0;
+    color: var(--color-text);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.ai-tools-count span {
+    color: var(--color-primary);
+}
+
+
 
 .search-entry {
     width: 50%;
-    height: 3.5rem;
-    font-size: 1.3rem;
-    padding: 10px;
+    height: 2.625rem;
+    font-size: 0.975rem;
+    padding: 7.5px;
     border: 2px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: var(--color-bg);
     color: var(--color-text);
-    box-shadow: 0 4px 6px var(--shadow-color); /* Added box shadow */
-    transition: box-shadow 0.3s ease; /* Optional: smooth hover effect */
+    box-shadow: 0 3px 4.5px var(--shadow-color);
+    /* Added box shadow */
+    transition: box-shadow 0.3s ease;
+    /* Optional: smooth hover effect */
 }
 
 .search-entry:focus {
-    box-shadow: 0 6px 10px var(--shadow-color); /* Optional: shadow when input is focused */
-    outline: none; /* remove default outline */
+    box-shadow: 0 4.5px 7.5px var(--shadow-color);
+    /* Optional: shadow when input is focused */
+    outline: none;
+    /* remove default outline */
 }
 
-.search-container select{
+.search-container select {
     width: fit-content;
-    height: 3.5rem;
-    font-size: 1.3rem;
-    padding: 10px;
+    height: 2.625rem;
+    font-size: 0.975rem;
+    padding: 7.5px;
     border: 2px solid var(--color-border);
-    border-radius: 8px;
+    border-radius: 6px;
     background-color: var(--color-bg);
     color: var(--color-text);
-    box-shadow: 0 4px 6px var(--shadow-color); /* Added box shadow */
-    transition: box-shadow 0.3s ease; 
+    box-shadow: 0 3px 4.5px var(--shadow-color);
+    /* Added box shadow */
+    transition: box-shadow 0.3s ease;
 }
-
-
 
 .search-container select:focus {
-    box-shadow: 0 6px 10px var(--shadow-color); /* Optional: shadow when input is focused */
-    outline: none; /* remove default outline */
+    box-shadow: 0 4.5px 7.5px var(--shadow-color);
+    /* Optional: shadow when input is focused */
+    outline: none;
+    /* remove default outline */
 }
 
+.ai-mode-container {
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
 
-.ai-view-container-main{
+.ai-mode-container label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    user-select: none;
+    font-size: 0.975rem;
+}
+
+.ai-mode-container label:hover {
+    background-color: var(--color-surface);
+}
+
+.ai-mode-container input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--color-border);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: var(--color-bg);
+    flex-shrink: 0;
+}
+
+.no-tools-found p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-muted);
+    text-align: center;
+}
+
+.ai-mode-container input[type="checkbox"]:hover {
+    border-color: var(--color-primary);
+    box-shadow: 0 0 8px rgba(79, 70, 229, 0.2);
+}
+
+.ai-mode-container input[type="checkbox"]:checked {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath d='M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 14px;
+}
+
+.ai-mode-container input[type="checkbox"]:checked+label,
+.ai-mode-container input[type="checkbox"]:checked~label {
+    color: var(--color-primary);
+}
+
+.ai-mode-container input[type="checkbox"]:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+}
+
+.ai-view-container-main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 15px;
+    margin-bottom: 60px;
 }
 
-.ai-view-container{
+.ai-view-container {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
@@ -62,31 +150,40 @@
     background-color: var(--color-bg);
 }
 
-@media (max-width: 1000px) {    
-    .ai-view-container{
+@media (max-width: 1000px) {
+    .ai-view-container {
         width: 96%;
     }
 }
 
 
-@media (max-width: 600px) {    
-    .ai-view-container{
+@media (max-width: 600px) {
+    .ai-view-container {
         display: block;
         justify-content: center;
         align-items: center;
-        margin-top: 10px;
+        margin-top: 7.5px;
         width: 90%;
         background-color: var(--color-bg);
     }
 
-   .search-entry {
+    .search-entry {
         width: 50%;
-        height: 3rem;
-        font-size: 1rem;
+        height: 2.25rem;
+        font-size: 0.75rem;
     }
 
-    .search-container select{
-        font-size: 1rem;
-        height: 3rem;
+    .search-container select {
+        font-size: 0.75rem;
+        height: 2.25rem;
     }
+
+    .ai-tools-count {
+        font-size: 0.6rem;
+    }
+
+    .ai-mode-container label {
+        font-size: 0.75rem;
+    }
+
 }

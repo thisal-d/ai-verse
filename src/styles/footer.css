@@ -1,7 +1,7 @@
 footer {
     width: 100%;
     background-color: var(--color-card);
-    padding: 4px;
+    padding: 3px;
     position: fixed;
     bottom: 0;
     display: flex;
@@ -15,55 +15,55 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    gap:10px;
+    margin-right: 7.5px;
+    gap:7.5px;
 }
 
 footer .logo{
-    width: 40px;
+    width: 30px;
     object-fit: contain;
 }
 
 footer .app-title{
     color: var(--color-text);
-    font-size: 0.9rem;
+    font-size: 0.675rem;
     font-weight: bold;
-    margin-right: 20px;
+    margin-right: 15px;
 }
 
 footer p.developer{
     color: var(--color-muted);
     text-align: center;
-    font-size: 0.9rem;
+    font-size: 0.675rem;
 }
 
 footer .developer a{
     color: var(--color-text);
     font-weight: bold;
-    font-size: 1rem;
+    font-size: 0.75rem;
 }
 
 
 @media (max-width: 600px) {
     footer p.developer{
-        font-size: 0.7rem;
+        font-size: 0.525rem;
     }
 
     footer .developer a{
-        font-size: 0.75rem;
+        font-size: 0.5625rem;
     }
     
     footer .app-title{
         color: var(--color-text);
-        font-size: 0.75rem;
+        font-size: 0.5625rem;
         font-weight: bold;
-        margin-right: 10px;
+        margin-right: 7.5px;
     }
 
     footer .logo{
-        width: 30px;
+        width: 22.5px;
     }
     .app-title-container{
-        gap: 7px;
+        gap: 5.25px;
     }
 }

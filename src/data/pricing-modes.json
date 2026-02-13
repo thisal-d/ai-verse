@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Free",
+      "description": "Completely free tools with full access."
+    },
+    {
+      "id": 2,
+      "name": "Freemium",
+      "description": "Tools with a free tier but limited features or usage."
+    },
+    {
+      "id": 3,
+      "name": "Paid",
+      "description": "Tools that require a subscription or one-time payment."
+    }
+]
