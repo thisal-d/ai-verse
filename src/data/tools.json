@@ -1,8 +1,21 @@
 {
   "meta": {
-    "version": "1.4",
-    "lastUpdated": "2026-02-07"
+    "version": "1.5",
+    "lastUpdated": "2025-02-13",
+    "notes": "Standardized categories and fixed metadata for DeepSeek, Tongyi, Doubao, Yuanbao."
   },
+  "categories_ref": [
+    "Text & Writing",
+    "Image Generation",
+    "Video & Animation",
+    "Audio & Voice",
+    "Coding & Dev",
+    "Productivity",
+    "Research & Analysis",
+    "3D & AR/VR",
+    "Marketing",
+    "Education"
+  ],
   "tools": [
     {
       "id": 1,
@@ -10,9 +23,8 @@
       "description": "AI chatbot for writing, coding, learning, and creative conversations.",
       "url": "https://chat.openai.com/",
       "categories": [
-        "Chatbot",
-        "Writing",
-        "Coding Assistant",
+        "Text & Writing",
+        "Coding & Dev",
         "Productivity"
       ],
       "keywords": [
@@ -36,10 +48,9 @@
       "description": "Google AI for text, images, video, and code reasoning.",
       "url": "https://gemini.google.com/",
       "categories": [
-        "Chatbot",
-        "Multimodal",
-        "Writing",
-        "Analysis"
+        "Text & Writing",
+        "Image Generation",
+        "Research & Analysis"
       ],
       "keywords": [
         "Google",
@@ -62,9 +73,8 @@
       "description": "AI coding assistant for automation, development, and debugging.",
       "url": "https://chat.z.ai/",
       "categories": [
-        "Developer Tools",
-        "Coding Assistant",
-        "Automation"
+        "Coding & Dev",
+        "Productivity"
       ],
       "keywords": [
         "AI coding",
@@ -87,10 +97,9 @@
       "description": "AI assistant for writing, reasoning, and research by Anthropic.",
       "url": "https://claude.ai/",
       "categories": [
-        "Chatbot",
-        "Writing",
-        "Research",
-        "Coding Assistant"
+        "Text & Writing",
+        "Research & Analysis",
+        "Coding & Dev"
       ],
       "keywords": [
         "Anthropic",
@@ -113,9 +122,9 @@
       "description": "AI-powered platform for creating slides, websites, and documents.",
       "url": "https://gamma.app/",
       "categories": [
-        "Presentation",
+        "Productivity",
         "Design",
-        "Productivity"
+        "Text & Writing"
       ],
       "keywords": [
         "presentations",
@@ -138,8 +147,7 @@
       "url": "https://image.z.ai/",
       "categories": [
         "Image Generation",
-        "Design",
-        "Art"
+        "Design"
       ],
       "keywords": [
         "text-to-image",
@@ -161,9 +169,8 @@
       "description": "AI voice, text-to-speech, and sound enhancement tools.",
       "url": "https://audio.z.ai/",
       "categories": [
-        "Audio",
-        "Speech",
-        "Text-to-Speech"
+        "Audio & Voice",
+        "Text to Speech"
       ],
       "keywords": [
         "AI voice",
@@ -187,7 +194,7 @@
       "categories": [
         "Design",
         "Marketing",
-        "Presentation"
+        "Image Generation"
       ],
       "keywords": [
         "graphic design",
@@ -210,7 +217,7 @@
       "url": "https://www.midjourney.com/",
       "categories": [
         "Image Generation",
-        "Art"
+        "Design"
       ],
       "keywords": [
         "AI art",
@@ -232,9 +239,8 @@
       "description": "AI video generator and editor for creators and filmmakers.",
       "url": "https://runwayml.com/",
       "categories": [
-        "Video",
-        "VFX",
-        "Editor"
+        "Video & Animation",
+        "Image Generation"
       ],
       "keywords": [
         "Gen-2",
@@ -256,9 +262,8 @@
       "description": "AI search engine delivering real-time, cited answers online.",
       "url": "https://www.perplexity.ai/",
       "categories": [
-        "Search",
-        "Research",
-        "Chatbot"
+        "Research & Analysis",
+        "Text & Writing"
       ],
       "keywords": [
         "AI search",
@@ -280,9 +285,8 @@
       "description": "AI voice generator for dubbing, narration, and audiobooks.",
       "url": "https://elevenlabs.io/",
       "categories": [
-        "Audio",
-        "Speech",
-        "Text-to-Speech"
+        "Audio & Voice",
+        "Text to Speech"
       ],
       "keywords": [
         "voice cloning",
@@ -304,8 +308,8 @@
       "description": "AI code completion tool integrated into major IDEs.",
       "url": "https://github.com/features/copilot",
       "categories": [
-        "Coding Assistant",
-        "Developer Tools"
+        "Coding & Dev",
+        "Productivity"
       ],
       "keywords": [
         "GitHub",
@@ -327,8 +331,8 @@
       "description": "Generate songs with lyrics, vocals, and music using AI.",
       "url": "https://suno.com/",
       "categories": [
-        "Music",
-        "Audio"
+        "Audio & Voice",
+        "Music"
       ],
       "keywords": [
         "AI music",
@@ -351,7 +355,7 @@
       "url": "https://leonardo.ai/",
       "categories": [
         "Image Generation",
-        "Game Development",
+        "Gaming",
         "Design"
       ],
       "keywords": [
@@ -371,12 +375,12 @@
     {
       "id": 16,
       "name": "Microsoft Copilot",
-      "description": "AI productivity assistant for Microsoft 365 and Windows users.",
+      "description": "AI productivity assistant for Microsoft 365 and Windows.",
       "url": "https://copilot.microsoft.com/",
       "categories": [
         "Productivity",
-        "Chatbot",
-        "Enterprise"
+        "Text & Writing",
+        "Coding & Dev"
       ],
       "keywords": [
         "Microsoft 365",
@@ -400,8 +404,7 @@
       "url": "https://www.notion.so/product/ai",
       "categories": [
         "Productivity",
-        "Writing",
-        "Knowledge Management"
+        "Text & Writing"
       ],
       "keywords": [
         "Notion",
@@ -418,14 +421,13 @@
       }
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Stable Diffusion",
       "description": "Open-source text-to-image generator for customizable AI art.",
       "url": "https://stability.ai/",
       "categories": [
         "Image Generation",
-        "Art",
-        "Open Source"
+        "Coding & Dev"
       ],
       "keywords": [
         "AI art",
@@ -442,14 +444,13 @@
       }
     },
     {
-      "id": 20,
+      "id": 19,
       "name": "Jasper",
       "description": "AI copywriting assistant for marketing, blogs, and SEO content.",
       "url": "https://www.jasper.ai/",
       "categories": [
-        "Writing",
-        "Marketing",
-        "Content Creation"
+        "Text & Writing",
+        "Marketing"
       ],
       "keywords": [
         "copywriting",
@@ -466,14 +467,13 @@
       }
     },
     {
-      "id": 21,
+      "id": 20,
       "name": "Hugging Face",
       "description": "Platform to share, explore, and host AI models online.",
       "url": "https://huggingface.co/",
       "categories": [
-        "Developer Tools",
-        "Open Source",
-        "Machine Learning"
+        "Coding & Dev",
+        "Research & Analysis"
       ],
       "keywords": [
         "AI models",
@@ -490,14 +490,12 @@
       }
     },
     {
-      "id": 22,
+      "id": 21,
       "name": "Pika",
       "description": "AI video creator for text-to-video animation and editing.",
       "url": "https://pika.art/",
       "categories": [
-        "Video",
-        "Animation",
-        "Creator Tools"
+        "Video & Animation"
       ],
       "keywords": [
         "text-to-video",
@@ -514,14 +512,13 @@
       }
     },
     {
-      "id": 23,
+      "id": 22,
       "name": "Grammarly",
       "description": "AI writing assistant improving grammar, tone, and clarity.",
       "url": "https://www.grammarly.com/",
       "categories": [
-        "Writing",
-        "Productivity",
-        "Education"
+        "Text & Writing",
+        "Productivity"
       ],
       "keywords": [
         "grammar",
@@ -538,14 +535,13 @@
       }
     },
     {
-      "id": 24,
+      "id": 23,
       "name": "Luma Labs AI",
       "description": "3D generation and capture platform using NeRF technology.",
       "url": "https://lumalabs.ai/",
       "categories": [
-        "3D",
-        "Video",
-        "AR/VR"
+        "3D & AR/VR",
+        "Video & Animation"
       ],
       "keywords": [
         "3D capture",
@@ -562,13 +558,12 @@
       }
     },
     {
-      "id": 25,
+      "id": 24,
       "name": "Replit AI",
       "description": "AI coding assistant built into Replit’s online IDE.",
       "url": "https://replit.com/ai",
       "categories": [
-        "Coding Assistant",
-        "Developer Tools",
+        "Coding & Dev",
         "Education"
       ],
       "keywords": [
@@ -586,14 +581,13 @@
       }
     },
     {
-      "id": 26,
+      "id": 25,
       "name": "Reka Chat",
       "description": "Advanced multimodal AI assistant for text, image, and video.",
       "url": "https://app.reka.ai/chat",
       "categories": [
-        "Chatbot",
-        "Multimodal",
-        "Developer Tools"
+        "Text & Writing",
+        "Research & Analysis"
       ],
       "keywords": [
         "Reka Chat",
@@ -610,14 +604,13 @@
       }
     },
     {
-      "id": 27,
+      "id": 26,
       "name": "Luma AI",
       "description": "AI for realistic 3D capture and model generation.",
       "url": "https://luma.ai/",
       "categories": [
-        "3D",
-        "Image Generation",
-        "AR/VR"
+        "3D & AR/VR",
+        "Image Generation"
       ],
       "keywords": [
         "3D models",
@@ -634,14 +627,13 @@
       }
     },
     {
-      "id": 28,
+      "id": 27,
       "name": "Luna AI",
       "description": "AI video creation suite for marketing and branding.",
       "url": "https://lunaai.video/",
       "categories": [
-        "Video",
-        "Marketing",
-        "Animation"
+        "Video & Animation",
+        "Marketing"
       ],
       "keywords": [
         "video generation",
@@ -658,14 +650,13 @@
       }
     },
     {
-      "id": 29,
+      "id": 28,
       "name": "Reka Vision",
       "description": "AI visual model for image and video understanding.",
       "url": "https://app.reka.ai/vision",
       "categories": [
-        "Multimodal",
-        "Computer Vision",
-        "Search"
+        "Research & Analysis",
+        "Image Generation"
       ],
       "keywords": [
         "Reka Vision",
@@ -682,14 +673,13 @@
       }
     },
     {
-      "id": 30,
+      "id": 29,
       "name": "Reka Research",
       "description": "Research hub for testing Reka’s multimodal AI models.",
       "url": "https://app.reka.ai/research",
       "categories": [
-        "Research",
-        "Multimodal",
-        "Developer Tools"
+        "Research & Analysis",
+        "Coding & Dev"
       ],
       "keywords": [
         "Reka Research",
@@ -706,14 +696,13 @@
       }
     },
     {
-      "id": 31,
+      "id": 30,
       "name": "Reka Speech",
       "description": "AI voice model for speech and audio generation tasks.",
       "url": "https://app.reka.ai/speech",
       "categories": [
-        "Audio",
-        "Speech",
-        "Text-to-Speech"
+        "Audio & Voice",
+        "Text to Speech"
       ],
       "keywords": [
         "Reka Speech",
@@ -730,13 +719,12 @@
       }
     },
     {
-      "id": 32,
+      "id": 31,
       "name": "Reka Clip",
       "description": "AI tool to create video clips directly from text prompts.",
       "url": "https://creator.reka.ai/",
       "categories": [
-        "Video",
-        "Multimodal",
+        "Video & Animation",
         "Marketing"
       ],
       "keywords": [
@@ -754,21 +742,21 @@
       }
     },
     {
-      "id": 33,
+      "id": 32,
       "name": "Ali Tongyi",
       "description": "Alibaba’s versatile AI assistant for text generation, translation, and multimodal analysis.",
       "url": "https://tongyi.aliyun.com/",
       "categories": [
-        "Video",
-        "Multimodal",
-        "Marketing"
+        "Text & Writing",
+        "Productivity"
       ],
       "keywords": [
-        "text-to-video",
-        "AI video",
-        "content creation",
-        "video generation",
-        "editing"
+        "Alibaba",
+        "Tongyi Qianwen",
+        "Translation",
+        "Multimodal",
+        "China AI",
+        "Assistant"
       ],
       "pricing": "Freemium",
       "logo": {
@@ -777,21 +765,21 @@
       }
     },
     {
-      "id": 34,
+      "id": 33,
       "name": "Doubao",
       "description": "Multimodal AI assistant for conversation, content creation, and image generation.",
       "url": "https://www.doubao.com/",
       "categories": [
-        "Video",
-        "Multimodal",
-        "Marketing"
+        "Text & Writing",
+        "Image Generation"
       ],
       "keywords": [
-        "text-to-video",
-        "AI video",
-        "content creation",
-        "image recognition",
-        "editing"
+        "ByteDance",
+        "Doubao",
+        "Assistant",
+        "China AI",
+        "Chatbot",
+        "Content Creation"
       ],
       "pricing": "Freemium",
       "logo": {
@@ -800,16 +788,22 @@
       }
     },
     {
-      "id": 35,
+      "id": 34,
       "name": "DeepSeek",
       "description": "Advanced open-source AI models specializing in reasoning, coding, and data analysis.",
       "url": "https://chat.deepseek.com/",
       "categories": [
-        "Marketing"
+        "Text & Writing",
+        "Coding & Dev",
+        "Research & Analysis"
       ],
       "keywords": [
-        "content creation",
-        "editing"
+        "DeepSeek",
+        "Reasoning",
+        "Coding",
+        "Open Source",
+        "LLM",
+        "Math"
       ],
       "pricing": "Freemium",
       "logo": {
@@ -818,18 +812,21 @@
       }
     },
     {
-      "id": 36,
+      "id": 35,
       "name": "Tencent Yuanbao",
       "description": "Tencent’s AI assistant integrated with WeChat for search, productivity, and social interaction.",
       "url": "https://yuanbao.tencent.com/chat",
       "categories": [
-        "Marketing"
+        "Text & Writing",
+        "Productivity"
       ],
       "keywords": [
-        "text-to-video",
-        "AI video",
-        "content creation",
-        "editing"
+        "Tencent",
+        "WeChat",
+        "Yuanbao",
+        "Assistant",
+        "Search",
+        "China AI"
       ],
       "pricing": "Freemium",
       "logo": {
@@ -838,15 +835,13 @@
       }
     },
     {
-      "id": 37,
+      "id": 36,
       "name": "Nova AI",
       "description": "Integrates multiple models like GPT, Claude, and Gemini for cross-platform productivity.",
       "url": "https://chat.novaapp.ai/",
       "categories": [
-        "Chatbot",
-        "Productivity",
-        "Writing",
-        "Assistant"
+        "Text & Writing",
+        "Productivity"
       ],
       "keywords": [
         "GPT-4o",
@@ -865,15 +860,13 @@
       }
     },
     {
-      "id": 38,
+      "id": 37,
       "name": "OCR.Z.ai",
       "description": "High-accuracy AI for complex document parsing, png, jpg, jpeg, pdf.",
       "url": "https://ocr.z.ai/",
       "categories": [
-        "OCR",
-        "Data Extraction",
-        "Analysis",
-        "Developer Tools"
+        "Research & Analysis",
+        "Productivity"
       ],
       "keywords": [
         "OCR",
@@ -892,14 +885,12 @@
       }
     },
     {
-      "id": 40,
+      "id": 38,
       "name": "Qodo",
       "description": "AI coding platform for automated code reviews, unit test generation, and pull request analysis.",
       "url": "https://www.qodo.ai/",
       "categories": [
-        "Coding Assistant",
-        "Developer Tools",
-        "Code Review",
+        "Coding & Dev",
         "Testing"
       ],
       "keywords": [
@@ -918,12 +909,21 @@
       }
     },
     {
-      "id": 41,
+      "id": 39,
       "name": "Cursor",
       "description": "AI-native code editor built on VS Code with deep indexing and agentic editing.",
       "url": "https://www.cursor.com/",
-      "categories": ["Coding Assistant", "Developer Tools", "IDE"],
-      "keywords": ["IDE", "VS Code", "codebase indexing", "Composer", "AI coding", "pair programming"],
+      "categories": [
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "IDE",
+        "VS Code",
+        "codebase indexing",
+        "Composer",
+        "AI coding",
+        "pair programming"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/png/cursor.png",
@@ -931,12 +931,21 @@
       }
     },
     {
-      "id": 42,
+      "id": 40,
       "name": "HeyGen",
       "description": "AI video platform for creating realistic talking avatars and instant translations.",
       "url": "https://www.heygen.com/",
-      "categories": ["Video", "Marketing", "Content Creation"],
-      "keywords": ["AI avatars", "video translation", "lip-sync", "business video", "personalized video"],
+      "categories": [
+        "Video & Animation",
+        "Marketing"
+      ],
+      "keywords": [
+        "AI avatars",
+        "video translation",
+        "lip-sync",
+        "business video",
+        "personalized video"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/webp/heygen.webp",
@@ -944,12 +953,22 @@
       }
     },
     {
-      "id": 43,
+      "id": 41,
       "name": "v0.dev",
       "description": "Generative UI tool by Vercel creating React components from text prompts.",
       "url": "https://v0.dev/",
-      "categories": ["Design", "Developer Tools", "UI/UX"],
-      "keywords": ["generative UI", "Vercel", "React", "Tailwind CSS", "web development", "frontend"],
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "generative UI",
+        "Vercel",
+        "React",
+        "Tailwind CSS",
+        "web development",
+        "frontend"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/png/v0.dev.png",
@@ -957,12 +976,21 @@
       }
     },
     {
-      "id": 44,
+      "id": 42,
       "name": "Elicit",
       "description": "AI research assistant automating literature reviews and extracting data from papers.",
       "url": "https://elicit.com/",
-      "categories": ["Research", "Academic", "Analysis"],
-      "keywords": ["literature review", "scientific papers", "citations", "data extraction", "academic search"],
+      "categories": [
+        "Research & Analysis",
+        "Education"
+      ],
+      "keywords": [
+        "literature review",
+        "scientific papers",
+        "citations",
+        "data extraction",
+        "academic search"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/png/elicit.png",
@@ -970,12 +998,20 @@
       }
     },
     {
-      "id": 45,
+      "id": 43,
       "name": "Kling AI",
       "description": "Advanced video generator producing high-definition, physics-compliant cinematic clips.",
       "url": "https://klingai.com/",
-      "categories": ["Video", "Art", "Content Creation"],
-      "keywords": ["text-to-video", "cinematic AI", "video generation", "high resolution", "Sora rival"],
+      "categories": [
+        "Video & Animation"
+      ],
+      "keywords": [
+        "text-to-video",
+        "cinematic AI",
+        "video generation",
+        "high resolution",
+        "Sora rival"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/png/klingai.png",
@@ -983,12 +1019,21 @@
       }
     },
     {
-      "id": 46,
+      "id": 44,
       "name": "ChatPDF",
-      "description": "Chat with your PDF documents using AI. Upload PDFs and ask questions to get instant summaries and answers.",
+      "description": "Chat with your PDFs. Upload PDFs and ask questions to get instant summaries and answers.",
       "url": "https://www.chatpdf.com/",
-      "categories": ["Productivity", "Education", "Content Creation"],
-      "keywords": ["pdf chat", "document ai", "pdf summarizer", "research assistant", "ask pdf"],
+      "categories": [
+        "Productivity",
+        "Research & Analysis"
+      ],
+      "keywords": [
+        "pdf chat",
+        "document ai",
+        "pdf summarizer",
+        "research assistant",
+        "ask pdf"
+      ],
       "pricing": "Freemium",
       "logo": {
         "dark": "ai-tools/logo/png/chat-pdf.png",

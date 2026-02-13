@@ -1,0 +1,12 @@
+[
+    { "id": "text-writing", "label": "Text & Writing", "icon": "PenTool" },
+    { "id": "image-gen", "label": "Image Generation", "icon": "Image" },
+    { "id": "video", "label": "Video & Animation", "icon": "Video" },
+    { "id": "audio", "label": "Audio & Voice", "icon": "Music" },
+    { "id": "coding", "label": "Coding & Dev", "icon": "Code" },
+    { "id": "productivity", "label": "Productivity", "icon": "Zap" },
+    { "id": "research", "label": "Research & Analysis", "icon": "BookOpen" },
+    { "id": "marketing", "label": "Marketing", "icon": "TrendingUp" },
+    { "id": "3d-vr", "label": "3D & AR/VR", "icon": "Layers" },
+    { "id": "design", "label": "Design", "icon": "Palette" }
+]
