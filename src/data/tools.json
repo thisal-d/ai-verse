@@ -981,6 +981,19 @@
         "dark": "ai-tools/logo/png/klingai.png",
         "light": "ai-tools/logo/png/klingai.png"
       }
+    },
+    {
+      "id": 46,
+      "name": "ChatPDF",
+      "description": "Chat with your PDF documents using AI. Upload PDFs and ask questions to get instant summaries and answers.",
+      "url": "https://www.chatpdf.com/",
+      "categories": ["Productivity", "Education", "Content Creation"],
+      "keywords": ["pdf chat", "document ai", "pdf summarizer", "research assistant", "ask pdf"],
+      "pricing": "Freemium",
+      "logo": {
+        "dark": "ai-tools/logo/png/chat-pdf.png",
+        "light": "ai-tools/logo/png/chat-pdf.png"
+      }
     }
   ]
 }
