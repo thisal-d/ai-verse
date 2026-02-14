@@ -12,18 +12,20 @@
 
 ## UI
 
+
+
 ### Desktop
 <picture> 
-<source media="(prefers-color-scheme: dark)" srcset="README/preview-desktop-dark.png=w2500"> 
-<img src="README/preview-desktop-light.png=w2500"> 
-</picture> 
-
+  <source media="(prefers-color-scheme: dark)" srcset="./README/preview-desktop-dark.png"> 
+  <img src="./README/preview-desktop-light.png" alt="AI Verse Desktop Preview"> 
+</picture>
 
 ### Mobile
 <picture> 
-<source media="(prefers-color-scheme: dark)" srcset="README/preview-mobile-dark.png"> 
-<img src="README/preview-mobile-light.png"> 
-</picture> 
+  <source media="(prefers-color-scheme: dark)" srcset="./README/preview-mobile-dark.png" width="400px"> 
+  <img src="./README/preview-mobile-light.png"  width="400px" alt="AI Verse Mobile Preview"> 
+</picture>
+
 
 
 ## 🚀 Getting Started
