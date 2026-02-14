@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="README/main.png" alt="AI Verse - Explore AI Tools" width="200">
-  <h1><a href="https://a-i-verse.netlify.app/">🌌 AI Verse</a></h1>
+  <a href="https://a-i-verse.netlify.app/" target="_blank"><img src="README/main.png" alt="AI Verse - Explore AI Tools" width="200"></a>
+  <h1>🌌 AI Verse</h1>
   <p><strong>Your Gateway to the AI Universe</strong></p>
   <p>
-    <a href="https://a-i-verse.netlify.app/">🚀 Live Demo</a> •
+    <a href="https://a-i-verse.netlify.app/" target="_blank">🚀 Live Demo</a> •
     <a href="#features">✨ Features</a> •
     <a href="#installation">📦 Installation</a> •
     <a href="#contributing">🤝 Contributing</a>
