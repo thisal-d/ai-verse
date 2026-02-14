@@ -70,8 +70,8 @@ a {
     }
 
     .image-container {
-        height: 49.5px;
-        width: 49.5px;
+        height: 55px;
+        width: 55px;
         flex-shrink: 0;
     }
 
@@ -83,16 +83,16 @@ a {
     }
 
     .ai-card .name {
-        font-size: 0.6375rem;
+        font-size: 0.75rem;
         color: var(--color-text);
         text-align: left;
-        margin: 0 0 0 7.5px;
+        margin: 0 0 0 10px;
     }
 
     .ai-card .description {
-        text-align: center;
-        margin-left: 7.5px;
-        font-size: 0.5625rem;
+        text-align: left;
+        margin-left: 15px;
+        font-size: 0.65;
         font-weight: lighter;
     }
 }

@@ -110,6 +110,12 @@
     text-align: center;
 }
 
+.ai-mode-container label {
+    font-size: 1rem;
+    color: var(--color-text);
+}
+
+
 .ai-mode-container input[type="checkbox"]:hover {
     border-color: var(--color-primary);
     box-shadow: 0 0 8px rgba(79, 70, 229, 0.2);
