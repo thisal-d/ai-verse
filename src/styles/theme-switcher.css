@@ -2,8 +2,9 @@
     background-color: var(--color-bg);
     color: var(--color-text);
     border-color: var(--color-border);
-    border-radius: 1rem;
-    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-radius: 32px;
+    font-size: 0.8rem;
+    padding: 2px;
     width: 80px;
     height: 40px;
 } 
@@ -11,8 +12,9 @@
 
 @media (max-width: 600px) {    
     .theme-switcher-btn {
-        padding: 0.2rem 0.5rem 0.2rem 0.5rem;
-        width: 80px;
-        height: 40px;
+        padding: 2px;
+        width: 60px;
+        height: 30px;
+        font-size: 0.5rem;
     } 
 }

@@ -21,7 +21,7 @@ header .ai-verse {
 }
 
 header .description {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   text-align: center;
   font-weight: bold;
   margin: 0 60px 0 60px
@@ -44,7 +44,7 @@ header .logo {
 
     
   header .description {
-    font-size: 0.675rem;
+    font-size: 0.9rem;
     margin: 0 45px 0 45px;
   }
 
