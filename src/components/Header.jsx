@@ -24,8 +24,13 @@ function Header() {
     <header>
       <div className="header">
         <div className="ai-verse">
-          <img src="./main.png" alt="logo" className="logo"/>
-          <h1>AI Verse</h1>
+          <a href="https://a-i-verse.netlify.app/">
+            <img src="./main.png" alt="logo" className="logo"/>
+          </a>
+          
+          <a href="https://github.com/thisal-d/ai-verse" target="_blank">
+            <h1>AI Verse</h1>
+          </a>
         </div>
         <ThemeSwitcher />
       </div>

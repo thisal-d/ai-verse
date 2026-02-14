@@ -20,6 +20,8 @@ With over **45+ hand-picked AI tools** organized into intuitive categories, powe
 
 ---
 
+<div id="features">
+
 ## ✨ Key Features
 
 - 🔍 **Smart Search & Filter** - Find the perfect AI tool using keywords, categories, or pricing tiers
@@ -31,6 +33,8 @@ With over **45+ hand-picked AI tools** organized into intuitive categories, powe
 - 🌓 **Dark/Light Theme Support** - Beautiful UI that works in any light condition
 - 📱 **Fully Responsive** - Seamless experience on desktop, tablet, and mobile
 - 🔄 **Easy to Extend** - Add new tools in seconds with simple JSON configuration
+
+</div>
 
 ---
 
@@ -62,6 +66,8 @@ With over **45+ hand-picked AI tools** organized into intuitive categories, powe
 
 ---
 
+<div id="installation">
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -89,6 +95,8 @@ npm run dev
 npm run build
 ```
 
+</div>
+
 ## 🏗️ Project Architecture
 
 ```
@@ -115,6 +123,8 @@ ai-verse/
 - **Deployment:** Netlify (connected to main branch)
 
 ---
+
+<div id="contributing">
 
 ## 📝 How to Contribute
 
@@ -179,6 +189,8 @@ Or use a single logo for both by using the same path for both `dark` and `light`
 - `Free` - No cost
 - `Freemium` - Free with paid options
 - `Paid` - Subscription required
+
+</div>
 
 ---
 
