@@ -8,18 +8,24 @@
 }
 
 .ai-tools-count {
+    display: flex;
     text-align: center;
-    margin: 10px 0;
     color: var(--color-text);
-    font-size: 1rem;
+    font-size: 0.75rem;
     font-weight: 600;
+    justify-content: center;
+}
+
+.ai-tools-count p{
+    background-color: var(--color-surface);
+    width: fit-content;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 .ai-tools-count span {
     color: var(--color-primary);
 }
-
-
 
 .search-entry {
     width: 50%;

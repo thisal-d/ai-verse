@@ -1119,6 +1119,34 @@
         "dark": "ai-tools/logo/png/chat-pdf.png",
         "light": "ai-tools/logo/png/chat-pdf.png"
       }
+    },
+    {
+      "id": 45,
+      "name": "Grok",
+      "description": "AI assistant by xAI, featuring real-time knowledge access through X and a distinctive personality.",
+      "url": "https://grok.com/",
+      "categories": [
+        "Text & Writing",
+        "Research & Analysis",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "xAI",
+        "Elon Musk",
+        "Real-time",
+        "X",
+        "Twitter",
+        "Chatbot",
+        "Humor",
+        "Reasoning"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/grok.png",
+        "light": "ai-tools/logo/png/grok.png"
+      }
     }
   ]
 }
