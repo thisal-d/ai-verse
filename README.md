@@ -10,10 +10,21 @@
 
 **AI Verse** is a centralized hub built with **React** and **Vite**, designed to help users discover, categorize, and explore the rapidly evolving landscape of Artificial Intelligence. Whether you are looking for LLMs, image generators, or productivity boosters, AI Verse simplifies the search.
 
-## 💻 Tech Stack
+## UI
 
-* **Framework:** [React 18](https://reactjs.org/)
-* **Build Tool:** [Vite](https://vitejs.dev/)
+### Desktop
+<picture> 
+<source media="(prefers-color-scheme: dark)" srcset="README/preview-desktop-dark.png=w2500"> 
+<img src="README/preview-desktop-light.png=w2500"> 
+</picture> 
+
+
+### Mobile
+<picture> 
+<source media="(prefers-color-scheme: dark)" srcset="README/preview-mobile-dark.png"> 
+<img src="README/preview-mobile-light.png"> 
+</picture> 
+
 
 ## 🚀 Getting Started
 
