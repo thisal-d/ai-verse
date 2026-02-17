@@ -1147,6 +1147,33 @@
         "dark": "ai-tools/logo/png/grok.png",
         "light": "ai-tools/logo/png/grok.png"
       }
+    },
+    {
+      "id": 46,
+      "name": "Arena",
+      "description": "Open platform for benchmarking LLMs via blind comparisons.",
+      "url": "https://arena.ai/",
+      "categories": [
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "lmarena",
+        "arena",
+        "LMSYS",
+        "benchmark",
+        "leaderboard",
+        "LLM evaluation",
+        "blind test",
+        "model comparison"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/arena-ai.jpg",
+        "light": "ai-tools/logo/jpg/arena-ai.jpg"
+      }
     }
   ]
 }
