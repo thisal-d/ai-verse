@@ -170,8 +170,7 @@
       "description": "AI voice, text-to-speech, and sound enhancement tools.",
       "url": "https://audio.z.ai/",
       "categories": [
-        "Audio & Voice",
-        "Text to Speech"
+        "Audio & Voice"
       ],
       "keywords": [
         "AI voice",
@@ -297,8 +296,7 @@
       "description": "AI voice generator for dubbing, narration, and audiobooks.",
       "url": "https://elevenlabs.io/",
       "categories": [
-        "Audio & Voice",
-        "Text to Speech"
+        "Audio & Voice"
       ],
       "keywords": [
         "voice cloning",
@@ -347,8 +345,7 @@
       "description": "Generate songs with lyrics, vocals, and music using AI.",
       "url": "https://suno.com/",
       "categories": [
-        "Audio & Voice",
-        "Music"
+        "Audio & Voice"
       ],
       "keywords": [
         "AI music",
@@ -373,7 +370,6 @@
       "url": "https://leonardo.ai/",
       "categories": [
         "Image Generation",
-        "Gaming",
         "Design"
       ],
       "keywords": [
@@ -599,8 +595,7 @@
       "description": "AI coding assistant built into Replit’s online IDE.",
       "url": "https://replit.com/ai",
       "categories": [
-        "Coding & Dev",
-        "Education"
+        "Coding & Dev"
       ],
       "keywords": [
         "Replit",
@@ -749,8 +744,7 @@
       "description": "AI voice model for speech and audio generation tasks.",
       "url": "https://app.reka.ai/speech",
       "categories": [
-        "Audio & Voice",
-        "Text to Speech"
+        "Audio & Voice"
       ],
       "keywords": [
         "Reka Speech",
@@ -956,8 +950,7 @@
       "description": "AI coding platform for automated code reviews, unit test generation, and pull request analysis.",
       "url": "https://www.qodo.ai/",
       "categories": [
-        "Coding & Dev",
-        "Testing"
+        "Coding & Dev"
       ],
       "keywords": [
         "AI code review",
@@ -1055,8 +1048,7 @@
       "description": "AI research assistant automating literature reviews and extracting data from papers.",
       "url": "https://elicit.com/",
       "categories": [
-        "Research & Analysis",
-        "Education"
+        "Research & Analysis"
       ],
       "keywords": [
         "literature review",
@@ -1173,6 +1165,33 @@
       "logo": {
         "dark": "ai-tools/logo/jpg/arena-ai.jpg",
         "light": "ai-tools/logo/jpg/arena-ai.jpg"
+      }
+    },
+    {
+      "id": 47,
+      "name": "NotebookLM",
+      "description": "AI research assistant, organize documents, generate summaries, and answer questions based on uploaded sources.",
+      "url": "https://notebooklm.google/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "Google",
+        "llm",
+        "notebookllm",
+        "research assistant",
+        "note-taking",
+        "summarization",
+        "documents",
+        "source grounding"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/notebooklm.png",
+        "light": "ai-tools/logo/png/notebooklm.png"
       }
     }
   ]
