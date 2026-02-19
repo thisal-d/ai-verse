@@ -2086,6 +2086,41 @@
         "dark": "ai-tools/logo/svg/topaz.svg",
         "light": "ai-tools/logo/svg/topaz.svg"
       }
+    },
+    {
+      "id": 88,
+      "name": "Qwen",
+      "description": "Qwen is an advanced AI model for writing, coding, and complex reasoning across text and creative tasks.",
+      "url": "https://chat.qwen.ai/",
+      "categories": [
+        "Text & Writing",
+        "Coding & Dev",
+        "Research & Analysis",
+        "Image Generation",
+        "Video & Animation",
+        "Design"
+      ],
+      "keywords": [
+        "Alibaba",
+        "Qwen",
+        "LLM",
+        "Open Source",
+        "Reasoning",
+        "Chatbot",
+        "Coding",
+        "chat",
+        "image edit",
+        "video generation",
+        "image generate",
+        "presentation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/qwen.png",
+        "light": "ai-tools/logo/png/qwen.png"
+      }
     }
   ]
 }
