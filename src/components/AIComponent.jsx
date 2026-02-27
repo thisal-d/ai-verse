@@ -3,6 +3,7 @@ import "../styles/ai-component.css"
 import heart_white from "../assets/heart-light.png"
 import heart_black from "../assets/heart-dark.png"
 import heart_red from "../assets/heart-red.png"
+import { toast } from "react-toastify"
 
 function getFavouriteToolsFromLocalStorage() {
     const favTools = localStorage.getItem("favouriteTools");
@@ -33,12 +34,14 @@ const AIComponent = (props) => {
         setIsFavourite(false)
         props.removeFavouriteToolFromArr(props.id)
         removeFavouriteToolFromLocalStorage(props.id)
+        toast.info(`${props.name} removed from favourites`)
     }
 
     function addToFavourite(props) {
         setIsFavourite(true)
         props.addFavouriteToolFromArr(props.id)
         addFavouriteToolToLocalStorage(props.id)
+        toast.success(`${props.name} added to favourites`)
     }
 
     return (

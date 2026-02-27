@@ -48,7 +48,7 @@
 }
 
 .favourite-btn:hover .favourite-btn-icon {
-    content: url("../assets/heart-red.png");
+    content: url("../assets/heart-hover.png");
 }
 
 
@@ -103,15 +103,15 @@ a {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 7px;
+        padding: 10px;
         padding-right: 14px;
         margin: 7.5px 0;
         gap: 10px;
     }
 
     .image-container {
-        width: 45px;
-        height: 45px;
+        width: 50px;
+        height: 50px;
         flex-shrink: 0;
         order: 1;
     }
@@ -131,7 +131,7 @@ a {
     }
 
     .ai-card .name {
-        font-size: 0.675rem;
+        font-size: 0.75rem;
         margin: 0 0 0 5px;
         text-align: left;
     }
@@ -142,7 +142,7 @@ a {
     }
 
     .ai-card .description {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         margin: 0 0 0 5px;
         text-align: left;
     }

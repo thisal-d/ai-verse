@@ -89,7 +89,7 @@
 }
 
 .favourite-btn-filter:hover .favourite-btn-filter-icon {
-    content: url("./assets/heart-red.png");
+    content: url("./assets/heart-hover.png");
 }
 
 .favourite-btn-filter-icon {

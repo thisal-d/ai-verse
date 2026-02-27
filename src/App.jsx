@@ -11,6 +11,8 @@ import AI_Pricing_Modes from "./data/pricing-modes.json"
 import heart_white from "./assets/heart-light.png"
 import heart_black from "./assets/heart-dark.png"
 import heart_red from "./assets/heart-red.png"
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 
 function checkMatch(tool, searchFilter) {
@@ -178,6 +180,7 @@ function App() {
       </div>
 
       <Footer />
+      <ToastContainer position="bottom-right" autoClose={1000} />
     </>
   );
 }
