@@ -84,12 +84,14 @@
     transition: all 0.3s ease;
 }
 
-.favourite-btn-filter:hover {
-    transform: scale(1.05);
-}
+@media (hover: hover) {
+    .favourite-btn-filter:hover {
+        transform: scale(1.05);
+    }
 
-.favourite-btn-filter:hover .favourite-btn-filter-icon {
-    content: url("./assets/heart-hover.png");
+    .favourite-btn-filter:hover .favourite-btn-filter-icon {
+        content: url("./assets/heart-hover.png");
+    }
 }
 
 .favourite-btn-filter-icon {
@@ -225,4 +227,11 @@
         font-size: 0.75rem;
     }
 
+    .favourite-btn-filter:hover {
+        transform: none;
+    }
+
+    .favourite-btn-filter:hover .favourite-btn-filter-icon {
+        content: none;
+    }
 }

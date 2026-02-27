@@ -13,8 +13,10 @@
     border: 1px solid var(--color-border);
 }
 
-.ai-card:hover {
-    transform: scale(1.05);
+@media (hover: hover) {
+    .ai-card:hover {
+        transform: scale(1.05);
+    }
 }
 
 .favourite-btn-container {
@@ -50,8 +52,6 @@
 .favourite-btn:hover .favourite-btn-icon {
     content: url("../assets/heart-hover.png");
 }
-
-
 
 /* --- Image Section --- */
 .image-container {
@@ -110,8 +110,8 @@ a {
     }
 
     .image-container {
-        width: 50px;
-        height: 50px;
+        width: 45px;
+        height: 45px;
         flex-shrink: 0;
         order: 1;
     }
@@ -131,7 +131,7 @@ a {
     }
 
     .ai-card .name {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         margin: 0 0 0 5px;
         text-align: left;
     }
@@ -142,7 +142,7 @@ a {
     }
 
     .ai-card .description {
-        font-size: 0.7rem;
+        font-size: 0.65rem;
         margin: 0 0 0 5px;
         text-align: left;
     }
@@ -162,5 +162,14 @@ a {
         width: 15px;
         height: 15px;
         padding: 0;
+    }
+
+    .ai-card:hover,
+    .favourite-btn:hover {
+        transform: none;
+    }
+
+    .favourite-btn:hover .favourite-btn-icon {
+        content: none;
     }
 }
