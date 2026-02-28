@@ -75,10 +75,10 @@ function App() {
   // console.log(ai_tools);
   //console.log(AI_Categories);
 
-  const [searchFilter, setSearchFilter] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedPricingModes, setselectedPricingModes] = useState([]);
-  const [isFavouriteFilter, setIsFavouriteFilter] = useState(false);
+  const [searchFilter, setSearchFilter] = useState(localStorage.getItem("searchFilter") || "");
+  const [selectedCategory, setSelectedCategory] = useState(localStorage.getItem("selectedCategory") || "");
+  const [selectedPricingModes, setselectedPricingModes] = useState(JSON.parse(localStorage.getItem("selectedPricingModes") || "[]"));
+  const [isFavouriteFilter, setIsFavouriteFilter] = useState(localStorage.getItem("isFavouriteFilter") === "true");
 
   function handleModeChange(e) {
     const { value, checked } = e.target;
@@ -105,10 +105,10 @@ function App() {
           placeholder="Search AI Verse..."
           className="search-entry"
           value={searchFilter}
-          onChange={(e) => setSearchFilter(e.target.value)}
+          onChange={(e) => { setSearchFilter(e.target.value); localStorage.setItem("searchFilter", e.target.value) }}
         />
 
-        <select onChange={(e) => setSelectedCategory(e.target.value)} placeholder="Select a Category">
+        <select value={selectedCategory} onChange={(e) => { setSelectedCategory(e.target.value); localStorage.setItem("selectedCategory", e.target.value) }} placeholder="Select a Category">
           <option value="">All Categories</option>
           {
             AI_Categories.map((category) => (
@@ -120,11 +120,14 @@ function App() {
         <div className='favourite-btn-filter-container'>
           {
             (isFavouriteFilter) ? (
-              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter) }} className='favourite-btn-filter'><img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' /></button>
+              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter); localStorage.setItem("isFavouriteFilter", !isFavouriteFilter) }} className='favourite-btn-filter'>
+                <img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' />
+              </button>
             ) : (
-              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter) }} className='favourite-btn-filter'>{
-                theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> : <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />
-              }</button>
+              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter); localStorage.setItem("isFavouriteFilter", !isFavouriteFilter) }} className='favourite-btn-filter'>
+                {theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> :
+                  <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />}
+              </button>
             )
           }
         </div>
