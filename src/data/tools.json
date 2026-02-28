@@ -2124,29 +2124,29 @@
     },
     {
       "id": 89,
-      "name": "Antigravity AI",
+      "name": "Antigravity",
       "description": "AI-powered platform offering automation, intelligent assistants, and productivity tools to help individuals workflows",
       "url": "https://antigravity.google/",
       "categories": [
         "AI Productivity",
         "Automation",
         "AI Assistant"
-  ],
+      ],
       "keywords": [
         "Artificial Intelligence",
         "Automation",
         "AI assistant",
         "Machine learning",
         "Productivity tools"
-  ],
+      ],
       "pricing": [
         "Freemium",
         "Paid"
-  ],
+      ],
       "logo": {
         "light": "ai-tools/logo/png/antigravity.png",
-        "dark": "ai-tools/logo/png/antigravity-dark.png"
-  }
-}   
+        "dark": "ai-tools/logo/png/antigravity.png"
+      }
+    }   
   ]
 }
