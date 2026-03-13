@@ -2146,7 +2146,20 @@
       "logo": {
         "light": "ai-tools/logo/png/antigravity.png",
         "dark": "ai-tools/logo/png/antigravity.png"
-      }
+      },
+      {
+        "id": 90,
+        "name": "ChatEdu",
+        "description": "AI-powered educational assistant that helps students learn, study, and understand concepts through interactive conversations and personalized explanations.",
+        "url": "https://chatedu.io/",
+        "categories": ["Education", "AI Tutor"],
+        "keywords": ["education", "ai tutor", "learning assistant", "study help", "chatbot"],
+        "pricing": ["Freemium"],
+        "logo": {
+        "dark": "ai-tools/logo/png/chatedu-dark.png",
+        "light": "ai-tools/logo/png/chatedu-light.png"
+    }
+}
     }   
   ]
 }
