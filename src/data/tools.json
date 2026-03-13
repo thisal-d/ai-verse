@@ -2151,7 +2151,7 @@
     {
       "id": 90,
       "name": "ChatEdu",
-      "description": "AI-powered educational assistant that helps students learn, study, and understand concepts through interactive conversations and personalized explanations.",
+      "description": "AI-powered assistant that helps students learn and understand concepts through interactive conversations.",
       "url": "https://chatedu.io/",
       "categories": [
         "Education",
