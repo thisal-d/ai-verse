@@ -2156,10 +2156,9 @@
         "keywords": ["education", "ai tutor", "learning assistant", "study help", "chatbot"],
         "pricing": ["Freemium"],
         "logo": {
-        "dark": "ai-tools/logo/png/chatedu-dark.png",
-        "light": "ai-tools/logo/png/chatedu-light.png"
-    }
-}
-    }   
-  ]
+          "dark": "ai-tools/logo/webp/chatedu.io.webp",
+          "light": "ai-tools/logo/webp/chatedu.io.webp"
+        }
+      }
+    ]
 }
