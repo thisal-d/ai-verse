@@ -239,6 +239,7 @@ We're grateful to the amazing people who help make AI Verse better:
 | <img src="https://github.com/senuda-d.png?size=32" width="32"> | [Senuda Dilvan](https://github.com/senuda-d) |
 | <img src="https://github.com/fathi-asma.png?size=32" width="32"> | [Fathima Asma](https://github.com/fathi-asma) |
 | <img src="https://github.com/childeyouyu.png?size=32" width="32"> | [Childe Youyu](https://github.com/childeyouyu) |
+| <img src="https://github.com/TharushaAkash.png?size=32" width="32"> | [Tharusha Akash](https://github.com/TharushaAkash) |
 
 **Want to be featured here?** [Contribute now! 🎉](CONTRIBUTING.md)
 
