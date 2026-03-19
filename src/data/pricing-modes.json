@@ -1,17 +1,22 @@
 [
-    {
-      "id": 1,
-      "name": "Free",
-      "description": "Completely free tools with full access."
-    },
-    {
-      "id": 2,
-      "name": "Freemium",
-      "description": "Tools with a free tier but limited features or usage."
-    },
-    {
-      "id": 3,
-      "name": "Paid",
-      "description": "Tools that require a subscription or one-time payment."
-    }
+  {
+    "id": 1,
+    "name": "Free",
+    "description": "Completely free with full access and no paid tiers."
+  },
+  {
+    "id": 2,
+    "name": "Freemium",
+    "description": "Free tier with limited features; paid upgrades available."
+  },
+  {
+    "id": 3,
+    "name": "Paid",
+    "description": "Requires a subscription or one-time payment for access."
+  },
+  {
+    "id": 4,
+    "name": "Open Source",
+    "description": "Source code freely available; may have paid hosted options."
+  }
 ]

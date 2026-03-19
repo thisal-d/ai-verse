@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "1.5",
-    "lastUpdated": "2025-02-13"
+    "version": "2.0",
+    "lastUpdated": "2026-03-19"
   },
   "tools": [
     {
@@ -1195,12 +1195,22 @@
       }
     },
     {
-      "id": 50,
+      "id": 96,
       "name": "AndiSearch",
-      "description": "",
+      "description": "AI-powered search engine delivering direct, ad-free answers in a conversational format.",
       "url": "https://andisearch.com/",
-      "categories": [],
-      "keywords": [],
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI Search",
+        "Privacy",
+        "Conversational Search",
+        "Ad-Free",
+        "Question Answering",
+        "Web Search"
+      ],
       "pricing": [
         "Free"
       ],
@@ -1405,7 +1415,7 @@
     {
       "id": 56,
       "name": "Ideogram",
-      "description": "AI image generation tool known for its ability to render accurate text within images, ideal for typography and posters.",
+      "description": "AI image generator excelling at accurate text rendering for typography and posters.",
       "url": "https://ideogram.ai/",
       "categories": [
         "Image Generation",
@@ -1765,7 +1775,7 @@
         "Productivity",
         "Research & Analysis"
       ],
-      "+keywords": [
+      "keywords": [
         "Enterprise search",
         "Knowledge management",
         "Workplace",
@@ -1880,16 +1890,20 @@
       "id": 79,
       "name": "Fireflies",
       "description": "AI notetaker for meetings that records, transcribes, and summarizes conversations.",
+      "url": "https://fireflies.ai/",
       "categories": [
         "Productivity",
         "Audio & Voice"
       ],
       "keywords": [
-        "Meeting notes",
+        "Meeting Notes",
         "Transcription",
         "Summarization",
         "Collaboration",
-        "Zoom"
+        "Zoom",
+        "Google Meet",
+        "Teams",
+        "CRM Integration"
       ],
       "pricing": [
         "Freemium"
@@ -2128,16 +2142,17 @@
       "description": "AI-powered platform offering automation, intelligent assistants, and productivity tools to help individuals workflows",
       "url": "https://antigravity.google/",
       "categories": [
-        "AI Productivity",
-        "Automation",
-        "AI Assistant"
+        "Productivity",
+        "Automation & Workflows"
       ],
       "keywords": [
         "Artificial Intelligence",
         "Automation",
-        "AI assistant",
-        "Machine learning",
-        "Productivity tools"
+        "AI Assistant",
+        "Machine Learning",
+        "Productivity Tools",
+        "Google DeepMind",
+        "Workflow"
       ],
       "pricing": [
         "Freemium",
@@ -2154,15 +2169,17 @@
       "description": "AI-powered assistant that helps students learn and understand concepts through interactive conversations.",
       "url": "https://chatedu.io/",
       "categories": [
-        "Education",
-        "AI Tutor"
+        "Education & Learning",
+        "Productivity"
       ],
       "keywords": [
-        "education",
-        "ai tutor",
-        "learning assistant",
-        "study help",
-        "chatbot"
+        "Education",
+        "AI Tutor",
+        "Learning Assistant",
+        "Study Help",
+        "Chatbot",
+        "Student",
+        "Homework"
       ],
       "pricing": [
         "Freemium"
@@ -2170,6 +2187,141 @@
       "logo": {
         "dark": "ai-tools/logo/webp/chatedu.io.webp",
         "light": "ai-tools/logo/webp/chatedu.io.webp"
+      }
+    },
+    {
+      "id": 91,
+      "name": "FrameNet AI",
+      "description": "AI-powered platform to streamline video creation and motion graphics generation.",
+      "url": "https://www.framenet.ai/",
+      "categories": [
+        "Video & Animation",
+        "Design",
+        "Marketing"
+      ],
+      "keywords": [
+        "Video Creation",
+        "Motion Graphics",
+        "AI Editing",
+        "Text-To-Video",
+        "Animation",
+        "Social Media Video"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/framenet-ai.jpg",
+        "light": "ai-tools/logo/jpg/framenet-ai.jpg"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Manus",
+      "description": "General AI agent for task automation, no-code app building, and complex workflows.",
+      "url": "https://manus.im/",
+      "categories": [
+        "Coding & Dev",
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Automation",
+        "No-Code",
+        "AI Agent",
+        "Workflow",
+        "App Builder",
+        "Task Automation"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/manus-dark.png",
+        "light": "ai-tools/logo/png/manus-light.png"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Wispr Flow",
+      "description": "AI-powered voice dictation tool converting speech to polished, formatted text.",
+      "url": "https://wisprflow.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Productivity",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Voice Dictation",
+        "Speech-To-Text",
+        "Auto-Formatting",
+        "Accessibility",
+        "Writing Assistant",
+        "Hands-Free Typing"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/wispr-flow.png",
+        "light": "ai-tools/logo/png/wispr-flow.png"
+      }
+    },
+    {
+      "id": 94,
+      "name": "OpenClaw",
+      "description": "Open-source, self-hosted autonomous AI assistant acting as a digital employee.",
+      "url": "https://openclaw.ai/",
+      "categories": [
+        "Productivity",
+        "Coding & Dev",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Open Source",
+        "AI Assistant",
+        "Autonomous Agent",
+        "Digital Employee",
+        "Automation",
+        "Self-Hosted"
+      ],
+      "pricing": [
+        "Free",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/openclaw.png",
+        "light": "ai-tools/logo/png/openclaw.png"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Turbo AI",
+      "description": "AI-powered study platform converting various contents into structured study materials & flashcards.",
+      "url": "https://www.turbo.ai/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "Study Materials",
+        "Flashcards",
+        "Note Generation",
+        "AI Tutor",
+        "Education",
+        "Quiz",
+        "Exam Prep"
+      ],
+      "pricing": [
+        "Freemium",
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/turbo-ai.png",
+        "light": "ai-tools/logo/png/turbo-ai.png"
       }
     }
   ]

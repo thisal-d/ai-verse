@@ -1,12 +1,74 @@
 [
-    { "id": "text-writing", "label": "Text & Writing", "icon": "PenTool" },
-    { "id": "image-gen", "label": "Image Generation", "icon": "Image" },
-    { "id": "video", "label": "Video & Animation", "icon": "Video" },
-    { "id": "audio", "label": "Audio & Voice", "icon": "Music" },
-    { "id": "coding", "label": "Coding & Dev", "icon": "Code" },
-    { "id": "productivity", "label": "Productivity", "icon": "Zap" },
-    { "id": "research", "label": "Research & Analysis", "icon": "BookOpen" },
-    { "id": "marketing", "label": "Marketing", "icon": "TrendingUp" },
-    { "id": "3d-vr", "label": "3D & AR/VR", "icon": "Layers" },
-    { "id": "design", "label": "Design", "icon": "Palette" }
+    {
+        "id": "text-writing",
+        "label": "Text & Writing",
+        "value": "Text & Writing",
+        "icon": "PenTool"
+    },
+    {
+        "id": "image-gen",
+        "label": "Image Generation",
+        "value": "Image Generation",
+        "icon": "Image"
+    },
+    {
+        "id": "video",
+        "label": "Video & Animation",
+        "value": "Video & Animation",
+        "icon": "Video"
+    },
+    {
+        "id": "audio",
+        "label": "Audio & Voice",
+        "value": "Audio & Voice",
+        "icon": "Music"
+    },
+    {
+        "id": "coding",
+        "label": "Coding & Dev",
+        "value": "Coding & Dev",
+        "icon": "Code"
+    },
+    {
+        "id": "productivity",
+        "label": "Productivity",
+        "value": "Productivity",
+        "icon": "Zap"
+    },
+    {
+        "id": "research",
+        "label": "Research & Analysis",
+        "value": "Research & Analysis",
+        "icon": "BookOpen"
+    },
+    {
+        "id": "marketing",
+        "label": "Marketing",
+        "value": "Marketing",
+        "icon": "TrendingUp"
+    },
+    {
+        "id": "3d-vr",
+        "label": "3D & AR/VR",
+        "value": "3D & AR/VR",
+        "icon": "Layers"
+    },
+    {
+        "id": "design",
+        "label": "Design",
+        "value": "Design",
+        "icon": "Palette"
+    },
+    {
+        "id": "education",
+        "label": "Education & Learning",
+        "value": "Education & Learning",
+        "icon": "GraduationCap"
+    },
+    {
+        "id": "automation",
+        "label": "Automation & Workflows",
+        "value": "Automation & Workflows",
+        "icon": "Settings"
+    }
 ]
