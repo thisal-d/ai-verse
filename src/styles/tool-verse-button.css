@@ -6,6 +6,8 @@
     justify-content: center;
     right: 20px;
     bottom: 20px;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
 
 
@@ -29,10 +31,16 @@
 }
 
 .tool-verse:hover::before {
-    content: "Looking for Tools? Visit Tool Verse ☺️";
-    color: var(--text-color);
-    font-size: 1rem;
-    display: block;
+    content: "Looking for tools? visit Tool Verse ☺️..";
+    color: var(--color-success);
+    background-color: var(--color-surface);
+    padding: 5px 5px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.tool-verse::before {
+    content: none
 }
 
 .tool-verse a {
@@ -51,10 +59,29 @@
 
 .tool-verse a {
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--color-text);
 }
 
 .tool-verse p {
     font-size: 0.7rem;
     display: none;
+}
+
+@media (max-width: 600px) {
+    .tool-verse {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .tool-verse img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .tool-verse:hover::before {
+        display: none;
+    }
 }

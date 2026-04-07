@@ -6,7 +6,7 @@ function ToolVerseButton() {
         <div className="tool-verse">
             <a href="https://tool-verse-ashy.vercel.app/">
                 <img src={TOOL_VERSE_LOGO} alt="Tool Verse" />
-                <p>Tool Verse</p>
+                <p>"Looking for Tools? Visit Tool Verse ☺️"</p>
             </a>
         </div>
     )
