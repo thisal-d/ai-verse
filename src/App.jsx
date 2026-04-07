@@ -13,6 +13,7 @@ import heart_black from "./assets/heart-dark.png"
 import heart_red from "./assets/heart-red.png"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import ToolVerseButton from "./components/ToolVerseButton.jsx";
 
 
 function checkMatch(tool, searchFilter) {
@@ -184,6 +185,8 @@ function App() {
 
       <Footer />
       <ToastContainer position="bottom-right" autoClose={1000} />
+
+      <ToolVerseButton />
     </>
   );
 }

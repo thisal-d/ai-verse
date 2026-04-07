@@ -1,0 +1,60 @@
+.tool-verse {
+    display: flex;
+    position: fixed;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+@keyframes Dance {
+    from {
+        transform: perspective(70px) rotateY(0deg);
+    }
+
+    to {
+        transform: perspective(80px) rotateY(360deg);
+    }
+}
+
+.tool-verse img {
+    animation: Dance 1s ease-in-out infinite;
+    transition: all 0.2s ease-in-out;
+}
+
+.tool-verse img:hover {
+    transform: scale(1.2);
+}
+
+.tool-verse:hover::before {
+    content: "Looking for Tools? Visit Tool Verse ☺️";
+    color: var(--text-color);
+    font-size: 1rem;
+    display: block;
+}
+
+.tool-verse a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tool-verse img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.tool-verse a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.tool-verse p {
+    font-size: 0.7rem;
+    display: none;
+}
