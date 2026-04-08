@@ -2323,6 +2323,33 @@
         "dark": "ai-tools/logo/png/turbo-ai.png",
         "light": "ai-tools/logo/png/turbo-ai.png"
       }
+    },
+    {
+      "id": 96,
+      "name": "PDP AI",
+      "description": "AI-powered tool that creates personalized development plans for students through guided questionnaires.",
+      "url": "https://pdp-gen-seven.vercel.app/",
+      "categories": [
+        "Education & Learning",
+        "Productivity",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Personal Development Plan",
+        "PDP",
+        "Education",
+        "Goal Setting",
+        "Career Planning",
+        "Student Growth",
+        "Self Assessment"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/pdp-ai.png",
+        "light": "ai-tools/logo/png/pdp-ai.png"
+      }
     }
   ]
 }
