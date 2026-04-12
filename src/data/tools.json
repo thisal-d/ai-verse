@@ -2350,6 +2350,31 @@
         "dark": "ai-tools/logo/png/pdp-ai.png",
         "light": "ai-tools/logo/png/pdp-ai.png"
       }
+    },
+    {
+      "id": 97,
+      "name": "ZeroGPT",
+      "description": "AI-powered tool that detects AI-generated content and humanizes it.",
+      "url": "https://www.zerogpt.com/",
+      "categories": [
+        "AI Detection & Humanization",
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "AI Detection",
+        "Humanize AI",
+        "AI Content Detection",
+        "Humanizer",
+        "AI Detector"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/zerogpt.png",
+        "light": "ai-tools/logo/png/zerogpt.png"
+      }
     }
   ]
 }
