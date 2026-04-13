@@ -1195,31 +1195,6 @@
       }
     },
     {
-      "id": 96,
-      "name": "AndiSearch",
-      "description": "AI-powered search engine delivering direct, ad-free answers in a conversational format.",
-      "url": "https://andisearch.com/",
-      "categories": [
-        "Research & Analysis",
-        "Productivity"
-      ],
-      "keywords": [
-        "AI Search",
-        "Privacy",
-        "Conversational Search",
-        "Ad-Free",
-        "Question Answering",
-        "Web Search"
-      ],
-      "pricing": [
-        "Free"
-      ],
-      "logo": {
-        "dark": "ai-tools/logo/jpg/andi-search.jpg",
-        "light": "ai-tools/logo/jpg/andi-search.jpg"
-      }
-    },
-    {
       "id": 48,
       "name": "Poe",
       "description": "Quora platform for interacting with multiple AI models like GPT, Claude, and others.",
@@ -2374,6 +2349,31 @@
       "logo": {
         "dark": "ai-tools/logo/png/zerogpt.png",
         "light": "ai-tools/logo/png/zerogpt.png"
+      }
+    },
+    {
+      "id": 98,
+      "name": "AndiSearch",
+      "description": "AI-powered search engine delivering direct, ad-free answers in a conversational format.",
+      "url": "https://andisearch.com/",
+      "categories": [
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI Search",
+        "Privacy",
+        "Conversational Search",
+        "Ad-Free",
+        "Question Answering",
+        "Web Search"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/andi-search.jpg",
+        "light": "ai-tools/logo/jpg/andi-search.jpg"
       }
     }
   ]
