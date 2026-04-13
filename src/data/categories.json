@@ -70,5 +70,11 @@
         "label": "Automation & Workflows",
         "value": "Automation & Workflows",
         "icon": "Settings"
+    },
+    {
+        "id": "ai-detection",
+        "label": "AI Detection & Humanization",
+        "value": "AI Detection & Humanization",
+        "icon": "Shield"
     }
 ]
