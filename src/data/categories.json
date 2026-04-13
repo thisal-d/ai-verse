@@ -76,5 +76,11 @@
         "label": "AI Detection & Humanization",
         "value": "AI Detection & Humanization",
         "icon": "Shield"
+    },
+    {
+        "id": "translation",
+        "label": "Translation & Language",
+        "value": "Translation & Language",
+        "icon": "Languages"
     }
 ]
