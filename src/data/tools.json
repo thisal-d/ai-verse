@@ -2402,8 +2402,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/sora.png",
-        "light": "ai-tools/logo/png/sora.png"
+        "dark": "ai-tools/logo/avif/sora.avif",
+        "light": "ai-tools/logo/avif/sora.avif"
       }
     },
     {
@@ -2454,8 +2454,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/bolt-new.png",
-        "light": "ai-tools/logo/png/bolt-new.png"
+        "dark": "ai-tools/logo/jpg/bolt-new.jpg",
+        "light": "ai-tools/logo/jpg/bolt-new.jpg"
       }
     },
     {
@@ -2503,8 +2503,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/windsurf.png",
-        "light": "ai-tools/logo/png/windsurf.png"
+        "dark": "ai-tools/logo/png/windsurf-dark.png",
+        "light": "ai-tools/logo/svg/windsurf-light.svg"
       }
     },
     {
@@ -2553,8 +2553,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/deepl.png",
-        "light": "ai-tools/logo/png/deepl.png"
+        "dark": "ai-tools/logo/webp/deepl.webp",
+        "light": "ai-tools/logo/webp/deepl.webp"
       }
     },
     {
@@ -2578,13 +2578,13 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/smartcat.png",
-        "light": "ai-tools/logo/png/smartcat.png"
+        "dark": "ai-tools/logo/jpg/smartcat.jpg",
+        "light": "ai-tools/logo/jpg/smartcat.jpg"
       }
     },
     {
       "id": 107,
-      "name": "Remove.bg",
+      "name": "Remove bg",
       "description": "One-click AI background removal tool for photos, with support for bulk processing and API integration.",
       "url": "https://www.remove.bg/",
       "categories": [
@@ -2603,8 +2603,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/removebg.png",
-        "light": "ai-tools/logo/png/removebg.png"
+        "dark": "ai-tools/logo/png/remove-bg.png",
+        "light": "ai-tools/logo/png/remove-bg.png"
       }
     },
     {
@@ -2677,8 +2677,8 @@
         "Paid"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/magnific.png",
-        "light": "ai-tools/logo/png/magnific.png"
+        "dark": "ai-tools/logo/jpg/magnific-ai.jpg",
+        "light": "ai-tools/logo/jpg/magnific-ai.jpg"
       }
     },
     {
@@ -2702,13 +2702,13 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/clipdrop.png",
-        "light": "ai-tools/logo/png/clipdrop.png"
+        "dark": "ai-tools/logo/webp/clipdrop.webp",
+        "light": "ai-tools/logo/webp/clipdrop.webp"
       }
     },
     {
       "id": 112,
-      "name": "Beautiful.ai",
+      "name": "Beautiful AI",
       "description": "Smart presentation software that automatically designs professional slides as you add content.",
       "url": "https://www.beautiful.ai/",
       "categories": [
@@ -2727,39 +2727,13 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/beautiful-ai.png",
-        "light": "ai-tools/logo/png/beautiful-ai.png"
-      }
-    },
-    {
-      "id": 113,
-      "name": "Tome",
-      "description": "AI-native storytelling platform that generates polished presentations and documents from prompts.",
-      "url": "https://tome.app/",
-      "categories": [
-        "Productivity",
-        "Design",
-        "Text & Writing"
-      ],
-      "keywords": [
-        "Storytelling",
-        "AI presentations",
-        "Pitch decks",
-        "Documents",
-        "Generative",
-        "Visual"
-      ],
-      "pricing": [
-        "Freemium"
-      ],
-      "logo": {
-        "dark": "ai-tools/logo/png/tome.png",
-        "light": "ai-tools/logo/png/tome.png"
+        "dark": "ai-tools/logo/jpg/beautiful-ai.jpg",
+        "light": "ai-tools/logo/jpg/beautiful-ai.jpg"
       }
     },
     {
       "id": 114,
-      "name": "Reclaim.ai",
+      "name": "Reclaim",
       "description": "AI-powered calendar assistant that auto-schedules tasks, habits, and focus time around your meetings.",
       "url": "https://reclaim.ai/",
       "categories": [
@@ -2828,8 +2802,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/otter.png",
-        "light": "ai-tools/logo/png/otter.png"
+        "dark": "ai-tools/logo/png/otter-ai.png",
+        "light": "ai-tools/logo/png/otter-ai.png"
       }
     },
     {
@@ -2877,8 +2851,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/khanmigo.png",
-        "light": "ai-tools/logo/png/khanmigo.png"
+        "dark": "ai-tools/logo/jpg/khanmigo.jpg",
+        "light": "ai-tools/logo/jpg/khanmigo.jpg"
       }
     },
     {
@@ -2902,8 +2876,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/quizlet.png",
-        "light": "ai-tools/logo/png/quizlet.png"
+        "dark": "ai-tools/logo/jpg/quizlet-ai.jpg",
+        "light": "ai-tools/logo/jpg/quizlet-ai.jpg"
       }
     },
     {
@@ -3001,8 +2975,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/meshy.png",
-        "light": "ai-tools/logo/png/meshy.png"
+        "dark": "ai-tools/logo/png/meshy-ai.png",
+        "light": "ai-tools/logo/png/meshy-ai.png"
       }
     },
     {
@@ -3026,8 +3000,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/spline.png",
-        "light": "ai-tools/logo/png/spline.png"
+        "dark": "ai-tools/logo/png/spline-ai.png",
+        "light": "ai-tools/logo/png/spline-ai.png"
       }
     },
     {
@@ -3076,8 +3050,8 @@
         "Paid"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/originality.png",
-        "light": "ai-tools/logo/png/originality.png"
+        "dark": "ai-tools/logo/svg/originality.svg",
+        "light": "ai-tools/logo/svg/originality.svg"
       }
     },
     {
@@ -3101,14 +3075,14 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/framer.png",
-        "light": "ai-tools/logo/png/framer.png"
+        "dark": "ai-tools/logo/svg/framer.svg",
+        "light": "ai-tools/logo/svg/framer.svg"
       }
     },
     {
       "id": 128,
       "name": "Stitch",
-      "description": "Google's AI-powered UI design tool (formerly Galileo AI) that generates interactive prototypes and responsive layouts from prompts.",
+      "description": "AI-powered UI design tool (formerly Galileo AI) that generates interactive prototypes and responsive layouts.",
       "url": "https://labs.google/stitch",
       "categories": [
         "Design",
