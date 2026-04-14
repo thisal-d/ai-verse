@@ -25,9 +25,9 @@ function Header() {
       <div className="header">
         <div className="ai-verse">
           <a href="https://a-i-verse.netlify.app/">
-            <img src="./main.png" alt="logo" className="logo"/>
+            <img src="./main.png" alt="logo" className="logo" />
           </a>
-          
+
           <a href="https://github.com/thisal-d/ai-verse" target="_blank">
             <h1>AI Verse</h1>
           </a>

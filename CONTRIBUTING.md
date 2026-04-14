@@ -168,6 +168,7 @@ git push origin feature/remove-tools
 | Productivity | Design |
 | Marketing | 3D & AR/VR |
 | Education & Learning | Automation & Workflows |
+| AI Detection & Humanization | Translation & Language |
 
 > **📝 Note:** If your tool doesn't fit any category, open an issue to suggest a new one.
 
@@ -263,7 +264,7 @@ npm run build
 
 ### Tech Stack
 
-- **React 18+** — UI framework
+- **React 19+** — UI framework
 - **Vite** — Build tool
 - **CSS3** — Styling with dark/light theme support
 - **React Toastify** — Notification system
