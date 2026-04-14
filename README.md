@@ -16,7 +16,7 @@
 
 **AI Verse** is a curated discovery platform for navigating the world of AI tools. Whether you're a developer, designer, student, or entrepreneur — AI Verse helps you find the right AI tool for the job.
 
-With **90+ hand-picked tools** across 12+ categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
+With **120+ hand-picked tools** across 14+ categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
 
 ---
 
@@ -27,8 +27,8 @@ With **90+ hand-picked tools** across 12+ categories, smart search, favorites, a
 - 🔍 **Smart Search & Filter** — Find tools by keyword, category, or pricing
 - ❤️ **Favorites** — Save tools to a personal list (stored in local storage, no login needed)
 - 🔔 **Toast Notifications** — Instant feedback when managing your tools
-- 🎨 **12+ Categories** — Text & Writing, Coding & Dev, Image Generation, Video & Animation, Audio & Voice, Research & Analysis, Productivity, Design, Marketing, 3D & AR/VR, Education & Learning, Automation & Workflows
-- 💰 **Pricing Transparency** — Free, Freemium, and Paid tiers clearly marked
+- 🎨 **14+ Categories** — Text & Writing, Coding & Dev, Image Generation, Video & Animation, Audio & Voice, Research & Analysis, Productivity, Design, Marketing, 3D & AR/VR, Education & Learning, Automation & Workflows, AI Detection & Humanization, Translation & Language
+- 💰 **Pricing Transparency** — Free, Freemium, Paid, and Open Source tiers clearly marked
 - 🌓 **Dark / Light Theme** — Beautiful in any lighting
 - 📱 **Fully Responsive** — Desktop, tablet, and mobile
 - 🔄 **Easy to Extend** — Add new tools via simple JSON configuration
@@ -93,8 +93,8 @@ ai-verse/
 ├── src/
 │   ├── components/          # React components
 │   ├── data/
-│   │   ├── tools.json       # AI tools database (90+ tools)
-│   │   └── categories.json  # Category definitions
+│   │   ├── tools.json       # AI tools database (120+ tools)
+│   │   └── categories.json  # Category definitions (14 categories)
 │   ├── App.jsx              # Main app component
 │   └── main.jsx             # Entry point
 ├── public/
@@ -108,8 +108,8 @@ ai-verse/
 
 | Layer | Technology |
 |-------|-----------|
-| Framework | React 18+ |
-| Build Tool | Vite |
+| Framework | React 19+ |
+| Build Tool | Vite 7+ |
 | Styling | CSS3 with theme support |
 | Notifications | React Toastify |
 | Data | JSON & LocalStorage |
