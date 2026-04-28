@@ -1,9 +1,9 @@
 <div align="center">
-  <a href="https://a-i-verse.netlify.app/" target="_blank"><img src="README/main.png" alt="AI Verse" width="120"></a>
+  <a href="https://ai-verse-ten-dusky.vercel.app/" target="_blank"><img src="README/main.png" alt="AI Verse" width="120"></a>
   <h1>AI Verse</h1>
   <p><strong>Your Gateway to the AI Universe</strong></p>
   <p>
-    <a href="https://a-i-verse.netlify.app/" target="_blank">🚀 Live Demo</a> •
+    <a href="https://ai-verse-ten-dusky.vercel.app/" target="_blank">🚀 Live Demo</a> •
     <a href="#features">✨ Features</a> •
     <a href="#getting-started">📦 Getting Started</a> •
     <a href="#contributing">🤝 Contributing</a>
@@ -113,7 +113,7 @@ ai-verse/
 | Styling | CSS3 with theme support |
 | Notifications | React Toastify |
 | Data | JSON & LocalStorage |
-| Deployment | Netlify |
+| Deployment | Vercel |
 
 ---
 
