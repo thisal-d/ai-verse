@@ -6,6 +6,16 @@
   <link rel="icon" type="image/svg+xml" href="/main.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Verse</title>
+  <script>
+    // Restore route saved by 404.html (GitHub Pages SPA redirect)
+    (function () {
+      var redirect = sessionStorage.getItem('ghpages_redirect');
+      if (redirect) {
+        sessionStorage.removeItem('ghpages_redirect');
+        history.replaceState(null, null, redirect);
+      }
+    })();
+  </script>
 </head>
 
 <body>
