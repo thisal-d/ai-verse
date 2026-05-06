@@ -24,7 +24,7 @@ function Header() {
     <header>
       <div className="header">
         <div className="ai-verse">
-          <a href="https://ai-verse-ten-dusky.vercel.app/">
+          <a href="https://thisal-d.github.io/ai-verse/">
             <img src="./main.png" alt="logo" className="logo" />
           </a>
 
