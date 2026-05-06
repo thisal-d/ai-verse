@@ -1,0 +1,142 @@
+From b051609922015107c4f88ef1b0fcc551af43524b Mon Sep 17 00:00:00 2001
+From: GitHub Pages Fix <fix@ai-verse.dev>
+Date: Wed, 6 May 2026 07:40:27 +0000
+Subject: [PATCH] fix: repair GitHub Pages deployment
+
+Three bugs were preventing the site from deploying:
+
+1. vite.config.ts imported '@vitejs/plugin-react-swc' which is not
+   listed in package.json devDependencies. This caused the Vite build
+   to crash immediately (17s failure). Removed vite.config.ts since
+   vite.config.js already has the correct setup (uses '@vitejs/plugin-react'
+   and sets base: '/ai-verse/').
+
+2. static.yml was listening on branch 'main' but the default branch is
+   'master', so the workflow never triggered on push. Fixed to 'master'.
+
+3. deploy.yml used peaceiris/actions-gh-pages without the required
+   'permissions: contents: write' block, and conflicted with static.yml.
+   Removed deploy.yml in favour of the modern actions/deploy-pages approach.
+
+Also added public/404.html + inline script in index.html to handle
+SPA client-side routing on GitHub Pages (prevents hard-reload 404s).
+---
+ .github/workflows/deploy.yml | 28 ----------------------------
+ .github/workflows/static.yml |  2 +-
+ index.html                   | 10 ++++++++++
+ public/404.html              | 18 ++++++++++++++++++
+ vite.config.ts               |  8 --------
+ 5 files changed, 29 insertions(+), 37 deletions(-)
+ delete mode 100644 .github/workflows/deploy.yml
+ create mode 100644 public/404.html
+ delete mode 100644 vite.config.ts
+
+diff --git a/.github/workflows/deploy.yml b/.github/workflows/deploy.yml
+deleted file mode 100644
+index b8e72c8..0000000
+--- a/.github/workflows/deploy.yml
++++ /dev/null
+@@ -1,28 +0,0 @@
+-name: Deploy to GitHub Pages
+-
+-on:
+-  push:
+-    branches: [master]
+-
+-jobs:
+-  build-and-deploy:
+-    runs-on: ubuntu-latest
+-    steps:
+-      - uses: actions/checkout@v3
+-      
+-      - name: Setup Node.js
+-        uses: actions/setup-node@v3
+-        with:
+-          node-version: '22'
+-      
+-      - name: Install dependencies
+-        run: npm install
+-      
+-      - name: Build
+-        run: npm run build
+-      
+-      - name: Deploy to GitHub Pages
+-        uses: peaceiris/actions-gh-pages@v3
+-        with:
+-          github_token: ${{ secrets.GITHUB_TOKEN }}
+-          publish_dir: ./dist
+diff --git a/.github/workflows/static.yml b/.github/workflows/static.yml
+index 22c2877..73da3e6 100644
+--- a/.github/workflows/static.yml
++++ b/.github/workflows/static.yml
+@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
+ 
+ on:
+   push:
+-    branches: [ main ]
++    branches: [ master ]
+   workflow_dispatch:
+ 
+ permissions:
+diff --git a/index.html b/index.html
+index b3d0d9e..f51b207 100644
+--- a/index.html
++++ b/index.html
+@@ -6,6 +6,16 @@
+   <link rel="icon" type="image/svg+xml" href="/main.ico" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>AI Verse</title>
++  <script>
++    // Restore route saved by 404.html (GitHub Pages SPA redirect)
++    (function () {
++      var redirect = sessionStorage.getItem('ghpages_redirect');
++      if (redirect) {
++        sessionStorage.removeItem('ghpages_redirect');
++        history.replaceState(null, null, redirect);
++      }
++    })();
++  </script>
+ </head>
+ 
+ <body>
+diff --git a/public/404.html b/public/404.html
+new file mode 100644
+index 0000000..c3ed8ec
+--- /dev/null
++++ b/public/404.html
+@@ -0,0 +1,18 @@
++<!DOCTYPE html>
++<html>
++  <head>
++    <meta charset="utf-8" />
++    <title>AI Verse</title>
++    <script>
++      // GitHub Pages SPA redirect trick
++      // Saves the full URL into sessionStorage then redirects to the root,
++      // where index.html picks it up and restores the route via history.replaceState.
++      var path = window.location.pathname;
++      var base = '/ai-verse';
++      var route = path.replace(base, '') || '/';
++      sessionStorage.setItem('ghpages_redirect', route + window.location.search + window.location.hash);
++    </script>
++    <meta http-equiv="refresh" content="0;URL='/ai-verse/'" />
++  </head>
++  <body></body>
++</html>
+diff --git a/vite.config.ts b/vite.config.ts
+deleted file mode 100644
+index 8eead63..0000000
+--- a/vite.config.ts
++++ /dev/null
+@@ -1,8 +0,0 @@
+-import { defineConfig } from 'vite'
+-import react from '@vitejs/plugin-react-swc'
+-
+-// https://vitejs.dev/config/
+-export default defineConfig({
+-  plugins: [react()],
+-  base: '/ai-verse/',     // ← This is the most important line
+-})
+-- 
+2.43.0
+
