@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AI Verse</title>
+    <script>
+      // GitHub Pages SPA redirect trick
+      // Saves the full URL into sessionStorage then redirects to the root,
+      // where index.html picks it up and restores the route via history.replaceState.
+      var path = window.location.pathname;
+      var base = '/ai-verse';
+      var route = path.replace(base, '') || '/';
+      sessionStorage.setItem('ghpages_redirect', route + window.location.search + window.location.hash);
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/ai-verse/'" />
+  </head>
+  <body></body>
+</html>
