@@ -12,9 +12,6 @@ dist
 dist-ssr
 *.local
 
-# development
-prompts
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -25,10 +22,3 @@ prompts
 *.njsproj
 *.sln
 *.sw?
-
-# wrangler files
-.wrangler
-.dev.vars*
-!.dev.vars.example
-.env*
-!.env.example
