@@ -1,6 +1,11 @@
 import { useState, useEffect } from "react";
 import "../styles/header.css";
 import ThemeSwitcher from "./ThemeSwitcher";
+import data from "../data/links.json";
+
+const DEPLOY_URL = data["deploy-url"];
+const REPO_URL = data["repository-url"];
+
 
 function Header() {
   const fullText = "Welcome to AI Verse, your gateway to the world of artificial intelligence !";
@@ -24,11 +29,11 @@ function Header() {
     <header>
       <div className="header">
         <div className="ai-verse">
-          <a href="https://thisal-d.github.io/ai-verse/">
-            <img src="./main.png" alt="logo" className="logo" />
+          <a href={DEPLOY_URL} target="_blank">
+            <img src="main.png" alt="logo" className="logo" />
           </a>
 
-          <a href="https://github.com/thisal-d/ai-verse" target="_blank">
+          <a href={REPO_URL} target="_blank">
             <h1>AI Verse</h1>
           </a>
         </div>
