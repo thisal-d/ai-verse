@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "2.0",
-    "lastUpdated": "2026-04-13"
+    "version": "2.2.0",
+    "lastUpdated": "2026-05-08"
   },
   "tools": [
     {
@@ -3105,6 +3105,113 @@
       "logo": {
         "dark": "ai-tools/logo/png/stitch.png",
         "light": "ai-tools/logo/png/stitch.png"
+      }
+    },
+    {
+      "id": 129,
+      "name": "Viral Sky",
+      "description": "AI toolkit for generating viral social media posts, threads, and images for X, Threads, Facebook, and LinkedIn.",
+      "url": "https://viralsky.ai/",
+      "categories": [
+        "Marketing",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "viral content",
+        "social media posts",
+        "AI writing",
+        "threads",
+        "LinkedIn",
+        "content marketing",
+        "meme generator"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/viralsky.svg",
+        "light": "ai-tools/logo/svg/viralsky.svg"
+      }
+    },
+    {
+      "id": 130,
+      "name": "Hyper3D",
+      "description": "AI 3D model generator that creates production-ready meshes from text or images for games, VFX, and AR/VR.",
+      "url": "https://hyper3d.ai/",
+      "categories": [
+        "3D & AR/VR",
+        "Design"
+      ],
+      "keywords": [
+        "3D generation",
+        "Rodin",
+        "game assets",
+        "text-to-3D",
+        "PBR materials",
+        "Unity",
+        "Unreal Engine",
+        "VFX"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/hyper3d.jpg",
+        "light": "ai-tools/logo/jpg/hyper3d.jpg"
+      }
+    },
+    {
+      "id": 131,
+      "name": "Relume",
+      "description": "AI site-planning tool that generates sitemaps and wireframes and exports to Figma, Webflow, and React.",
+      "url": "https://www.relume.io/",
+      "categories": [
+        "Design",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "sitemap generator",
+        "wireframe",
+        "AI design",
+        "Webflow",
+        "Figma",
+        "React",
+        "component library",
+        "web design"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/relume.jpg",
+        "light": "ai-tools/logo/jpg/relume.jpg"
+      }
+    },
+    {
+      "id": 132,
+      "name": "Sky Snail",
+      "description": "AI thumbnail and social media cover generator optimized for YouTube CTR and platform engagement.",
+      "url": "https://skysnail.io/",
+      "categories": [
+        "Marketing",
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "thumbnail generator",
+        "YouTube",
+        "social media",
+        "AI design",
+        "content creator",
+        "4K export",
+        "click-through rate"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/sky-snail.png",
+        "light": "ai-tools/logo/png/sky-snail.png"
       }
     }
   ]
