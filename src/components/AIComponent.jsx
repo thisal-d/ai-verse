@@ -37,23 +37,23 @@ const AIComponent = (props) => {
                     }
                 </div>
 
-                <a href={props.url} target='_blank'>
+                <span onClick={props.onClickEvent}>
                     <div className="image-container">
                         <img src={props.image} alt={props.name} className="ai-image" />
                     </div>
-                </a>
+                </span>
 
-                <a href={props.url} target='_blank'>
+                <span onClick={props.onClickEvent}>
                     <div className="name-container">
                         <h2 className="name">{props.name}</h2>
                     </div>
-                </a>
+                </span>
 
-                <a href={props.url} target='_blank'>
+                <span onClick={props.onClickEvent}>
                     <div className="description-container">
                         <p className="description">{props.description}</p>
                     </div>
-                </a>
+                </span>
 
                 <div className='favourite-btn-container-mobile'>
                     {

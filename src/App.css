@@ -84,6 +84,36 @@
     transition: all 0.3s ease;
 }
 
+.recent-filter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    gap: 7.5px;
+}
+
+.recent-filter {
+    border: none;
+    font-size: 0.8rem;
+    padding: 9px;
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    color: var(--color-text);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.recent-filter-active {
+    border: none;
+    padding: 9px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    background-color: var(--color-surface);
+    color: var(--color-muted);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 @media (hover: hover) {
     .favourite-btn-filter:hover {
         transform: scale(1.05);
@@ -233,5 +263,27 @@
 
     .favourite-btn-filter:hover .favourite-btn-filter-icon {
         content: none;
+    }
+
+    .recent-filter {
+        border: none;
+        padding: 7px;
+        font-size: 0.7rem;
+        background-color: var(--color-primary);
+        border-radius: 4px;
+        color: var(--color-text);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .recent-filter-active {
+        border: none;
+        padding: 7px;
+        font-size: 0.7rem;
+        border-radius: 4px;
+        background-color: var(--color-surface);
+        color: var(--color-muted);
+        cursor: pointer;
+        transition: all 0.3s ease;
     }
 }
