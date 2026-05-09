@@ -88,12 +88,6 @@
     margin: 3.75px 7.5px 0 7.5px;
 }
 
-/* --- Link Reset --- */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 @media (max-width: 600px) {
 
     .ai-card {
