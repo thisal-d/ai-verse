@@ -15,7 +15,7 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ToolVerseButton from "./components/ToolVerseButton.jsx";
 import getFavouriteToolsFromLocalStorage from "./local-storage/getFavouriteTools.js";
-import sortToolsByName from "./utils/SortByName.js";
+import sortToolsByName from "./utils/sortByName.js";
 import checkCategoryFilter from "./utils/categoryFilter.js";
 import addFavouriteToolToLocalStorage from "./local-storage/addToFavouriteTools.js";
 import removeFavouriteToolFromLocalStorage from "./local-storage/removeFromFavouriteTools.js";
