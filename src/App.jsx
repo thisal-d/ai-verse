@@ -14,60 +14,32 @@ import heart_red from "./assets/heart-red.png"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ToolVerseButton from "./components/ToolVerseButton.jsx";
+import getFavouriteToolsFromLocalStorage from "./local-storage/getFavouriteTools.js";
+import sortToolsByName from "./utils/SortByName.js";
+import checkCategoryFilter from "./utils/categoryFilter.js";
+import addFavouriteToolToLocalStorage from "./local-storage/addToFavouriteTools.js";
+import removeFavouriteToolFromLocalStorage from "./local-storage/removeFromFavouriteTools.js";
+import checkPricingModeFilter from "./utils/pricingFilter.js";
+import checkSearchFilter from "./utils/searchFilter.js";
+import { toast } from "react-toastify"
 
-
-function checkMatch(tool, searchFilter) {
-  const lowerFilter = searchFilter.toLowerCase();
-
-  return (
-    tool.name.toLowerCase().includes(lowerFilter) ||
-    tool.description.toLowerCase().includes(lowerFilter) ||
-
-    tool.categories.some(category =>
-      category.toLowerCase().includes(lowerFilter)
-    ) ||
-    tool.keywords?.some(keyword =>
-      keyword.toLowerCase().includes(lowerFilter)
-    )
-  );
-}
-
-function getFavouriteToolsFromLocalStorage() {
-  const favTools = localStorage.getItem("favouriteTools");
-  return favTools ? JSON.parse(favTools) : [];
-}
-
-function checkCategory(tool, categoryFilter) {
-  const lowerFilter = categoryFilter.toLowerCase();
-  return (
-    tool.categories.some(category => category.toLowerCase().includes(lowerFilter))
-  );
-}
-
-function sortToolsByName(tools) {
-  if (!Array.isArray(tools)) return [];
-  return [...tools].sort((a, b) => a.name.localeCompare(b.name));
-}
-
-function checkMode(tool, selectedPricingModes) {
-  if (selectedPricingModes.length === 0) return true; // no filter applied
-
-  const pricing = tool.pricing;
-  if (Array.isArray(pricing)) {
-    return pricing.some(mode => selectedPricingModes.includes(mode));
-  }
-  return selectedPricingModes.includes(pricing);
-}
 
 let favourite_tools_ids = getFavouriteToolsFromLocalStorage();
 
-function addFavouriteToolFromArr(tool_id) {
+function addToFavoriteTools(tool_id, tool_name) {
   favourite_tools_ids.push(tool_id);
+  addFavouriteToolToLocalStorage(tool_id);
+  toast.success(`${tool_name} added to favourites`);
+
 }
 
-function removeFavouriteToolFromArr(tool_id) {
+function removeFromFavoriteTools(tool_id, tool_name) {
   favourite_tools_ids = favourite_tools_ids.filter((favourite_tools_id) => favourite_tools_id !== tool_id);
+  removeFavouriteToolFromLocalStorage(tool_id);
+  toast.info(`${tool_name} removed from favourites`);
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 function App() {
   const { theme } = useTheme();
@@ -79,7 +51,7 @@ function App() {
   const [searchFilter, setSearchFilter] = useState(localStorage.getItem("searchFilter") || "");
   const [selectedCategory, setSelectedCategory] = useState(localStorage.getItem("selectedCategory") || "");
   const [selectedPricingModes, setselectedPricingModes] = useState(JSON.parse(localStorage.getItem("selectedPricingModes") || "[]"));
-  const [isFavouriteFilter, setIsFavouriteFilter] = useState(localStorage.getItem("isFavouriteFilter") === "true");
+  const [favouriteFilter, setFavouriteFilter] = useState(localStorage.getItem("favouriteFilter") === "true");
 
   function handleModeChange(e) {
     const { value, checked } = e.target;
@@ -120,12 +92,12 @@ function App() {
 
         <div className='favourite-btn-filter-container'>
           {
-            (isFavouriteFilter) ? (
-              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter); localStorage.setItem("isFavouriteFilter", !isFavouriteFilter) }} className='favourite-btn-filter'>
+            (favouriteFilter) ? (
+              <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
                 <img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' />
               </button>
             ) : (
-              <button onClick={() => { setIsFavouriteFilter(!isFavouriteFilter); localStorage.setItem("isFavouriteFilter", !isFavouriteFilter) }} className='favourite-btn-filter'>
+              <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
                 {theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> :
                   <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />}
               </button>
@@ -153,11 +125,11 @@ function App() {
         <div className="ai-view-container">
           {(() => {
             // Step 1: filter tools once
-            const filtered_tools = ai_tools
-              .filter((tool) => checkMatch(tool, searchFilter))
-              .filter((tool) => checkCategory(tool, selectedCategory))
-              .filter((tool) => checkMode(tool, selectedPricingModes))
-              .filter((tool) => (isFavouriteFilter) ? (favourite_tools_ids.includes(tool.id)) : (true));
+            let filtered_tools = ai_tools
+              .filter((tool) => checkSearchFilter(tool, searchFilter))
+              .filter((tool) => checkCategoryFilter(tool, selectedCategory))
+              .filter((tool) => checkPricingModeFilter(tool, selectedPricingModes))
+              .filter((tool) => (favouriteFilter) ? (favourite_tools_ids.includes(tool.id)) : (true));
 
             // Step 2: conditional render
             return filtered_tools.length === 0 ? (
@@ -173,8 +145,8 @@ function App() {
                   description={tool.description}
                   isFavourite={favourite_tools_ids.includes(tool.id)}
                   theme={theme}
-                  addFavouriteToolFromArr={addFavouriteToolFromArr}
-                  removeFavouriteToolFromArr={removeFavouriteToolFromArr}
+                  addToFavorite={addToFavoriteTools}
+                  removeFromFavorite={removeFromFavoriteTools}
                 />
               ))
             );
