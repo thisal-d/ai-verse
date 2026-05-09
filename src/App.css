@@ -101,6 +101,7 @@
     color: var(--color-text);
     cursor: pointer;
     transition: all 0.3s ease;
+    border: 1px solid var(--color-border);
 }
 
 .recent-filter-active {
@@ -112,6 +113,7 @@
     color: var(--color-muted);
     cursor: pointer;
     transition: all 0.3s ease;
+    border: 1px solid var(--color-border);
 }
 
 @media (hover: hover) {
