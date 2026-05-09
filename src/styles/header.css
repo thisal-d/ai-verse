@@ -28,6 +28,11 @@ header .description {
   margin: 0 60px 0 60px
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header .logo {
   height: 40px;
   margin-right: 15px;
