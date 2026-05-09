@@ -283,6 +283,7 @@
         background-color: var(--color-primary);
         border-radius: 4px;
         color: var(--color-text);
+        border: 1px solid var(--color-border);
         cursor: pointer;
         transition: all 0.3s ease;
     }
@@ -292,6 +293,7 @@
         padding: 7px;
         font-size: 0.7rem;
         border-radius: 4px;
+        border: 1px solid var(--color-border);
         background-color: var(--color-surface);
         color: var(--color-muted);
         cursor: pointer;
