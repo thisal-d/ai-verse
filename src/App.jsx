@@ -89,40 +89,41 @@ function App() {
         <p>Total AI Tools: <span>{ai_tools.length}</span></p>
       </div>
 
+      <div className="filters-main-container">
+        <div className="filters-container">
+          <input
+            type="search"
+            placeholder="Search AI Verse..."
+            className="search-entry"
+            value={searchFilter}
+            onChange={(e) => { setSearchFilter(e.target.value); localStorage.setItem("searchFilter", e.target.value) }}
+          />
 
-      <div className="filters-container">
-        <input
-          type="search"
-          placeholder="Search AI Verse..."
-          className="search-entry"
-          value={searchFilter}
-          onChange={(e) => { setSearchFilter(e.target.value); localStorage.setItem("searchFilter", e.target.value) }}
-        />
+          <select value={selectedCategory} onChange={(e) => { setSelectedCategory(e.target.value); localStorage.setItem("selectedCategory", e.target.value) }} placeholder="Select a Category">
+            <option value="">All Categories</option>
+            {
+              AI_Categories.map((category) => (
+                <option key={category.id} value={category.value}>{category.label}</option>
+              ))
+            }
+          </select>
 
-        <select value={selectedCategory} onChange={(e) => { setSelectedCategory(e.target.value); localStorage.setItem("selectedCategory", e.target.value) }} placeholder="Select a Category">
-          <option value="">All Categories</option>
-          {
-            AI_Categories.map((category) => (
-              <option key={category.id} value={category.value}>{category.label}</option>
-            ))
-          }
-        </select>
-
-        <div className='favourite-btn-filter-container'>
-          {
-            (favouriteFilter) ? (
-              <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
-                <img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' />
-              </button>
-            ) : (
-              <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
-                {theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> :
-                  <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />}
-              </button>
-            )
-          }
+          <div className='favourite-btn-filter-container'>
+            {
+              (favouriteFilter) ? (
+                <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
+                  <img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' />
+                </button>
+              ) : (
+                <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
+                  {theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> :
+                    <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />}
+                </button>
+              )
+            }
+          </div>
         </div>
-      </div>
+      </div >
 
       <div className="ai-mode-container">
         {AI_Pricing_Modes.map((mode) => (

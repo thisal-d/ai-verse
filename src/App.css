@@ -48,6 +48,10 @@
     /* remove default outline */
 }
 
+.filters-container {
+    width: 90%;
+}
+
 .filters-container select {
     width: fit-content;
     height: 2.625rem;
@@ -244,6 +248,11 @@
         width: 40%;
         height: 2.25rem;
         font-size: 0.75rem;
+    }
+
+    .filters-main-container {
+        display: flex;
+        justify-content: center;
     }
 
     .filters-container select {
