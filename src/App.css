@@ -48,6 +48,10 @@
     /* remove default outline */
 }
 
+.filters-container {
+    width: 90%;
+}
+
 .filters-container select {
     width: fit-content;
     height: 2.625rem;
@@ -246,6 +250,11 @@
         font-size: 0.75rem;
     }
 
+    .filters-main-container {
+        display: flex;
+        justify-content: center;
+    }
+
     .filters-container select {
         font-size: 0.75rem;
         height: 2.25rem;
@@ -274,6 +283,7 @@
         background-color: var(--color-primary);
         border-radius: 4px;
         color: var(--color-text);
+        border: 1px solid var(--color-border);
         cursor: pointer;
         transition: all 0.3s ease;
     }
@@ -283,6 +293,7 @@
         padding: 7px;
         font-size: 0.7rem;
         border-radius: 4px;
+        border: 1px solid var(--color-border);
         background-color: var(--color-surface);
         color: var(--color-muted);
         cursor: pointer;
