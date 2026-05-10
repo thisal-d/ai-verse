@@ -14,17 +14,24 @@ import heart_red from "./assets/heart-red.png"
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import ToolVerseButton from "./components/ToolVerseButton.jsx";
-import getFavouriteToolsFromLocalStorage from "./local-storage/getFavouriteTools.js";
 import sortToolsByName from "./utils/sortByName.js";
+import sortByUsageCount from "./utils/sortByUsage.js";
 import checkCategoryFilter from "./utils/categoryFilter.js";
-import addFavouriteToolToLocalStorage from "./local-storage/addToFavouriteTools.js";
-import removeFavouriteToolFromLocalStorage from "./local-storage/removeFromFavouriteTools.js";
 import checkPricingModeFilter from "./utils/pricingFilter.js";
 import checkSearchFilter from "./utils/searchFilter.js";
 import { toast } from "react-toastify"
-import getRecentToolsFromLocalStorage from "./local-storage/getRecentTools.js";
-import addToRecentTools from "./local-storage/addToRecentTools.js";
 import sortByRecentUsage from "./utils/sortByRecent.js"
+import {
+  removeFavouriteToolFromLocalStorage,
+  getFavouriteToolsFromLocalStorage,
+  addFavouriteToolToLocalStorage
+} from "./local-storage/favouriteTools.js";
+
+import {
+  getRecentToolsFromLocalStorage,
+  addToRecentTools
+} from "./local-storage/recentTools.js";
+import { getToolUsageFromLocalStorage, saveToolUsageToLocalStorage } from "./local-storage/toolUsage.js";
 
 
 let favourite_tools_ids = getFavouriteToolsFromLocalStorage();
@@ -54,8 +61,24 @@ function addToRecentlyViewedTool(tool_id) {
 
 function openToolInNewTab(ai_tool) {
   addToRecentlyViewedTool(ai_tool.id);
-  window.open(ai_tool.url, '_blank')
+  updateUsageCount(ai_tool.id);
+  window.open(ai_tool.url, '_blank');
 }
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+let tool_usage_count = getToolUsageFromLocalStorage();
+
+function updateUsageCount(tool_id) {
+  if (tool_usage_count[tool_id] == undefined)
+    tool_usage_count[tool_id] = 1
+  else
+    tool_usage_count[tool_id]++
+  console.log(tool_usage_count)
+  saveToolUsageToLocalStorage(tool_usage_count)
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 function App() {
@@ -70,6 +93,7 @@ function App() {
   const [selectedPricingModes, setselectedPricingModes] = useState(JSON.parse(localStorage.getItem("selectedPricingModes") || "[]"));
   const [favouriteFilter, setFavouriteFilter] = useState(localStorage.getItem("favouriteFilter") === "true");
   const [recentFilter, setRecentFilter] = useState(localStorage.getItem("recentFilter") === "true")
+  const [mostUsedFilter, setMostUsedFilter] = useState(localStorage.getItem("mostUsedFilter") === "true")
 
   function handleModeChange(e) {
     const { value, checked } = e.target;
@@ -79,6 +103,29 @@ function App() {
         ? [...prev, value]
         : prev.filter((mode) => mode !== value)
     );
+  }
+
+  function disableToolFilters() {
+    setRecentFilter(false);
+    setMostUsedFilter(false);
+    localStorage.setItem("recentFilter", false);
+    localStorage.setItem("mostUsedFilter", false);
+  }
+
+  function saveToolFilterToLocalStorage() {
+    localStorage.setItem("recentFilter", recentFilter);
+    localStorage.setItem("mostUsedFilter", mostUsedFilter);
+  }
+
+  function enableRecentToolFilter() {
+    setRecentFilter(true);
+    setMostUsedFilter(false);
+  }
+
+
+  function enableMostUsedToolFilter() {
+    setMostUsedFilter(true);
+    setRecentFilter(false);
   }
 
   return (
@@ -140,9 +187,10 @@ function App() {
       </div>
 
 
-      <div className="recent-filter-container">
-        <button className={(recentFilter) ? "recent-filter-active" : "recent-filter"} onClick={() => { setRecentFilter(false); localStorage.setItem("recentFilter", false) }}>All Tools</button>
-        <button className={(recentFilter) ? "recent-filter" : "recent-filter-active"} onClick={() => { setRecentFilter(true); localStorage.setItem("recentFilter", true) }}>Recent Used Tools</button>
+      <div className="tools-filter-container">
+        <button className={(!(recentFilter || mostUsedFilter)) ? "filter-active" : "filter"} onClick={disableToolFilters}>All Tools</button>
+        <button className={(recentFilter) ? "filter-active" : "filter"} onClick={enableRecentToolFilter}>Recent Used Tools</button>
+        <button className={(mostUsedFilter) ? "filter-active" : "filter"} onClick={enableMostUsedToolFilter}>Most Used Tools</button>
       </div>
 
 
@@ -155,11 +203,16 @@ function App() {
               .filter((tool) => checkCategoryFilter(tool, selectedCategory))
               .filter((tool) => checkPricingModeFilter(tool, selectedPricingModes))
               .filter((tool) => (favouriteFilter) ? (favourite_tools_ids.includes(tool.id)) : (true))
-              .filter((tool) => (recentFilter) ? (recently_viewed_tools_ids.includes(tool.id)) : (true));
+              .filter((tool) => (recentFilter) ? (recently_viewed_tools_ids.includes(tool.id)) : (true))
+              .filter((tool) => (mostUsedFilter) ? (Object.keys(tool_usage_count).map(id_str => Number(id_str)).includes(tool.id)) : (true));
 
-            if (recentFilter) {
+            console.log(filtered_tools);
+
+            if (recentFilter)
               filtered_tools = sortByRecentUsage(filtered_tools, recently_viewed_tools_ids)
-            }
+
+            if (mostUsedFilter)
+              filtered_tools = sortByUsageCount(filtered_tools, tool_usage_count)
 
             // Step 2: conditional render
             return filtered_tools.length === 0 ? (
