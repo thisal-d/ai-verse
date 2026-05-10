@@ -88,7 +88,7 @@
     transition: all 0.3s ease;
 }
 
-.recent-filter-container {
+.tools-filter-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@
     gap: 7.5px;
 }
 
-.recent-filter {
+.filter-active {
     border: none;
     font-size: 0.8rem;
     padding: 9px;
@@ -108,7 +108,7 @@
     border: 1px solid var(--color-border);
 }
 
-.recent-filter-active {
+.filter {
     border: none;
     padding: 9px;
     font-size: 0.8rem;
@@ -276,7 +276,7 @@
         content: none;
     }
 
-    .recent-filter {
+    .filter-active {
         border: none;
         padding: 7px;
         font-size: 0.7rem;
@@ -288,7 +288,7 @@
         transition: all 0.3s ease;
     }
 
-    .recent-filter-active {
+    .filter {
         border: none;
         padding: 7px;
         font-size: 0.7rem;
