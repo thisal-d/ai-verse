@@ -1071,7 +1071,7 @@
       "id": 43,
       "name": "Kling AI",
       "description": "Advanced video generator producing high-definition, physics-compliant cinematic clips.",
-      "url": "https://klingai.com/",
+      "url": "https://kling.ai/",
       "categories": [
         "Video & Animation"
       ],
@@ -3212,6 +3212,107 @@
       "logo": {
         "dark": "ai-tools/logo/png/sky-snail.png",
         "light": "ai-tools/logo/png/sky-snail.png"
+      }
+    },
+    {
+      "id": 133,
+      "name": "Viggle AI",
+      "description": "Real-time AI animation studio that turns videos into animated movies in any style.",
+      "url": "https://viggle.ai/",
+      "categories": [
+        "Video & Animation",
+        "3D & AR/VR",
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "video animation",
+        "AI anime",
+        "motion capture",
+        "character animation",
+        "pose control",
+        "avatar animation",
+        "video-to-video",
+        "Image generation"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/viggle-ai.png",
+        "light": "ai-tools/logo/png/viggle-ai.png"
+      }
+    },
+    {
+      "id": 134,
+      "name": "MiniMax Audio",
+      "description": "Advanced AI-powered platform for text-to-speech (TTS), voice cloning, and music generation.",
+      "url": "https://www.minimax.io/audio",
+      "categories": [
+        "Audio & Voice"
+      ],
+      "keywords": [
+        "text-to-speech",
+        "voice cloning",
+        "music generation",
+        "TTS",
+        "MiniMax"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/minimax-audio.svg",
+        "light": "ai-tools/logo/svg/minimax-audio.svg"
+      }
+    },
+    {
+      "id": 135,
+      "name": "Hailuo AI",
+      "description": "AI video maker that turns text and images into high-quality videos, plus an AI image generator.",
+      "url": "https://hailuoai.video/",
+      "categories": [
+        "Video & Animation",
+        "Image Generation"
+      ],
+      "keywords": [
+        "text-to-video",
+        "image-to-video",
+        "video generation",
+        "image generator",
+        "MiniMax"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/hailuo-ai.svg",
+        "light": "ai-tools/logo/svg/hailuo-ai.svg"
+      }
+    },
+    {
+      "id": 136,
+      "name": "MiniMax Agent",
+      "description": "Autonomous workspace and intelligent agent platform to automate complex, multi-step tasks.",
+      "url": "https://agent.minimax.io/",
+      "categories": [
+        "Automation & Workflows",
+        "Productivity",
+        "Coding & Dev"
+      ],
+      "keywords": [
+        "autonomous agent",
+        "workspace",
+        "task automation",
+        "multi-agent",
+        "MiniMax"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/minimax-agent.webp",
+        "light": "ai-tools/logo/webp/minimax-agent.webp"
       }
     }
   ]
