@@ -1,7 +1,7 @@
 {
   "meta": {
-    "version": "2.2.0",
-    "lastUpdated": "2026-05-08"
+    "version": "3.0.0",
+    "lastUpdated": "2026-05-19"
   },
   "tools": [
     {
@@ -17,11 +17,26 @@
       "keywords": [
         "OpenAI",
         "GPT-4",
+        "GPT-4o",
+        "GPT-3",
+        "chat GPT",
+        "chatGPT",
         "AI chatbot",
         "text generation",
-        "coding",
+        "coding assistant",
         "writing assistant",
-        "DALL-E"
+        "DALL-E",
+        "image generation",
+        "conversational AI",
+        "language model",
+        "LLM",
+        "open ai",
+        "openai chat",
+        "gpt4",
+        "gpt 4",
+        "plugins",
+        "custom GPT",
+        "ChatGPT Plus"
       ],
       "pricing": [
         "Freemium"
@@ -44,11 +59,22 @@
       "keywords": [
         "Google",
         "Gemini AI",
+        "Gemini Advanced",
+        "Gemini Ultra",
+        "Gemini Pro",
         "DeepMind",
+        "Google DeepMind",
         "multimodal",
         "video analysis",
-        "workspace",
-        "reasoning"
+        "Google Workspace",
+        "reasoning",
+        "Bard",
+        "Google Bard",
+        "gemini 1.5",
+        "gemini 2.0",
+        "Google AI",
+        "long context",
+        "1 million tokens"
       ],
       "pricing": [
         "Freemium"
@@ -74,10 +100,12 @@
         "debugging",
         "workflow",
         "IDE",
-        "programming"
+        "programming",
+        "code assistant",
+        "AI chat",
+        "Z.ai platform"
       ],
       "pricing": [
-        "Free",
         "Freemium"
       ],
       "logo": {
@@ -98,11 +126,22 @@
       "keywords": [
         "Anthropic",
         "Claude AI",
+        "Claude 3",
+        "Claude 3.5",
+        "Claude Sonnet",
+        "Claude Opus",
+        "Claude Haiku",
         "summarization",
         "analysis",
         "reasoning",
         "context window",
-        "long-form writing"
+        "long-form writing",
+        "document analysis",
+        "safe AI",
+        "constitutional AI",
+        "100k context",
+        "artifacts",
+        "code generation"
       ],
       "pricing": [
         "Freemium"
@@ -128,7 +167,14 @@
         "website builder",
         "deck design",
         "visual storytelling",
-        "AI presentation"
+        "AI presentation",
+        "gamma app",
+        "gamma AI",
+        "slide deck",
+        "pitch deck",
+        "AI slides",
+        "document builder",
+        "card layout"
       ],
       "pricing": [
         "Freemium"
@@ -153,10 +199,13 @@
         "photo editing",
         "illustration",
         "graphics",
-        "creative design"
+        "creative design",
+        "image generator",
+        "Z.ai images",
+        "AI image tool",
+        "image editing"
       ],
       "pricing": [
-        "Free",
         "Freemium"
       ],
       "logo": {
@@ -178,10 +227,13 @@
         "voiceover",
         "sound editing",
         "speech synthesis",
-        "audio tools"
+        "audio tools",
+        "text to speech",
+        "Z.ai audio",
+        "AI audio platform",
+        "voice generation"
       ],
       "pricing": [
-        "Free",
         "Freemium"
       ],
       "logo": {
@@ -205,7 +257,17 @@
         "social media",
         "branding",
         "templates",
-        "AI design"
+        "AI design",
+        "presentation",
+        "video editing",
+        "logo maker",
+        "poster maker",
+        "Canva Magic Studio",
+        "Magic Write",
+        "text to image",
+        "background remover",
+        "infographic",
+        "flyer maker"
       ],
       "pricing": [
         "Freemium"
@@ -230,7 +292,18 @@
         "creative design",
         "photorealism",
         "concept art",
-        "Discord"
+        "Discord",
+        "image generation",
+        "text-to-image",
+        "AI illustration",
+        "MJ",
+        "midj",
+        "fantasy art",
+        "portrait generation",
+        "style reference",
+        "prompt engineering",
+        "v6",
+        "subscription art"
       ],
       "pricing": [
         "Paid"
@@ -251,11 +324,20 @@
       ],
       "keywords": [
         "Gen-2",
+        "Gen-3",
         "AI video",
         "filmmaking",
         "motion brush",
         "green screen",
-        "video editing"
+        "video editing",
+        "text-to-video",
+        "image-to-video",
+        "RunwayML",
+        "video generation",
+        "inpainting",
+        "cinematic AI",
+        "video effects",
+        "VFX"
       ],
       "pricing": [
         "Freemium"
@@ -280,7 +362,16 @@
         "citations",
         "news",
         "academic",
-        "question answering"
+        "question answering",
+        "real-time search",
+        "perplexity AI",
+        "perplexity pro",
+        "source grounding",
+        "research assistant",
+        "AI answers",
+        "fact checking",
+        "web search AI",
+        "no hallucination"
       ],
       "pricing": [
         "Freemium"
@@ -304,7 +395,16 @@
         "audiobooks",
         "dubbing",
         "localization",
-        "realistic speech"
+        "realistic speech",
+        "text-to-speech",
+        "TTS",
+        "eleven labs",
+        "voice synthesis",
+        "multilingual TTS",
+        "AI voiceover",
+        "speech generation",
+        "voice AI",
+        "podcast voice"
       ],
       "pricing": [
         "Freemium"
@@ -329,7 +429,18 @@
         "autocomplete",
         "pair programming",
         "code suggestions",
-        "developer AI"
+        "developer AI",
+        "GitHub Copilot Chat",
+        "VS Code extension",
+        "JetBrains",
+        "IntelliJ",
+        "code review",
+        "AI coding assistant",
+        "Copilot X",
+        "Microsoft",
+        "code completion",
+        "unit tests",
+        "pull requests"
       ],
       "pricing": [
         "Freemium"
@@ -353,7 +464,16 @@
         "lyrics",
         "vocals",
         "composition",
-        "soundtrack"
+        "soundtrack",
+        "music generation",
+        "AI songwriter",
+        "suno AI",
+        "suno music",
+        "beat generation",
+        "original songs",
+        "music from text",
+        "instrumental",
+        "genre"
       ],
       "pricing": [
         "Freemium"
@@ -378,7 +498,16 @@
         "textures",
         "stable diffusion",
         "concept art",
-        "3D design"
+        "3D design",
+        "Leonardo AI",
+        "text-to-image",
+        "image generation",
+        "AI illustration",
+        "fine-tuning",
+        "custom models",
+        "game dev",
+        "character design",
+        "environment art"
       ],
       "pricing": [
         "Freemium"
@@ -405,7 +534,14 @@
         "Windows",
         "Office AI",
         "Copilot",
-        "business tools"
+        "business tools",
+        "Microsoft AI",
+        "Bing AI",
+        "Teams",
+        "PowerPoint AI",
+        "Outlook AI",
+        "enterprise AI",
+        "Office 365"
       ],
       "pricing": [
         "Freemium"
@@ -430,7 +566,15 @@
         "summarization",
         "organization",
         "notes",
-        "database"
+        "database",
+        "notion workspace",
+        "AI notes",
+        "knowledge base",
+        "wiki",
+        "project management",
+        "notion AI",
+        "document editing",
+        "team collaboration"
       ],
       "pricing": [
         "Paid"
@@ -455,7 +599,19 @@
         "SDXL",
         "model training",
         "Python",
-        "stable diffusion"
+        "stable diffusion",
+        "text-to-image",
+        "Stability AI",
+        "self-hosted",
+        "comfyui",
+        "automatic1111",
+        "local AI",
+        "fine-tune",
+        "LoRA",
+        "DreamBooth",
+        "img2img",
+        "inpainting",
+        "image synthesis"
       ],
       "pricing": [
         "Free",
@@ -481,7 +637,15 @@
         "marketing",
         "brand voice",
         "social media",
-        "blog writing"
+        "blog writing",
+        "AI writer",
+        "Jasper AI",
+        "content marketing",
+        "ad copy",
+        "email marketing",
+        "product descriptions",
+        "long-form content",
+        "templates"
       ],
       "pricing": [
         "Paid"
@@ -506,7 +670,18 @@
         "transformers",
         "NLP",
         "model hosting",
-        "AI community"
+        "AI community",
+        "machine learning",
+        "open source models",
+        "HF",
+        "hugging face hub",
+        "model cards",
+        "inference API",
+        "spaces",
+        "BERT",
+        "LLM hosting",
+        "PyTorch",
+        "TensorFlow"
       ],
       "pricing": [
         "Freemium"
@@ -530,7 +705,15 @@
         "motion",
         "cinematic",
         "effects",
-        "AI video"
+        "AI video",
+        "video generation",
+        "Pika Labs",
+        "image-to-video",
+        "lip sync",
+        "video editing",
+        "short videos",
+        "social media video",
+        "pikart"
       ],
       "pricing": [
         "Freemium"
@@ -555,7 +738,18 @@
         "plagiarism",
         "writing",
         "spell check",
-        "tone correction"
+        "tone correction",
+        "grammar checker",
+        "spell checker",
+        "writing improvement",
+        "essay checker",
+        "clarity",
+        "conciseness",
+        "grammerly",
+        "gramatly",
+        "browser extension",
+        "email writing",
+        "business writing"
       ],
       "pricing": [
         "Freemium"
@@ -580,7 +774,14 @@
         "VFX",
         "Dream Machine",
         "Gaussian Splatting",
-        "scenes"
+        "scenes",
+        "video generation",
+        "text-to-video",
+        "Luma AI",
+        "luma dream machine",
+        "3D reconstruction",
+        "photorealistic video",
+        "AI video"
       ],
       "pricing": [
         "Freemium"
@@ -604,7 +805,16 @@
         "browser IDE",
         "collaboration",
         "learning",
-        "deployment"
+        "deployment",
+        "online IDE",
+        "AI coding",
+        "code assistant",
+        "repl",
+        "Python",
+        "JavaScript",
+        "Ghostwriter",
+        "cloud coding",
+        "student coding"
       ],
       "pricing": [
         "Freemium"
@@ -629,7 +839,11 @@
         "multimodal chatbot",
         "AI assistant",
         "enterprise AI",
-        "visual reasoning"
+        "visual reasoning",
+        "Reka Core",
+        "Reka Flash",
+        "text chat",
+        "document analysis"
       ],
       "pricing": [
         "Freemium"
@@ -654,7 +868,11 @@
         "game assets",
         "mobile capture",
         "photogrammetry",
-        "Genie"
+        "Genie",
+        "luma AI",
+        "3D from photo",
+        "NeRF capture",
+        "iPhone 3D scan"
       ],
       "pricing": [
         "Freemium"
@@ -679,7 +897,11 @@
         "social media",
         "ads",
         "promo",
-        "AI video"
+        "AI video",
+        "luna AI",
+        "marketing video",
+        "brand video",
+        "ad video maker"
       ],
       "pricing": [
         "Freemium"
@@ -704,7 +926,11 @@
         "image recognition",
         "video analysis",
         "AI search",
-        "Reka AI"
+        "Reka AI",
+        "vision model",
+        "image understanding",
+        "multimodal AI",
+        "object detection"
       ],
       "pricing": [
         "Freemium"
@@ -729,7 +955,11 @@
         "model testing",
         "enterprise AI",
         "Reka Flash",
-        "edge AI"
+        "edge AI",
+        "Reka AI",
+        "AI research platform",
+        "model evaluation",
+        "AI benchmarking"
       ],
       "pricing": [
         "Freemium"
@@ -753,7 +983,11 @@
         "voice AI",
         "speech synthesis",
         "audio model",
-        "voice recognition"
+        "voice recognition",
+        "Reka AI",
+        "AI speech model",
+        "voice generation",
+        "multilingual TTS"
       ],
       "pricing": [
         "Freemium"
@@ -778,7 +1012,11 @@
         "AI video",
         "content creation",
         "video generation",
-        "editing"
+        "editing",
+        "Reka AI",
+        "short video",
+        "clip maker",
+        "AI clip creator"
       ],
       "pricing": [
         "Freemium"
@@ -803,7 +1041,11 @@
         "Translation",
         "Multimodal",
         "China AI",
-        "Assistant"
+        "Assistant",
+        "Chinese LLM",
+        "Qianwen",
+        "Alibaba Cloud",
+        "Baidu alternative"
       ],
       "pricing": [
         "Freemium"
@@ -828,7 +1070,11 @@
         "Assistant",
         "China AI",
         "Chatbot",
-        "Content Creation"
+        "Content Creation",
+        "ByteDance AI",
+        "TikTok AI",
+        "Chinese chatbot",
+        "image generation China"
       ],
       "pricing": [
         "Freemium"
@@ -854,7 +1100,13 @@
         "Coding",
         "Open Source",
         "LLM",
-        "Math"
+        "Math",
+        "DeepSeek R1",
+        "DeepSeek V2",
+        "Chinese AI",
+        "chain-of-thought",
+        "deep seek",
+        "AI reasoning model"
       ],
       "pricing": [
         "Free",
@@ -881,7 +1133,11 @@
         "Yuanbao",
         "Assistant",
         "Search",
-        "China AI"
+        "China AI",
+        "Tencent AI",
+        "Chinese assistant",
+        "Hunyuan",
+        "social AI"
       ],
       "pricing": [
         "Freemium"
@@ -935,7 +1191,12 @@
         "table recognition",
         "document understanding",
         "digitization",
-        "AI vision"
+        "AI vision",
+        "optical character recognition",
+        "document parser",
+        "image to text",
+        "scan to text",
+        "handwriting recognition"
       ],
       "pricing": [
         "Free",
@@ -961,7 +1222,13 @@
         "code integrity",
         "test generation",
         "agentic workflows",
-        "software quality"
+        "software quality",
+        "code testing",
+        "qodo AI",
+        "coverage",
+        "CI/CD",
+        "pull request review",
+        "automated testing"
       ],
       "pricing": [
         "Freemium"
@@ -985,7 +1252,16 @@
         "codebase indexing",
         "Composer",
         "AI coding",
-        "pair programming"
+        "pair programming",
+        "cursor IDE",
+        "cursor AI",
+        "AI editor",
+        "code assistant",
+        "autocomplete",
+        "Claude integration",
+        "GPT integration",
+        "tab completion",
+        "context-aware coding"
       ],
       "pricing": [
         "Freemium"
@@ -1009,7 +1285,15 @@
         "video translation",
         "lip-sync",
         "business video",
-        "personalized video"
+        "personalized video",
+        "heygen AI",
+        "AI spokesperson",
+        "video localization",
+        "digital human",
+        "video dubbing",
+        "instant avatar",
+        "marketing video",
+        "corporate video"
       ],
       "pricing": [
         "Freemium"
@@ -1034,7 +1318,15 @@
         "React",
         "Tailwind CSS",
         "web development",
-        "frontend"
+        "frontend",
+        "UI generation",
+        "component builder",
+        "v0",
+        "shadcn",
+        "Next.js",
+        "AI UI builder",
+        "prototype",
+        "design to code"
       ],
       "pricing": [
         "Freemium"
@@ -1057,7 +1349,13 @@
         "scientific papers",
         "citations",
         "data extraction",
-        "academic search"
+        "academic search",
+        "elicit AI",
+        "systematic review",
+        "research automation",
+        "paper summarizer",
+        "evidence synthesis",
+        "AI research tool"
       ],
       "pricing": [
         "Freemium"
@@ -1080,7 +1378,14 @@
         "cinematic AI",
         "video generation",
         "high resolution",
-        "Sora rival"
+        "Sora rival",
+        "kling video",
+        "kling AI",
+        "China AI video",
+        "image-to-video",
+        "realistic motion",
+        "4K video",
+        "physics simulation"
       ],
       "pricing": [
         "Freemium"
@@ -1104,7 +1409,13 @@
         "document ai",
         "pdf summarizer",
         "research assistant",
-        "ask pdf"
+        "ask pdf",
+        "chat with pdf",
+        "PDF Q&A",
+        "document reader",
+        "AI document",
+        "study tool",
+        "chatpdf"
       ],
       "pricing": [
         "Freemium"
@@ -1132,7 +1443,14 @@
         "Twitter",
         "Chatbot",
         "Humor",
-        "Reasoning"
+        "Reasoning",
+        "grok AI",
+        "Grok 2",
+        "Grok 3",
+        "live data",
+        "X integration",
+        "uncensored AI",
+        "witty AI"
       ],
       "pricing": [
         "Freemium"
@@ -1159,7 +1477,13 @@
         "leaderboard",
         "LLM evaluation",
         "blind test",
-        "model comparison"
+        "model comparison",
+        "chatbot arena",
+        "AI ranking",
+        "ELO score",
+        "LM Arena",
+        "AI battle",
+        "model leaderboard"
       ],
       "pricing": [
         "Free"
@@ -1186,7 +1510,14 @@
         "note-taking",
         "summarization",
         "documents",
-        "source grounding"
+        "source grounding",
+        "notebook LM",
+        "podcast generation",
+        "audio overview",
+        "PDF upload",
+        "Google NotebookLM",
+        "AI notebook",
+        "document Q&A"
       ],
       "pricing": [
         "Free"
@@ -1211,7 +1542,15 @@
         "Chatbot",
         "GPT",
         "Claude",
-        "Aggregator"
+        "Aggregator",
+        "model hub",
+        "AI chat hub",
+        "poe AI",
+        "Gemini",
+        "Llama",
+        "AI playground",
+        "bot builder",
+        "custom bots"
       ],
       "pricing": [
         "Freemium"
@@ -1235,7 +1574,13 @@
         "Personal Assistant",
         "Emotional Intelligence",
         "Chatbot",
-        "Support"
+        "Support",
+        "pi ai",
+        "companion AI",
+        "mental wellness AI",
+        "friendly AI",
+        "conversational AI",
+        "emotional support"
       ],
       "pricing": [
         "Freemium"
@@ -1259,7 +1604,14 @@
         "Marketing",
         "Sales emails",
         "Blog posts",
-        "Workflows"
+        "Workflows",
+        "copy ai",
+        "AI copywriter",
+        "content automation",
+        "GTM AI",
+        "email marketing",
+        "sales copy",
+        "product descriptions"
       ],
       "pricing": [
         "Freemium"
@@ -1283,7 +1635,13 @@
         "Content generation",
         "Affordable",
         "Writing assistant",
-        "Templates"
+        "Templates",
+        "rytr AI",
+        "budget AI writer",
+        "short-form content",
+        "social captions",
+        "AI writing tool",
+        "blog ideas"
       ],
       "pricing": [
         "Freemium"
@@ -1300,14 +1658,22 @@
       "url": "https://www.sudowrite.com/",
       "categories": [
         "Text & Writing",
-        "Design"
+        "Education & Learning"
       ],
       "keywords": [
         "Creative writing",
         "Fiction",
         "Storytelling",
         "Novels",
-        "Screenplay"
+        "Screenplay",
+        "AI novelist",
+        "fantasy writing",
+        "story generator",
+        "plot ideas",
+        "character development",
+        "world building",
+        "writing prompts",
+        "sudowrite"
       ],
       "pricing": [
         "Freemium"
@@ -1331,7 +1697,14 @@
         "Grammar",
         "Summarizer",
         "Citation",
-        "Writing assistant"
+        "Writing assistant",
+        "quill bot",
+        "quillbot",
+        "rewriter",
+        "paraphrase tool",
+        "essay rewriter",
+        "AI paraphraser",
+        "academic writing"
       ],
       "pricing": [
         "Freemium"
@@ -1355,7 +1728,14 @@
         "Article writer",
         "Landing pages",
         "Marketing copy",
-        "Sonic"
+        "Sonic",
+        "AI blogger",
+        "write sonic",
+        "writesonic AI",
+        "AI article writer",
+        "content generation",
+        "web content",
+        "blog automation"
       ],
       "pricing": [
         "Freemium"
@@ -1379,7 +1759,15 @@
         "Generative fill",
         "Creative Cloud",
         "Image generation",
-        "Photoshop"
+        "Photoshop",
+        "firefly AI",
+        "adobe firefly",
+        "text effects",
+        "generative recolor",
+        "AI image editing",
+        "text-to-image",
+        "design AI",
+        "vector recolor"
       ],
       "pricing": [
         "Freemium"
@@ -1403,7 +1791,14 @@
         "Text rendering",
         "Posters",
         "Logos",
-        "Artistic"
+        "Artistic",
+        "ideogram AI",
+        "text in images",
+        "AI typography",
+        "logo design",
+        "text-to-image",
+        "poster design",
+        "banner design"
       ],
       "pricing": [
         "Freemium"
@@ -1427,7 +1822,14 @@
         "Video generation",
         "Training videos",
         "Text-to-video",
-        "Localization"
+        "Localization",
+        "synthesia AI",
+        "explainer videos",
+        "e-learning video",
+        "AI presenter",
+        "corporate training",
+        "multilingual video",
+        "HR video"
       ],
       "pricing": [
         "Freemium"
@@ -1451,7 +1853,14 @@
         "Shorts",
         "Reels",
         "TikTok",
-        "Video editing"
+        "Video editing",
+        "opus clip",
+        "clip repurposing",
+        "YouTube Shorts",
+        "AI clip maker",
+        "viral clips",
+        "auto captions",
+        "content repurposing"
       ],
       "pricing": [
         "Freemium"
@@ -1475,7 +1884,14 @@
         "Podcast editing",
         "Video editing",
         "Overdub",
-        "Screen recording"
+        "Screen recording",
+        "AI editor",
+        "text-based editing",
+        "podcast tool",
+        "descript AI",
+        "filler word removal",
+        "collaboration",
+        "script editing"
       ],
       "pricing": [
         "Freemium"
@@ -1499,7 +1915,14 @@
         "Voiceover",
         "TTS",
         "Studio quality",
-        "Presentations"
+        "Presentations",
+        "murf AI",
+        "AI narrator",
+        "e-learning voiceover",
+        "voice customization",
+        "realistic voices",
+        "text to speech",
+        "commercial voiceover"
       ],
       "pricing": [
         "Freemium"
@@ -1522,7 +1945,13 @@
         "Songs",
         "Vocals",
         "Composition",
-        "AI music"
+        "AI music",
+        "udio AI",
+        "beat making",
+        "AI songwriter",
+        "full songs",
+        "music from text",
+        "genre music"
       ],
       "pricing": [
         "Freemium"
@@ -1545,7 +1974,13 @@
         "Privacy",
         "IDE",
         "Developer tools",
-        "Autocomplete"
+        "Autocomplete",
+        "tabnine AI",
+        "on-premise AI",
+        "secure coding",
+        "enterprise coding",
+        "local AI coding",
+        "VS Code plugin"
       ],
       "pricing": [
         "Freemium"
@@ -1561,15 +1996,25 @@
       "description": "Automation platform that connects thousands of apps, enabling users to build workflows with AI integration.",
       "url": "https://zapier.com/",
       "categories": [
-        "Productivity",
-        "Coding & Dev"
+        "Automation & Workflows",
+        "Productivity"
       ],
       "keywords": [
         "Automation",
         "Integration",
         "Workflow",
         "No-code",
-        "Connectors"
+        "Connectors",
+        "app automation",
+        "zapier AI",
+        "zap",
+        "trigger",
+        "action",
+        "app integration",
+        "workflow builder",
+        "API",
+        "IFTTT alternative",
+        "business automation"
       ],
       "pricing": [
         "Freemium"
@@ -1585,6 +2030,7 @@
       "description": "Open-source workflow automation tool that lets technical users build complex integrations and AI workflows.",
       "url": "https://n8n.io/",
       "categories": [
+        "Automation & Workflows",
         "Productivity",
         "Coding & Dev"
       ],
@@ -1593,7 +2039,15 @@
         "Automation",
         "Workflow",
         "Self-hosted",
-        "Low-code"
+        "Low-code",
+        "workflow automation",
+        "API integration",
+        "n8n workflow",
+        "Zapier alternative",
+        "node automation",
+        "JavaScript",
+        "custom workflows",
+        "data pipeline"
       ],
       "pricing": [
         "Freemium",
@@ -1618,7 +2072,13 @@
         "Chatbot",
         "Messaging",
         "Fin AI",
-        "CRM"
+        "CRM",
+        "customer service AI",
+        "live chat",
+        "support automation",
+        "customer platform",
+        "helpdesk AI",
+        "AI customer agent"
       ],
       "pricing": [
         "Freemium"
@@ -1641,7 +2101,13 @@
         "Scientific evidence",
         "Research",
         "Papers",
-        "Analysis"
+        "Analysis",
+        "consensus AI",
+        "evidence-based",
+        "research synthesis",
+        "study search",
+        "peer review",
+        "science AI"
       ],
       "pricing": [
         "Freemium"
@@ -1664,7 +2130,13 @@
         "Academic",
         "PDF analysis",
         "Research assistant",
-        "Simplification"
+        "Simplification",
+        "scispace AI",
+        "typeset",
+        "paper explainer",
+        "research paper AI",
+        "journal papers",
+        "academic AI tool"
       ],
       "pricing": [
         "Freemium"
@@ -1687,7 +2159,13 @@
         "Discovery",
         "Academic",
         "Citations",
-        "Collaboration"
+        "Collaboration",
+        "research rabbit AI",
+        "paper discovery",
+        "citation network",
+        "related papers",
+        "literature map",
+        "author network"
       ],
       "pricing": [
         "Freemium"
@@ -1710,7 +2188,13 @@
         "Smart citations",
         "Evidence",
         "Academic",
-        "Validation"
+        "Validation",
+        "scite AI",
+        "citation analysis",
+        "supporting evidence",
+        "contrasting evidence",
+        "research credibility",
+        "paper quality"
       ],
       "pricing": [
         "Freemium"
@@ -1734,7 +2218,13 @@
         "Visualization",
         "Spreadsheets",
         "SQL",
-        "Charts"
+        "Charts",
+        "julius AI",
+        "data insights",
+        "CSV analysis",
+        "Python data",
+        "AI analyst",
+        "business intelligence"
       ],
       "pricing": [
         "Freemium"
@@ -1758,7 +2248,13 @@
         "Knowledge management",
         "Workplace",
         "RAG",
-        "Security"
+        "Security",
+        "glean AI",
+        "employee search",
+        "company knowledge",
+        "internal search",
+        "Slack search",
+        "Google Drive search"
       ],
       "pricing": [
         "Paid"
@@ -1782,7 +2278,13 @@
         "Social media",
         "Conversion",
         "Marketing",
-        "Advertising"
+        "Advertising",
+        "adcreative AI",
+        "banner ads",
+        "Facebook ads",
+        "Google ads",
+        "ad performance",
+        "creative automation"
       ],
       "pricing": [
         "Freemium"
@@ -1806,7 +2308,13 @@
         "Image generation",
         "Video",
         "Design",
-        "Creative"
+        "Creative",
+        "krea AI",
+        "real-time AI art",
+        "AI canvas",
+        "generative art",
+        "live generation",
+        "AI creative tool"
       ],
       "pricing": [
         "Freemium"
@@ -1830,7 +2338,13 @@
         "Icons",
         "SVG",
         "Brand assets",
-        "Illustration"
+        "Illustration",
+        "recraft AI",
+        "vector generator",
+        "icon generator",
+        "logo AI",
+        "AI vector",
+        "design assets"
       ],
       "pricing": [
         "Freemium"
@@ -1854,7 +2368,13 @@
         "AI",
         "Small business",
         "Marketing",
-        "Fast"
+        "Fast",
+        "durable AI",
+        "instant website",
+        "business website",
+        "AI web builder",
+        "30 second website",
+        "freelancer website"
       ],
       "pricing": [
         "Freemium"
@@ -1904,7 +2424,13 @@
         "Notepad",
         "Transcription",
         "MacOS",
-        "Privacy"
+        "Privacy",
+        "granola AI",
+        "AI notepad",
+        "meeting summaries",
+        "private transcription",
+        "offline notes",
+        "Mac meeting app"
       ],
       "pricing": [
         "Freemium"
@@ -1928,7 +2454,13 @@
         "Sales",
         "CRM",
         "Prospecting",
-        "Automation"
+        "Automation",
+        "clay AI",
+        "lead generation",
+        "B2B data",
+        "contact enrichment",
+        "outbound sales",
+        "GTM data"
       ],
       "pricing": [
         "Freemium"
@@ -1952,7 +2484,13 @@
         "Law firms",
         "Contracts",
         "Due diligence",
-        "Compliance"
+        "Compliance",
+        "harvey AI",
+        "legal tech",
+        "contract review",
+        "AI lawyer",
+        "legal research AI",
+        "litigation support"
       ],
       "pricing": [
         "Paid"
@@ -1975,7 +2513,13 @@
         "Characters",
         "Roleplay",
         "Entertainment",
-        "Conversation"
+        "Conversation",
+        "character AI",
+        "AI personas",
+        "fictional characters",
+        "AI friends",
+        "companionship AI",
+        "story roleplay"
       ],
       "pricing": [
         "Freemium"
@@ -1999,7 +2543,13 @@
         "Predictive scoring",
         "Performance",
         "Ads",
-        "Conversion"
+        "Conversion",
+        "anyword AI",
+        "performance score",
+        "ad optimization",
+        "AI marketing copy",
+        "CTR prediction",
+        "marketing AI"
       ],
       "pricing": [
         "Freemium"
@@ -2022,7 +2572,13 @@
         "Soundtracks",
         "Film scoring",
         "Creative",
-        "Composing"
+        "Composing",
+        "AIVA AI",
+        "AI composer",
+        "background music",
+        "royalty free music",
+        "emotional music",
+        "game soundtrack"
       ],
       "pricing": [
         "Freemium"
@@ -2045,7 +2601,13 @@
         "Music",
         "Singing",
         "Audio tools",
-        "Musicians"
+        "Musicians",
+        "kits AI",
+        "AI voice changer",
+        "singer AI",
+        "vocal AI",
+        "music production",
+        "AI singing voice"
       ],
       "pricing": [
         "Freemium"
@@ -2069,7 +2631,13 @@
         "Restoration",
         "Video enhancement",
         "Professional",
-        "Quality"
+        "Quality",
+        "topaz AI",
+        "4K upscale",
+        "video denoising",
+        "video sharpening",
+        "old video restoration",
+        "frame interpolation"
       ],
       "pricing": [
         "Paid"
@@ -2131,7 +2699,10 @@
         "Machine Learning",
         "Productivity Tools",
         "Google DeepMind",
-        "Workflow"
+        "Workflow",
+        "antigravity AI",
+        "AI coding assistant",
+        "agentic AI"
       ],
       "pricing": [
         "Freemium",
@@ -2158,7 +2729,10 @@
         "Study Help",
         "Chatbot",
         "Student",
-        "Homework"
+        "Homework",
+        "chatedu AI",
+        "student chatbot",
+        "AI learning platform"
       ],
       "pricing": [
         "Freemium"
@@ -2184,7 +2758,11 @@
         "AI Editing",
         "Text-To-Video",
         "Animation",
-        "Social Media Video"
+        "Social Media Video",
+        "framenet AI",
+        "video automation",
+        "AI motion graphics",
+        "video marketing"
       ],
       "pricing": [
         "Freemium",
@@ -2211,7 +2789,11 @@
         "AI Agent",
         "Workflow",
         "App Builder",
-        "Task Automation"
+        "Task Automation",
+        "manus AI",
+        "autonomous agent",
+        "general AI agent",
+        "AI workspace"
       ],
       "pricing": [
         "Freemium",
@@ -2238,7 +2820,11 @@
         "Auto-Formatting",
         "Accessibility",
         "Writing Assistant",
-        "Hands-Free Typing"
+        "Hands-Free Typing",
+        "wispr flow",
+        "AI dictation",
+        "voice writing",
+        "Mac dictation app"
       ],
       "pricing": [
         "Freemium",
@@ -2265,7 +2851,11 @@
         "Autonomous Agent",
         "Digital Employee",
         "Automation",
-        "Self-Hosted"
+        "Self-Hosted",
+        "openclaw AI",
+        "self-hosted AI",
+        "agentic AI",
+        "open source agent"
       ],
       "pricing": [
         "Free",
@@ -2293,7 +2883,10 @@
         "AI Tutor",
         "Education",
         "Quiz",
-        "Exam Prep"
+        "Exam Prep",
+        "turbo AI",
+        "AI study tool",
+        "student AI"
       ],
       "pricing": [
         "Freemium",
@@ -2321,7 +2914,10 @@
         "Goal Setting",
         "Career Planning",
         "Student Growth",
-        "Self Assessment"
+        "Self Assessment",
+        "pdp AI",
+        "student planner",
+        "academic planning"
       ],
       "pricing": [
         "Free"
@@ -2346,7 +2942,12 @@
         "Humanize AI",
         "AI Content Detection",
         "Humanizer",
-        "AI Detector"
+        "AI Detector",
+        "zerogpt",
+        "AI text checker",
+        "ChatGPT detector",
+        "paraphrase AI",
+        "bypass AI detection"
       ],
       "pricing": [
         "Free"
@@ -2371,7 +2972,11 @@
         "Conversational Search",
         "Ad-Free",
         "Question Answering",
-        "Web Search"
+        "Web Search",
+        "andi search",
+        "private search engine",
+        "no ads search",
+        "AI web search"
       ],
       "pricing": [
         "Free"
@@ -2396,7 +3001,13 @@
         "Cinematic",
         "Video generation",
         "AI filmmaking",
-        "Storyboard"
+        "Storyboard",
+        "sora AI",
+        "OpenAI video",
+        "world simulation",
+        "diffusion video",
+        "photorealistic video",
+        "1080p video"
       ],
       "pricing": [
         "Freemium"
@@ -2422,7 +3033,13 @@
         "European AI",
         "Multilingual",
         "Chatbot",
-        "Reasoning"
+        "Reasoning",
+        "le chat",
+        "Mistral AI",
+        "French AI",
+        "open source LLM",
+        "Mistral 7B",
+        "Mixtral"
       ],
       "pricing": [
         "Freemium",
@@ -2448,7 +3065,13 @@
         "AI coding",
         "Web app",
         "Deployment",
-        "No-code"
+        "No-code",
+        "bolt AI",
+        "StackBlitz",
+        "prompt to app",
+        "AI web builder",
+        "instant deployment",
+        "full stack AI"
       ],
       "pricing": [
         "Freemium"
@@ -2473,7 +3096,13 @@
         "Frontend",
         "Prototyping",
         "GPT Engineer",
-        "React"
+        "React",
+        "lovable AI",
+        "GPT engineer",
+        "visual builder",
+        "Supabase integration",
+        "AI app creator",
+        "no-code app"
       ],
       "pricing": [
         "Freemium"
@@ -2497,7 +3126,13 @@
         "AI coding",
         "Cascade",
         "Agentic",
-        "Autocomplete"
+        "Autocomplete",
+        "windsurf AI",
+        "Codeium editor",
+        "AI code editor",
+        "context-aware IDE",
+        "code assistant",
+        "pair programmer"
       ],
       "pricing": [
         "Freemium"
@@ -2522,7 +3157,13 @@
         "Autonomous coding",
         "Agent",
         "Software development",
-        "Debugging"
+        "Debugging",
+        "devin AI",
+        "AI software engineer",
+        "autonomous agent",
+        "end-to-end coding",
+        "AI developer",
+        "self-directed coding"
       ],
       "pricing": [
         "Paid"
@@ -2547,7 +3188,13 @@
         "Multilingual",
         "Document translation",
         "Language AI",
-        "European"
+        "European",
+        "deepl AI",
+        "deep L",
+        "translate",
+        "language translation",
+        "German translation",
+        "neural translation"
       ],
       "pricing": [
         "Freemium"
@@ -2572,7 +3219,12 @@
         "CAT tool",
         "Enterprise",
         "Linguists",
-        "Workflow"
+        "Workflow",
+        "smartcat AI",
+        "translation platform",
+        "TMS",
+        "professional translation",
+        "translation memory"
       ],
       "pricing": [
         "Freemium"
@@ -2597,7 +3249,12 @@
         "Cutout",
         "E-commerce",
         "Transparent",
-        "Bulk processing"
+        "Bulk processing",
+        "remove background",
+        "bg remover",
+        "image background",
+        "product photography",
+        "AI eraser"
       ],
       "pricing": [
         "Freemium"
@@ -2622,7 +3279,12 @@
         "E-commerce",
         "Listing photos",
         "Mobile editor",
-        "Batch editing"
+        "Batch editing",
+        "photoroom AI",
+        "product photography AI",
+        "Amazon photos",
+        "Etsy photos",
+        "AI photo editor"
       ],
       "pricing": [
         "Freemium"
@@ -2647,7 +3309,12 @@
         "Generative fill",
         "Enhancement",
         "Free editor",
-        "Filters"
+        "Filters",
+        "pixlr AI",
+        "online photo editor",
+        "Photoshop alternative",
+        "AI retouching",
+        "free image editor"
       ],
       "pricing": [
         "Freemium"
@@ -2671,7 +3338,12 @@
         "Super resolution",
         "Photo quality",
         "Detail generation",
-        "AI art"
+        "AI art",
+        "magnific AI",
+        "image upscaler",
+        "creative upscaling",
+        "4K upscale",
+        "image enhancer"
       ],
       "pricing": [
         "Paid"
@@ -2696,7 +3368,12 @@
         "Relight",
         "Uncrop",
         "Background removal",
-        "Photo tools"
+        "Photo tools",
+        "clipdrop AI",
+        "image cleanup",
+        "AI retouching",
+        "photo enhancement",
+        "Stable Diffusion API"
       ],
       "pricing": [
         "Freemium"
@@ -2721,7 +3398,12 @@
         "Auto-design",
         "Pitch decks",
         "Templates",
-        "Business"
+        "Business",
+        "beautiful AI",
+        "AI presentation",
+        "slide design",
+        "deck builder",
+        "AI slides"
       ],
       "pricing": [
         "Freemium"
@@ -2746,7 +3428,12 @@
         "Focus time",
         "Habits",
         "Time management",
-        "Google Calendar"
+        "Google Calendar",
+        "reclaim AI",
+        "AI scheduler",
+        "auto-schedule",
+        "task scheduling",
+        "work-life balance"
       ],
       "pricing": [
         "Freemium"
@@ -2771,7 +3458,12 @@
         "Auto-schedule",
         "Task manager",
         "Prioritization",
-        "Planning"
+        "Planning",
+        "motion AI",
+        "AI planner",
+        "task AI",
+        "work scheduler",
+        "daily planning AI"
       ],
       "pricing": [
         "Paid"
@@ -2796,7 +3488,12 @@
         "Real-time captions",
         "Notes",
         "OtterPilot",
-        "Summary"
+        "Summary",
+        "otter AI",
+        "meeting transcription",
+        "Zoom transcription",
+        "Teams transcription",
+        "voice notes"
       ],
       "pricing": [
         "Freemium"
@@ -2821,7 +3518,12 @@
         "Accessibility",
         "Audiobook",
         "PDF reader",
-        "Dyslexia"
+        "Dyslexia",
+        "speechify AI",
+        "read aloud",
+        "listen to articles",
+        "speed reading",
+        "AI reader"
       ],
       "pricing": [
         "Freemium"
@@ -2845,7 +3547,12 @@
         "Math",
         "Science",
         "Personalized learning",
-        "Socratic"
+        "Socratic",
+        "khanmigo AI",
+        "homework help",
+        "student AI tutor",
+        "K-12 AI",
+        "interactive learning"
       ],
       "pricing": [
         "Freemium"
@@ -2870,7 +3577,12 @@
         "Q-Chat",
         "Practice tests",
         "Memorization",
-        "Students"
+        "Students",
+        "quizlet AI",
+        "AI study",
+        "exam prep",
+        "AI flashcards",
+        "spaced repetition"
       ],
       "pricing": [
         "Freemium"
@@ -2894,7 +3606,12 @@
         "Universities",
         "Career",
         "Skills",
-        "AI Coach"
+        "AI Coach",
+        "coursera AI",
+        "MOOC",
+        "university courses",
+        "professional certificates",
+        "e-learning"
       ],
       "pricing": [
         "Freemium"
@@ -2919,7 +3636,12 @@
         "API",
         "Workflows",
         "No-code",
-        "Connectors"
+        "Connectors",
+        "make automation",
+        "make.com",
+        "workflow builder",
+        "Zapier alternative",
+        "scenario automation"
       ],
       "pricing": [
         "Freemium"
@@ -2944,7 +3666,12 @@
         "Email automation",
         "CRM",
         "Custom bots",
-        "No-code"
+        "No-code",
+        "lindy AI",
+        "AI employee",
+        "workflow bot",
+        "schedule AI",
+        "inbox automation"
       ],
       "pricing": [
         "Freemium"
@@ -2969,7 +3696,12 @@
         "Game assets",
         "Texturing",
         "Prototyping",
-        "Mesh generation"
+        "Mesh generation",
+        "meshy AI",
+        "3D generator",
+        "image-to-3D",
+        "3D modeling AI",
+        "Unity assets"
       ],
       "pricing": [
         "Freemium"
@@ -2994,7 +3726,12 @@
         "Web 3D",
         "Animation",
         "Prototyping",
-        "Game design"
+        "Game design",
+        "spline AI",
+        "3D web design",
+        "interactive 3D",
+        "3D animations",
+        "WebGL design"
       ],
       "pricing": [
         "Freemium"
@@ -3019,7 +3756,12 @@
         "Academic integrity",
         "Content verification",
         "AI writing",
-        "Educators"
+        "Educators",
+        "gptzero",
+        "AI checker",
+        "ChatGPT detector",
+        "turnitin alternative",
+        "AI text detector"
       ],
       "pricing": [
         "Freemium"
@@ -3044,7 +3786,12 @@
         "Content authenticity",
         "SEO",
         "Publishers",
-        "Readability"
+        "Readability",
+        "originality AI",
+        "AI content detector",
+        "SEO AI checker",
+        "publisher tool",
+        "GPT-4 detection"
       ],
       "pricing": [
         "Paid"
@@ -3069,7 +3816,12 @@
         "Responsive design",
         "No-code",
         "Landing pages",
-        "Portfolio"
+        "Portfolio",
+        "framer AI",
+        "AI website",
+        "designer tool",
+        "animations",
+        "CMS"
       ],
       "pricing": [
         "Freemium"
@@ -3123,7 +3875,11 @@
         "threads",
         "LinkedIn",
         "content marketing",
-        "meme generator"
+        "meme generator",
+        "viral sky",
+        "X posts",
+        "AI social media",
+        "viral threads"
       ],
       "pricing": [
         "Freemium"
@@ -3204,7 +3960,11 @@
         "AI design",
         "content creator",
         "4K export",
-        "click-through rate"
+        "click-through rate",
+        "sky snail",
+        "YouTube thumbnail AI",
+        "social media cover",
+        "AI thumbnail maker"
       ],
       "pricing": [
         "Freemium"
@@ -3256,7 +4016,12 @@
         "voice cloning",
         "music generation",
         "TTS",
-        "MiniMax"
+        "MiniMax",
+        "minimax audio",
+        "AI voice platform",
+        "multilingual TTS",
+        "AI narrator",
+        "speech AI"
       ],
       "pricing": [
         "Freemium"
@@ -3280,7 +4045,12 @@
         "image-to-video",
         "video generation",
         "image generator",
-        "MiniMax"
+        "MiniMax",
+        "hailuo AI",
+        "hailuo video",
+        "Chinese AI video",
+        "AI video maker",
+        "short video AI"
       ],
       "pricing": [
         "Freemium"
@@ -3305,7 +4075,12 @@
         "workspace",
         "task automation",
         "multi-agent",
-        "MiniMax"
+        "MiniMax",
+        "minimax agent",
+        "AI workspace agent",
+        "autonomous AI",
+        "agentic platform",
+        "AI task manager"
       ],
       "pricing": [
         "Freemium"
@@ -3314,6 +4089,80 @@
         "dark": "ai-tools/logo/webp/minimax-agent.webp",
         "light": "ai-tools/logo/webp/minimax-agent.webp"
       }
+    },
+    {
+      "id": 137,
+      "name": "GravityWrite",
+      "description": "All-in-one AI content platform with 250+ tools for writing, image generation, video, coding, SEO, humanizing, and education across 30+ languages.",
+      "url": "https://app.gravitywrite.com/",
+      "categories": [
+        "Text & Writing",
+        "Marketing",
+        "Image Generation",
+        "Video & Animation",
+        "Coding & Dev",
+        "Research & Analysis",
+        "Education & Learning",
+        "AI Detection & Humanization"
+      ],
+      "keywords": [
+        "AI writing",
+        "blog writer",
+        "copywriting",
+        "SEO content",
+        "marketing copy",
+        "social media",
+        "gravity write",
+        "gravitywrite AI",
+        "AI content writer",
+        "content templates",
+        "blog automation",
+        "ad copy",
+        "email writing",
+        "product description writer",
+        "AI humanizer",
+        "AI image generation",
+        "text-to-image",
+        "anime generator",
+        "image styles",
+        "background removal",
+        "image upscaling",
+        "YouTube tools",
+        "video script",
+        "film making",
+        "movie script writer",
+        "short video",
+        "AI code tools",
+        "code refactoring",
+        "code documentation",
+        "debugging",
+        "AI research paper writer",
+        "SEO tools",
+        "keyword research",
+        "education tools",
+        "lesson planner",
+        "MCQ generator",
+        "course outline",
+        "AI detection bypass",
+        "AI detector bypass",
+        "rewrite article",
+        "plagiarism free",
+        "multilingual",
+        "30 languages",
+        "sales tools",
+        "HR tools",
+        "business templates",
+        "250+ templates",
+        "AI chatbot",
+        "e-commerce tools"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gravity-write.png",
+        "light": "ai-tools/logo/png/gravity-write.png"
+      }
     }
   ]
-}
+}
