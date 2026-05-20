@@ -4163,6 +4163,40 @@
         "dark": "ai-tools/logo/png/gravity-write.png",
         "light": "ai-tools/logo/png/gravity-write.png"
       }
+    },
+    {
+      "id": 138,
+      "name": "Studley AI",
+      "description": "All-in-one AI study assistant that converts PDFs, videos, audio, and websites into flashcards, quizzes, podcasts, and practice tests using active recall and spaced repetition.",
+      "url": "https://www.studley.ai/",
+      "categories": [
+        "Education & Learning",
+        "Productivity"
+      ],
+      "keywords": [
+        "AI study tool",
+        "flashcard generator",
+        "quiz maker",
+        "active recall",
+        "spaced repetition",
+        "exam prep",
+        "AI note taker",
+        "PDF summarizer",
+        "lecture transcription",
+        "study assistant",
+        "studley AI",
+        "AI tutor",
+        "podcast study",
+        "fill in the blanks",
+        "academic assistant"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/studley-ai.svg",
+        "light": "ai-tools/logo/svg/studley-ai.svg"
+      }
     }
   ]
 }
