@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-05-19"
+    "lastUpdated": "2026-05-27"
   },
   "tools": [
     {
@@ -4196,6 +4196,74 @@
       "logo": {
         "dark": "ai-tools/logo/svg/studley-ai.svg",
         "light": "ai-tools/logo/svg/studley-ai.svg"
+      }
+    },
+    {
+      "id": 139,
+      "name": "Lummi",
+      "description": "Free AI-generated stock photos, illustrations, and 3D assets crafted by global digital artists.",
+      "url": "https://lummi.ai/",
+      "categories": [
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "AI stock photos",
+        "free stock images",
+        "AI illustrations",
+        "3D assets",
+        "royalty-free",
+        "lummi",
+        "lummi ai",
+        "AI generated images",
+        "stock photography",
+        "free images",
+        "digital art",
+        "creative assets",
+        "AI artwork"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/lummi.svg",
+        "light": "ai-tools/logo/svg/lummi.svg"
+      }
+    },
+    {
+      "id": 140,
+      "name": "Upscayl",
+      "description": "Free and open-source AI image upscaler for Linux, macOS, and Windows.",
+      "url": "https://upscayl.org/",
+      "categories": [
+        "Design",
+        "Image Generation"
+      ],
+      "keywords": [
+        "image upscaler",
+        "AI upscaling",
+        "image enhancement",
+        "open source",
+        "free upscaler",
+        "upscayl",
+        "super resolution",
+        "4x upscale",
+        "8x upscale",
+        "photo enhancer",
+        "image quality",
+        "desktop app",
+        "local AI",
+        "batch upscaling",
+        "lossless upscaling",
+        "image restoration"
+      ],
+      "pricing": [
+        "Free",
+        "Open Source"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/upscayl.png",
+        "light": "ai-tools/logo/png/upscayl.png"
       }
     }
   ]
