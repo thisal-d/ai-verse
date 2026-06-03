@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-05-27"
+    "lastUpdated": "2026-06-03"
   },
   "tools": [
     {
@@ -4264,6 +4264,43 @@
       "logo": {
         "dark": "ai-tools/logo/png/upscayl.png",
         "light": "ai-tools/logo/png/upscayl.png"
+      }
+    },
+    {
+      "id": 141,
+      "name": "Poppy AI",
+      "description": "Visual AI workspace for content creators to brainstorm, research, and produce high-performing content on a collaborative canvas.",
+      "url": "https://getpoppy.ai/",
+      "categories": [
+        "Marketing",
+        "Productivity",
+        "Research & Analysis",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Poppy AI",
+        "visual workspace",
+        "AI canvas",
+        "multiplayer AI",
+        "content creation",
+        "brand voice",
+        "AI brainstorming",
+        "marketing AI",
+        "content strategy",
+        "social media content",
+        "AI whiteboard",
+        "multimodal AI",
+        "YouTube analysis",
+        "PDF analysis",
+        "viral content",
+        "poppy ai"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/poppy-ai.png",
+        "light": "ai-tools/logo/png/poppy-ai.png"
       }
     }
   ]
