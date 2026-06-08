@@ -4302,6 +4302,32 @@
         "dark": "ai-tools/logo/png/poppy-ai.png",
         "light": "ai-tools/logo/png/poppy-ai.png"
       }
+    },
+    {
+      "id": 142,
+      "name": "AI Potha",
+      "description": "AI-powered digital textbook assistant designed for Sri Lankan government school students.",
+      "url": "https://ai-potha.pages.dev/",
+      "categories": [
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "education",
+        "student",
+        "learning",
+        "textbook",
+        "sri lanka",
+        "ai assistant",
+        "ai පොත"
+      ],  
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/ai-potha.png",
+        "light": "ai-tools/logo/png/ai-potha.png"
+      }
     }
   ]
 }
