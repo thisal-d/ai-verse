@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-06-03"
+    "lastUpdated": "2026-06-11"
   },
   "tools": [
     {
@@ -4320,13 +4320,47 @@
         "sri lanka",
         "ai assistant",
         "ai පොත"
-      ],  
+      ],
       "pricing": [
         "Free"
       ],
       "logo": {
         "dark": "ai-tools/logo/png/ai-potha.png",
         "light": "ai-tools/logo/png/ai-potha.png"
+      }
+    },
+    {
+      "id": 143,
+      "name": "Kimi AI",
+      "description": "AI chatbot by Moonshot AI for long-context reasoning, document analysis, and agentic tasks.",
+      "url": "https://www.kimi.com/",
+      "categories": [
+        "Education & Learning",
+        "Text & Writing"
+      ],
+      "keywords": [
+        "Kimi",
+        "Moonshot AI",
+        "long context",
+        "document analysis",
+        "AI chatbot",
+        "Chinese AI",
+        "agentic AI",
+        "multimodal",
+        "Kimi K2",
+        "reasoning",
+        "web search",
+        "AI assistant",
+        "large context window",
+        "text generation",
+        "research assistant"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/kimi-ai.png",
+        "light": "ai-tools/logo/png/kimi-ai.png"
       }
     }
   ]
