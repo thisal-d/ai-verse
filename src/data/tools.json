@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-06-11"
+    "lastUpdated": "2026-06-14"
   },
   "tools": [
     {
@@ -4361,6 +4361,36 @@
       "logo": {
         "dark": "ai-tools/logo/png/kimi-ai.png",
         "light": "ai-tools/logo/png/kimi-ai.png"
+      }
+    },
+    {
+      "id": 144,
+      "name": "Playabl",
+      "description": "AI-powered no-code game creation platform that turns text prompts into playable web games and interactive experiences.",
+      "url": "https://playabl.ai/",
+      "categories": [
+        "Coding & Dev",
+        "Design"
+      ],
+      "keywords": [
+        "AI game creator",
+        "no-code game builder",
+        "text-to-game",
+        "web game",
+        "interactive experience",
+        "playabl",
+        "game development AI",
+        "AI prototyping",
+        "no-code",
+        "game engine alternative",
+        "publish game"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/playabl.png",
+        "light": "ai-tools/logo/png/playabl.png"
       }
     }
   ]
