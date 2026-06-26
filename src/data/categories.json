@@ -82,5 +82,11 @@
         "label": "Translation & Language",
         "value": "Translation & Language",
         "icon": "Languages"
+    },
+    {
+        "id": "ai-agents",
+        "label": "AI Agents",
+        "value": "AI Agents",
+        "icon": "Bot"
     }
 ]
