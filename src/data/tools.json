@@ -4462,8 +4462,8 @@
         "Freemium"
       ],
       "logo": {
-        "dark": "ai-tools/logo/png/autoclaw.png",
-        "light": "ai-tools/logo/png/autoclaw.png"
+        "dark": "ai-tools/logo/svg/chatz.svg",
+        "light": "ai-tools/logo/svg/chatz.svg"
       }
     }
   ]
