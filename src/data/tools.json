@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-06-14"
+    "lastUpdated": "2026-06-26"
   },
   "tools": [
     {
@@ -4391,6 +4391,40 @@
       "logo": {
         "dark": "ai-tools/logo/png/playabl.png",
         "light": "ai-tools/logo/png/playabl.png"
+      }
+    },
+    {
+      "id": 145,
+      "name": "VoiceEnhancer",
+      "description": "Free AI tool that enhances speech clarity in audio and video files, no login required.",
+      "url": "https://voiceenhancer.ai/",
+      "categories": [
+        "Audio & Voice",
+        "Video & Animation"
+      ],
+      "keywords": [
+        "voice enhancer",
+        "audio enhancer",
+        "AI audio",
+        "speech clarity",
+        "voice improvement",
+        "noise reduction",
+        "audio quality",
+        "podcast enhancer",
+        "video audio",
+        "free audio tool",
+        "no login",
+        "speech enhancement",
+        "voice AI",
+        "audio processing",
+        "VoiceEnhancer"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/voiceenhancer.png",
+        "light": "ai-tools/logo/png/voiceenhancer.png"
       }
     }
   ]
