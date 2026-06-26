@@ -4426,6 +4426,45 @@
         "dark": "ai-tools/logo/png/voiceenhancer.png",
         "light": "ai-tools/logo/png/voiceenhancer.png"
       }
+    },
+    {
+      "id": 146,
+      "name": "AutoClaw",
+      "description": "AI agent by Z.AI that automates computer tasks, web browsing, coding, and research with local execution support.",
+      "url": "https://autoclaw.z.ai/",
+      "categories": [
+        "AI Agents",
+        "Automation & Workflows",
+        "Coding & Dev",
+        "Productivity"
+      ],
+      "keywords": [
+        "AutoClaw",
+        "Z.AI",
+        "OpenClaw",
+        "AI agent",
+        "workflow automation",
+        "browser automation",
+        "task automation",
+        "coding assistant",
+        "code generation",
+        "web automation",
+        "research assistant",
+        "file management",
+        "local AI",
+        "GLM",
+        "computer use",
+        "multi-step tasks",
+        "AI automation",
+        "desktop AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/autoclaw.png",
+        "light": "ai-tools/logo/png/autoclaw.png"
+      }
     }
   ]
 }
