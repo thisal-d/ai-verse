@@ -4465,6 +4465,36 @@
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
       }
+    },
+    {
+      "id": 147,
+      "name": "GPTGeminiGrok.AI",
+      "description": "Browser workspace for GPT, Gemini, Grok, and Claude with AI image workflows.",
+      "url": "https://trygrokai.asia/",
+      "categories": [
+        "Text & Writing",
+        "Image Generation",
+        "Research & Analysis",
+        "Productivity"
+      ],
+      "keywords": [
+        "multi-model AI",
+        "AI chat",
+        "GPT",
+        "Gemini",
+        "Grok",
+        "Claude",
+        "AI image generation",
+        "research assistant",
+        "productivity"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/gptgeminigrok-ai.png",
+        "light": "ai-tools/logo/png/gptgeminigrok-ai.png"
+      }
     }
   ]
 }
