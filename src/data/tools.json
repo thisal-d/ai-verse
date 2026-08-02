@@ -4465,6 +4465,35 @@
         "dark": "ai-tools/logo/svg/chatz.svg",
         "light": "ai-tools/logo/svg/chatz.svg"
       }
+    },
+    {
+      "id": 148,
+      "name": "Rao Edits",
+      "description": "AI-powered image generation and photo editing platform for creative projects, social content, and CapCut templates.",
+      "url": "https://raoedits.top/",
+      "categories": [
+        "Image Generation",
+        "Design",
+        "Marketing"
+      ],
+      "keywords": [
+        "Rao Edits",
+        "AI image generator",
+        "AI photo editor",
+        "image generation",
+        "photo editing",
+        "creative design",
+        "social media content",
+        "CapCut templates",
+        "text to image"
+      ],
+      "pricing": [
+        "Paid"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/webp/rao-edits.webp",
+        "light": "ai-tools/logo/webp/rao-edits.webp"
+      }
     }
   ]
 }
