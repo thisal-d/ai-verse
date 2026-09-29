@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "3.0.0",
-    "lastUpdated": "2026-06-26"
+    "lastUpdated": "2026-09-29"
   },
   "tools": [
     {
@@ -4493,6 +4493,120 @@
       "logo": {
         "dark": "ai-tools/logo/webp/rao-edits.webp",
         "light": "ai-tools/logo/webp/rao-edits.webp"
+      }
+    },
+    {
+      "id": 149,
+      "name": "Ashna AI",
+      "description": "AI agent platform for workflow automation, multi-model access, and task execution.",
+      "url": "https://app.ashna.ai/",
+      "categories": [
+        "AI Agents",
+        "Productivity",
+        "Automation & Workflows"
+      ],
+      "keywords": [
+        "Ashna AI",
+        "Ashna",
+        "AI agent",
+        "workflow automation",
+        "multi-model",
+        "no-code",
+        "AI assistant",
+        "task automation",
+        "Ashna-X1"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/jpg/ashna-ai.jpg",
+        "light": "ai-tools/logo/jpg/ashna-ai.jpg"
+      }
+    },
+    {
+      "id": 150,
+      "name": "TryVeo3",
+      "description": "AI video generator creating cinematic clips from text and images using Veo technology.",
+      "url": "https://tryveo3.ai/features/v3",
+      "categories": [
+        "Video & Animation",
+        "Image Generation"
+      ],
+      "keywords": [
+        "TryVeo3",
+        "Veo 3",
+        "Google Veo",
+        "text-to-video",
+        "AI video",
+        "cinematic video",
+        "video generation",
+        "image-to-video",
+        "Veo AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/tryveo3.png",
+        "light": "ai-tools/logo/png/tryveo3.png"
+      }
+    },
+    {
+      "id": 151,
+      "name": "Vizard AI",
+      "description": "AI video editor and repurposing tool that turns long videos into viral social media clips.",
+      "url": "https://vizard.ai/",
+      "categories": [
+        "Video & Animation",
+        "Marketing",
+        "Productivity"
+      ],
+      "keywords": [
+        "Vizard AI",
+        "Vizard",
+        "video editor",
+        "video repurposing",
+        "auto captions",
+        "reels",
+        "TikTok",
+        "shorts",
+        "AI clipping",
+        "social media video"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/vizard-dark.svg",
+        "light": "ai-tools/logo/svg/vizard-light.svg"
+      }
+    },
+    {
+      "id": 152,
+      "name": "Magic Eraser",
+      "description": "Free AI-powered photo cleanup tool to remove unwanted objects, people, and watermarks from images.",
+      "url": "https://magiceraser.org/",
+      "categories": [
+        "Image Generation",
+        "Design"
+      ],
+      "keywords": [
+        "Magic Eraser",
+        "object remover",
+        "photo cleanup",
+        "remove watermark",
+        "inpaint",
+        "photo editing",
+        "AI eraser",
+        "magiceraser"
+      ],
+      "pricing": [
+        "Free"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/png/magic-eraser.png",
+        "light": "ai-tools/logo/png/magic-eraser.png"
       }
     }
   ]
