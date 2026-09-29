@@ -169,6 +169,7 @@ git push origin feature/remove-tools
 | Marketing | 3D & AR/VR |
 | Education & Learning | Automation & Workflows |
 | AI Detection & Humanization | Translation & Language |
+| AI Agents | |
 
 > **📝 Note:** If your tool doesn't fit any category, open an issue to suggest a new one.
 

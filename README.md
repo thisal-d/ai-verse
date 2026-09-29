@@ -16,7 +16,7 @@
 
 **AI Verse** is a curated discovery platform for navigating the world of AI tools. Whether you're a developer, designer, student, or entrepreneur — AI Verse helps you find the right AI tool for the job.
 
-With **138 hand-picked tools** across 14 categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
+With **147 hand-picked tools** across 15 categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
 
 ---
 
@@ -27,7 +27,7 @@ With **138 hand-picked tools** across 14 categories, smart search, favorites, an
 - 🔍 **Smart Search & Filter** — Find tools by keyword, category, or pricing
 - ❤️ **Favorites** — Save tools to a personal list (stored in local storage, no login needed)
 - 🔔 **Toast Notifications** — Instant feedback when managing your tools
-- 🎨 **14+ Categories** — Text & Writing, Coding & Dev, Image Generation, Video & Animation, Audio & Voice, Research & Analysis, Productivity, Design, Marketing, 3D & AR/VR, Education & Learning, Automation & Workflows, AI Detection & Humanization, Translation & Language
+- 🎨 **15 Categories** — Text & Writing, Coding & Dev, Image Generation, Video & Animation, Audio & Voice, Research & Analysis, Productivity, Design, Marketing, 3D & AR/VR, Education & Learning, Automation & Workflows, AI Detection & Humanization, Translation & Language, AI Agents
 - 💰 **Pricing Transparency** — Free, Freemium, Paid, and Open Source tiers clearly marked
 - 🌓 **Dark / Light Theme** — Beautiful in any lighting
 - 📱 **Fully Responsive** — Desktop, tablet, and mobile
@@ -93,8 +93,8 @@ ai-verse/
 ├── src/
 │   ├── components/          # React components
 │   ├── data/
-│   │   ├── tools.json       # AI tools database (138 tools)
-│   │   └── categories.json  # Category definitions (14 categories)
+│   │   ├── tools.json       # AI tools database (147 tools)
+│   │   └── categories.json  # Category definitions (15 categories)
 │   ├── App.jsx              # Main app component
 │   └── main.jsx             # Entry point
 ├── public/
