@@ -5330,6 +5330,39 @@
         "dark": "ai-tools/logo/png/perplexity-comet.png",
         "light": "ai-tools/logo/png/perplexity-comet.png"
       }
+    },
+    {
+      "id": 164,
+      "name": "Google Vids",
+      "description": "Google Workspace's AI-powered video creation app for generating storyboards, scripts, voiceovers, and work videos with Gemini.",
+      "url": "https://workspace.google.com/products/vids/",
+      "categories": [
+        "Video & Animation",
+        "Productivity"
+      ],
+      "keywords": [
+        "Google Vids",
+        "Google Workspace",
+        "AI video creator",
+        "video creation",
+        "Gemini video",
+        "storyboard generator",
+        "AI voiceover",
+        "work videos",
+        "presentation video",
+        "video editor",
+        "Google AI",
+        "vids.new",
+        "googlevids",
+        "Google Vids AI"
+      ],
+      "pricing": [
+        "Freemium"
+      ],
+      "logo": {
+        "dark": "ai-tools/logo/svg/google-vids.svg",
+        "light": "ai-tools/logo/svg/google-vids.svg"
+      }
     }
   ]
 }
