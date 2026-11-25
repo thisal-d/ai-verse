@@ -1,133 +1,110 @@
-.filters-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 15px;
-    gap: 7.5px;
+main {
+    flex: 1;
+    padding-bottom: 8px;
 }
 
+/* ---- Search box (rendered inside the sticky header) ---- */
+.search-entry {
+    width: 100%;
+    max-width: 520px;
+    min-height: var(--control-height);
+    padding: 0 16px;
+    font-size: var(--font-size-lg);
+    color: var(--color-text);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-speed) var(--ease);
+}
+
+.search-entry::placeholder {
+    color: var(--color-muted);
+}
+
+.search-entry:hover {
+    border-color: var(--color-border-hover);
+}
+
+.search-entry:focus,
+.search-entry:focus-visible {
+    outline: none;
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-primary);
+}
+
+/* ---- Counter ---- */
 .ai-tools-count {
     display: flex;
-    text-align: center;
-    color: var(--color-text);
-    font-size: 0.65rem;
-    font-weight: 600;
     justify-content: center;
-}
-
-.ai-tools-count p {
-    background-color: var(--color-surface);
-    width: fit-content;
-    padding: 5px;
-    border-radius: 4px;
+    margin-top: 12px;
+    color: var(--color-muted);
+    font-size: var(--font-size-base);
 }
 
 .ai-tools-count span {
-    color: var(--color-primary);
+    color: var(--color-accent-text);
+    font-weight: 700;
 }
 
-.search-entry {
-    width: 50%;
-    height: 2.625rem;
-    font-size: 0.9rem;
-    padding: 7.5px;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background-color: var(--color-bg);
-    color: var(--color-text);
-    box-shadow: 0 3px 4.5px var(--shadow-color);
-    /* Added box shadow */
-    transition: box-shadow 0.3s ease;
-    /* Optional: smooth hover effect */
-}
-
-.search-entry:focus {
-    box-shadow: 0 4.5px 7.5px var(--shadow-color);
-    /* Optional: shadow when input is focused */
-    outline: none;
-    /* remove default outline */
+/* ---- Category select + favourites filter ---- */
+.filters-main-container {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+    margin-top: 16px;
 }
 
 .filters-container {
-    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    max-width: var(--content-max);
 }
 
 .filters-container select {
-    width: fit-content;
-    height: 2.625rem;
-    font-size: 0.8rem;
-    padding: 7.5px;
-    border: 1px solid var(--color-border);
-    border-radius: 6px;
-    background-color: var(--color-bg);
+    min-width: 220px;
+    min-height: var(--control-height);
+    padding: 0 12px;
+    font-size: var(--font-size-base);
     color: var(--color-text);
-    box-shadow: 0 3px 4.5px var(--shadow-color);
-    /* Added box shadow */
-    transition: box-shadow 0.3s ease;
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-speed) var(--ease);
 }
 
-.filters-container select:focus {
-    box-shadow: 0 4.5px 7.5px var(--shadow-color);
-    /* Optional: shadow when input is focused */
+.filters-container select:hover {
+    border-color: var(--color-border-hover);
+}
+
+.filters-container select:focus-visible {
     outline: none;
-    /* remove default outline */
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 2px var(--color-bg), 0 0 0 4px var(--color-primary);
 }
 
 .favourite-btn-filter-container {
-    margin-top: 4px;
-    justify-content: center;
-    align-items: center;
     display: flex;
-    width: fit-content;
 }
 
 .favourite-btn-filter {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.tools-filter-container {
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     align-items: center;
-    margin-top: 15px;
-    gap: 7.5px;
-}
-
-.filter-active {
-    border: none;
-    font-size: 0.8rem;
-    padding: 9px;
-    background-color: var(--color-primary);
-    border-radius: 4px;
-    color: var(--color-text);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border: 1px solid var(--color-border);
-}
-
-.filter {
-    border: none;
-    padding: 9px;
-    font-size: 0.8rem;
-    border-radius: 4px;
+    justify-content: center;
+    width: var(--control-height);
+    height: var(--control-height);
+    padding: 0;
     background-color: var(--color-surface);
-    color: var(--color-muted);
-    cursor: pointer;
-    transition: all 0.3s ease;
     border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    transition: border-color var(--transition-speed) var(--ease), transform var(--transition-speed) var(--ease);
 }
 
-@media (hover: hover) {
-    .favourite-btn-filter:hover {
-        transform: scale(1.05);
-    }
-
-    .favourite-btn-filter:hover .favourite-btn-filter-icon {
-        content: url("./assets/heart-hover.png");
-    }
+.favourite-btn-filter[aria-pressed="true"] {
+    border-color: var(--color-error);
 }
 
 .favourite-btn-filter-icon {
@@ -135,168 +112,169 @@
     height: 22px;
 }
 
+@media (hover: hover) {
+    .favourite-btn-filter:hover {
+        border-color: var(--color-border-hover);
+        transform: translateY(-1px);
+    }
 
+    .favourite-btn-filter[aria-pressed="false"]:hover .favourite-btn-filter-icon {
+        content: url("./assets/heart-hover.png");
+    }
+}
+
+/* ---- Pricing chips (checkboxes) ---- */
 .ai-mode-container {
-    margin-top: 15px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 8px;
+    margin: 16px auto 0;
+    padding: 0 20px;
+    max-width: var(--content-max);
 }
 
 .ai-mode-container label {
-    display: flex;
+    position: relative;
+    display: inline-flex;
     align-items: center;
-    gap: 8px;
+    min-height: 40px;
+    padding: 0 16px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    color: var(--color-muted);
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
     cursor: pointer;
-    padding: 8px 12px;
-    border-radius: 6px;
-    transition: all 0.3s ease;
     user-select: none;
+    transition: border-color var(--transition-speed) var(--ease), background-color var(--transition-speed) var(--ease), color var(--transition-speed) var(--ease);
+}
+
+/* the checkbox stays in the DOM (focusable, screen-reader friendly) but is visually replaced by the chip */
+.ai-mode-container input[type="checkbox"] {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
 }
 
 .ai-mode-container label:hover {
-    background-color: var(--color-surface);
+    border-color: var(--color-border-hover);
+    color: var(--color-text);
 }
 
-.ai-mode-container input[type="checkbox"] {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 18px;
-    height: 18px;
-    border: 2px solid var(--color-border);
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    background-color: var(--color-bg);
-    flex-shrink: 0;
+.ai-mode-container label:has(input:checked) {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: var(--color-fill-text);
+    font-weight: 600;
+}
+
+.ai-mode-container label:has(input:focus-visible) {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+}
+
+/* ---- Recent / most-used filters ---- */
+.tools-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 0 20px;
+}
+
+.filter,
+.filter-active {
+    min-height: 40px;
+    padding: 0 16px;
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    border-radius: 999px;
+    transition: border-color var(--transition-speed) var(--ease), background-color var(--transition-speed) var(--ease), color var(--transition-speed) var(--ease);
+}
+
+.filter {
+    color: var(--color-muted);
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+}
+
+.filter-active {
+    color: var(--color-fill-text);
+    background-color: var(--color-primary);
+    border: 1px solid var(--color-primary);
+    font-weight: 600;
+}
+
+@media (hover: hover) {
+    .filter:hover {
+        border-color: var(--color-border-hover);
+        color: var(--color-text);
+    }
+}
+
+/* ---- Card grid: 4 columns desktop → 3 narrow desktop → 2 tablet → 1 phone ---- */
+.ai-view-container-main {
+    margin-top: 24px;
+    padding: 0 20px;
+}
+
+.ai-view-container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 16px;
+    max-width: var(--content-max);
+    margin: 0 auto;
+}
+
+.no-tools-found {
+    grid-column: 1 / -1;
+    padding: 48px 0;
 }
 
 .no-tools-found p {
-    font-size: 0.8rem;
+    font-size: var(--font-size-lg);
     font-weight: 600;
     color: var(--color-muted);
     text-align: center;
 }
 
-.ai-mode-container label {
-    font-size: 0.8rem;
-    color: var(--color-text);
-}
-
-
-.ai-mode-container input[type="checkbox"]:hover {
-    border-color: var(--color-primary);
-    box-shadow: 0 0 8px rgba(79, 70, 229, 0.2);
-}
-
-.ai-mode-container input[type="checkbox"]:checked {
-    background-color: var(--color-primary);
-    border-color: var(--color-primary);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3E%3Cpath d='M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 14px;
-}
-
-.ai-mode-container input[type="checkbox"]:checked+label,
-.ai-mode-container input[type="checkbox"]:checked~label {
-    color: var(--color-primary);
-}
-
-.ai-mode-container input[type="checkbox"]:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
-}
-
-.ai-view-container-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-    margin-bottom: 60px;
-}
-
-.ai-view-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 80%;
-    justify-content: center;
-    background-color: var(--color-bg);
-}
-
-@media (max-width: 1000px) {
+@media (max-width: 1150px) {
     .ai-view-container {
-        width: 96%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
+@media (max-width: 900px) {
+    .ai-view-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
 
 @media (max-width: 600px) {
     .ai-view-container {
-        display: block;
-        justify-content: center;
-        align-items: center;
-        margin-top: 7.5px;
-        width: 90%;
-        background-color: var(--color-bg);
+        grid-template-columns: minmax(0, 1fr);
+        gap: 10px;
     }
 
-    .search-entry {
-        width: 40%;
-        height: 2.25rem;
-        font-size: 0.75rem;
-    }
-
-    .filters-main-container {
-        display: flex;
-        justify-content: center;
+    .ai-view-container-main,
+    .filters-main-container,
+    .ai-mode-container,
+    .tools-filter-container {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .filters-container select {
-        font-size: 0.75rem;
-        height: 2.25rem;
-    }
-
-    .ai-tools-count {
-        font-size: 0.55rem;
-    }
-
-    .ai-mode-container label {
-        font-size: 0.75rem;
-    }
-
-    .favourite-btn-filter:hover {
-        transform: none;
-    }
-
-    .favourite-btn-filter:hover .favourite-btn-filter-icon {
-        content: none;
-    }
-
-    .filter-active {
-        border: none;
-        padding: 7px;
-        font-size: 0.7rem;
-        background-color: var(--color-primary);
-        border-radius: 4px;
-        color: var(--color-text);
-        border: 1px solid var(--color-border);
-        cursor: pointer;
-        transition: all 0.3s ease;
-    }
-
-    .filter {
-        border: none;
-        padding: 7px;
-        font-size: 0.7rem;
-        border-radius: 4px;
-        border: 1px solid var(--color-border);
-        background-color: var(--color-surface);
-        color: var(--color-muted);
-        cursor: pointer;
-        transition: all 0.3s ease;
+        flex: 1;
+        min-width: 0;
     }
 }

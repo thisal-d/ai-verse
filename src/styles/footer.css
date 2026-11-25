@@ -1,69 +1,73 @@
 footer {
     width: 100%;
-    background-color: var(--color-card);
-    position: fixed;
-    bottom: 0;
+    margin-top: 24px;
+    padding: 24px 20px 96px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 8px 20px;
+    background-color: var(--color-surface);
     border-top: 1px solid var(--color-border);
 }
 
-
 .app-title-container {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-right: 7.5px;
-    gap: 7.5px;
+    gap: 10px;
+}
+
+.app-title-container>a {
+    display: flex;
+    border-radius: var(--radius-sm);
 }
 
 footer .logo {
-    width: 22.5px;
+    width: 28px;
+    height: 28px;
     object-fit: contain;
 }
 
 footer .app-title {
+    font-size: var(--font-size-lg);
+    font-weight: 700;
+}
+
+footer a {
     color: var(--color-text);
-    font-size: 0.6rem;
-    font-weight: bold;
-    margin-right: 15px;
+    text-decoration: none;
+    border-radius: var(--radius-sm);
+    transition: color var(--transition-speed) var(--ease);
 }
 
 footer p.developer {
     color: var(--color-muted);
     text-align: center;
-    font-size: 0.6rem;
+    font-size: var(--font-size-base);
 }
 
 footer .developer a {
-    color: var(--color-text);
-    font-weight: bold;
-    font-size: 0.6rem;
+    font-weight: 600;
 }
 
+.footer-info-link {
+    padding: 4px 10px;
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-accent-text);
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    transition: border-color var(--transition-speed) var(--ease), background-color var(--transition-speed) var(--ease);
+}
 
-@media (max-width: 600px) {
-    footer p.developer {
-        font-size: 0.525rem;
+@media (hover: hover) {
+    footer a:hover {
+        color: var(--color-accent-text);
     }
 
-    footer .developer a {
-        font-size: 0.5625rem;
-    }
-
-    footer .app-title {
-        color: var(--color-text);
-        font-size: 0.5625rem;
-        font-weight: bold;
-        margin-right: 7.5px;
-    }
-
-    footer .logo {
-        width: 22.5px;
-    }
-
-    .app-title-container {
-        gap: 5.25px;
+    .footer-info-link:hover {
+        border-color: var(--color-primary);
+        background-color: var(--color-accent-soft);
     }
 }

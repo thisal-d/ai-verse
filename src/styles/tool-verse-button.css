@@ -1,87 +1,70 @@
 .tool-verse {
-    display: flex;
     position: fixed;
-    text-decoration: none;
-    flex-wrap: wrap;
-    justify-content: center;
-    right: 20px;
-    bottom: 20px;
-    font-size: 0.9rem;
-    font-weight: bold;
-}
-
-
-@keyframes Dance {
-    from {
-        transform: perspective(70px) rotateY(0deg);
-    }
-
-    to {
-        transform: perspective(80px) rotateY(360deg);
-    }
-}
-
-.tool-verse img {
-    animation: Dance 1s ease-in-out infinite;
-    transition: all 0.2s ease-in-out;
-}
-
-.tool-verse img:hover {
-    transform: scale(1.2);
-}
-
-.tool-verse:hover::before {
-    content: "Looking for tools? visit Tool Verse ☺️..";
-    color: var(--color-success);
-    background-color: var(--color-surface);
-    padding: 5px 5px;
-    border-radius: 5px;
-    height: fit-content;
-}
-
-.tool-verse::before {
-    content: none
+    right: 16px;
+    bottom: 16px;
+    z-index: 40;
 }
 
 .tool-verse a {
     display: flex;
     align-items: center;
+    gap: 10px;
+    min-height: 48px;
+    padding: 6px 14px 6px 8px;
+    background-color: var(--color-card);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
     text-decoration: none;
-    flex-wrap: wrap;
-    justify-content: center;
+    transition: border-color var(--transition-speed) var(--ease), transform var(--transition-speed) var(--ease);
 }
 
 .tool-verse img {
-    width: 60px;
-    height: 60px;
+    width: 34px;
+    height: 34px;
     object-fit: contain;
-}
-
-.tool-verse a {
-    text-decoration: none;
-    color: var(--color-text);
+    flex-shrink: 0;
 }
 
 .tool-verse p {
-    font-size: 0.7rem;
-    display: none;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    line-height: 1.3;
+    max-width: 150px;
 }
 
+@media (hover: hover) {
+    .tool-verse a:hover {
+        border-color: var(--color-primary);
+        transform: translateY(-2px);
+    }
+
+    .tool-verse a:hover p {
+        color: var(--color-accent-text);
+    }
+}
+
+/* Small screens: keep only the icon so it never covers cards or toasts */
 @media (max-width: 600px) {
     .tool-verse {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        right: 10px;
-        bottom: 10px;
+        right: 12px;
+        bottom: 12px;
     }
 
-    .tool-verse img {
-        width: 40px;
-        height: 40px;
+    .tool-verse a {
+        padding: 6px;
+        border-radius: 50%;
+        min-height: 48px;
+        min-width: 48px;
+        justify-content: center;
     }
 
-    .tool-verse:hover::before {
-        display: none;
+    .tool-verse p {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        white-space: nowrap;
     }
 }

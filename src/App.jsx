@@ -5,8 +5,10 @@ import AIComponent from "./components/AIComponent.jsx";
 import AI_Tools from "./data/tools.json";
 import AI_Categories from "./data/categories.json";
 import { useTheme } from "./context/ThemeContext";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Footer from "./components/Footer.jsx";
+import InfoPage from "./components/InfoPage.jsx";
+import { fetchGitHubData } from "./utils/github.js";
 import AI_Pricing_Modes from "./data/pricing-modes.json"
 import heart_white from "./assets/heart-light.png"
 import heart_black from "./assets/heart-dark.png"
@@ -94,6 +96,46 @@ function App() {
   const [favouriteFilter, setFavouriteFilter] = useState(localStorage.getItem("favouriteFilter") === "true");
   const [recentFilter, setRecentFilter] = useState(localStorage.getItem("recentFilter") === "true")
   const [mostUsedFilter, setMostUsedFilter] = useState(localStorage.getItem("mostUsedFilter") === "true")
+  const [activePage, setActivePage] = useState(() =>
+    typeof window !== "undefined" && window.location.hash === "#info" ? "info" : "home"
+  );
+  const [githubData, setGithubData] = useState(null);
+  const [githubLoading, setGithubLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    fetchGitHubData()
+      .then((data) => {
+        if (!cancelled) setGithubData(data);
+      })
+      .finally(() => {
+        if (!cancelled) setGithubLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    function handleHashChange() {
+      setActivePage(window.location.hash === "#info" ? "info" : "home");
+    }
+    window.addEventListener("hashchange", handleHashChange);
+    return () => window.removeEventListener("hashchange", handleHashChange);
+  }, []);
+
+  function navigateTo(page) {
+    setActivePage(page);
+    const targetHash = page === "info" ? "#info" : "";
+    if (window.location.hash !== targetHash) {
+      if (targetHash) {
+        window.location.hash = targetHash;
+      } else {
+        window.history.pushState(null, "", window.location.pathname + window.location.search);
+      }
+    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
 
   function handleModeChange(e) {
     const { value, checked } = e.target;
@@ -130,23 +172,38 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header
+        starCount={githubData?.repo?.stargazers_count}
+        activePage={activePage}
+        onNavigate={navigateTo}
+      >
+        <input
+          type="search"
+          placeholder="Search AI Verse..."
+          aria-label="Search AI tools"
+          className="search-entry"
+          value={searchFilter}
+          onChange={(e) => { setSearchFilter(e.target.value); localStorage.setItem("searchFilter", e.target.value) }}
+        />
+      </Header>
 
+      <main>
+      {activePage === "info" ? (
+        <InfoPage
+          githubData={githubData}
+          loading={githubLoading}
+          totalTools={ai_tools.length}
+          onBack={() => navigateTo("home")}
+        />
+      ) : (
+        <>
       <div className="ai-tools-count">
         <p>Total AI Tools: <span>{ai_tools.length}</span></p>
       </div>
 
       <div className="filters-main-container">
         <div className="filters-container">
-          <input
-            type="search"
-            placeholder="Search AI Verse..."
-            className="search-entry"
-            value={searchFilter}
-            onChange={(e) => { setSearchFilter(e.target.value); localStorage.setItem("searchFilter", e.target.value) }}
-          />
-
-          <select value={selectedCategory} onChange={(e) => { setSelectedCategory(e.target.value); localStorage.setItem("selectedCategory", e.target.value) }} placeholder="Select a Category">
+          <select aria-label="Filter by category" value={selectedCategory} onChange={(e) => { setSelectedCategory(e.target.value); localStorage.setItem("selectedCategory", e.target.value) }}>
             <option value="">All Categories</option>
             {
               AI_Categories.map((category) => (
@@ -158,13 +215,13 @@ function App() {
           <div className='favourite-btn-filter-container'>
             {
               (favouriteFilter) ? (
-                <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
-                  <img src={heart_red} alt="heart red" className='favourite-btn-filter-icon' />
+                <button type="button" aria-label="Show all tools instead of favourites only" aria-pressed="true" onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
+                  <img src={heart_red} alt="" className='favourite-btn-filter-icon' />
                 </button>
               ) : (
-                <button onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
-                  {theme === "dark" ? <img src={heart_black} alt="heart black" className='favourite-btn-filter-icon' /> :
-                    <img src={heart_white} alt="heart white" className='favourite-btn-filter-icon' />}
+                <button type="button" aria-label="Show favourite tools only" aria-pressed="false" onClick={() => { setFavouriteFilter(!favouriteFilter); localStorage.setItem("favouriteFilter", !favouriteFilter) }} className='favourite-btn-filter'>
+                  {theme === "dark" ? <img src={heart_black} alt="" className='favourite-btn-filter-icon' /> :
+                    <img src={heart_white} alt="" className='favourite-btn-filter-icon' />}
                 </button>
               )
             }
@@ -206,8 +263,6 @@ function App() {
               .filter((tool) => (recentFilter) ? (recently_viewed_tools_ids.includes(tool.id)) : (true))
               .filter((tool) => (mostUsedFilter) ? (Object.keys(tool_usage_count).map(id_str => Number(id_str)).includes(tool.id)) : (true));
 
-            console.log(filtered_tools);
-
             if (recentFilter)
               filtered_tools = sortByRecentUsage(filtered_tools, recently_viewed_tools_ids)
 
@@ -226,6 +281,9 @@ function App() {
                   id={tool.id}
                   url={tool.url}
                   description={tool.description}
+                  categories={tool.categories}
+                  pricing={tool.pricing}
+                  selectedCategory={selectedCategory}
                   isFavourite={favourite_tools_ids.includes(tool.id)}
                   theme={theme}
                   addToFavorite={addToFavoriteTools}
@@ -238,8 +296,12 @@ function App() {
 
         </div>
       </div>
+        </>
+      )}
 
-      <Footer />
+      </main>
+
+      <Footer onOpenInfo={() => navigateTo("info")} />
       <ToastContainer position="bottom-right" autoClose={1000} />
 
       <ToolVerseButton />

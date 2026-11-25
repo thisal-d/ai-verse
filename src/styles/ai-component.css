@@ -1,169 +1,285 @@
 .ai-card {
-    background-color: var(--color-card);
-    border-radius: 6px;
-    box-shadow: 0 3px 6px var(--color-card);
-    margin: 10px;
-    padding: 0 15px 15px 15px;
-    width: 130px;
-    height: 270px;
-    transition: transform 0.3s ease;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    min-width: 0;
+    padding: 20px;
+    background-color: var(--color-card);
     border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    transition: border-color var(--transition-speed) var(--ease), transform var(--transition-speed) var(--ease);
 }
 
 @media (hover: hover) {
     .ai-card:hover {
-        transform: scale(1.05);
+        border-color: var(--color-primary);
+        transform: translateY(-2px);
     }
 }
 
-.favourite-btn-container {
-    width: 100%;
-    height: 40px;
-    text-align: right;
+.ai-card:focus-within {
+    border-color: var(--color-border-hover);
 }
 
-.favourite-btn-icon {
-    padding-top: 10px;
-    width: 20px;
-    height: 20px;
+/* ---- Pricing badge (top-right) ---- */
+.pricing-badge {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    max-width: 55%;
+    padding: 2px 10px;
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    line-height: 20px;
+    color: var(--color-muted);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-.favourite-btn-container-mobile {
-    display: none;
-}
-
-.favourite-btn {
-    width: 20px;
-    height: 20px;
-    border: none;
-    cursor: pointer;
-    background-color: transparent;
-    transition: all 0.3s ease;
-}
-
-
-.favourite-btn:hover {
-    transform: scale(1.05);
-}
-
-.favourite-btn:hover .favourite-btn-icon {
-    content: url("../assets/heart-hover.png");
-}
-
-/* --- Image Section --- */
-.image-container {
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    /* Fixed height for consistent sizing */
-    flex-shrink: 0;
-    /* Prevents shrinking due to text length */
+/* ---- Main clickable area ---- */
+.ai-card-link {
+    flex: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: inherit;
+    text-decoration: none;
+    border-radius: var(--radius-md);
+}
+
+.ai-card-link:focus-visible {
+    outline-offset: 6px;
+}
+
+.image-container {
+    display: flex;
     align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+    background-color: var(--color-tile);
+    border-radius: var(--radius-md);
 }
 
 .ai-card .ai-image {
-    width: 100%;
-    height: 100%;
-    border-radius: 6px;
-    margin-bottom: 7.5px;
+    width: 72px;
+    height: 72px;
+    object-fit: contain;
+    border-radius: var(--radius-sm);
 }
 
-/* --- Text Section --- */
+.ai-card-body {
+    width: 100%;
+    min-width: 0;
+}
+
 .ai-card .name {
-    font-size: 0.85rem;
-    margin-top: 7.5px;
+    margin-top: 16px;
+    font-size: var(--font-size-title);
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.005em;
     color: var(--color-text);
-    text-align: center;
+    overflow-wrap: anywhere;
 }
 
 .ai-card .description {
-    font-size: 0.7rem;
+    margin-top: 6px;
+    font-size: var(--font-size-base);
+    line-height: 1.5;
     color: var(--color-muted);
-    text-align: center;
-    margin: 3.75px 7.5px 0 7.5px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 3em;
 }
 
-@media (max-width: 600px) {
+/* ---- Footer: category chips + favourite ---- */
+.card-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 8px;
+    margin-top: 16px;
+}
 
-    .ai-card {
-        box-sizing: border-box;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 10px;
-        padding-right: 14px;
-        margin: 7.5px 0;
-        gap: 10px;
-    }
+.card-meta {
+    min-width: 0;
+}
 
-    .image-container {
-        width: 45px;
-        height: 45px;
-        flex-shrink: 0;
-        order: 1;
-    }
+.category-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    min-width: 0;
+}
 
-    .ai-card .ai-image {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-        margin: 0;
-    }
+.chip {
+    display: inline-flex;
+    align-items: center;
+    padding: 2px 8px;
+    font-size: var(--font-size-sm);
+    line-height: 18px;
+    color: var(--color-muted);
+    background-color: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 999px;
+}
 
-    /* Name - fixed width */
-    .name-container {
-        width: 80px;
-        flex-shrink: 0;
-        order: 2;
-    }
+/* active category (matches the category filter): lime dot + lime left border */
+.chip-active {
+    color: var(--color-text);
+    border-left: 3px solid var(--color-primary);
+    padding-left: 6px;
+}
 
-    .ai-card .name {
-        font-size: 0.7rem;
-        margin: 0 0 0 5px;
-        text-align: left;
-    }
+.chip-active::before {
+    content: "";
+    width: 6px;
+    height: 6px;
+    margin-right: 6px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+}
 
-    .description-container {
-        flex: 1;
-        order: 3;
-    }
+/* ---- Favourite button (>= 40px hit target) ---- */
+.favourite-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    margin: -8px -10px -8px 0;
+    padding: 0;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: var(--radius-md);
+    transition: transform var(--transition-speed) var(--ease), border-color var(--transition-speed) var(--ease);
+}
 
-    .ai-card .description {
-        font-size: 0.65rem;
-        margin: 0 0 0 5px;
-        text-align: left;
-    }
+.favourite-btn-icon {
+    width: 20px;
+    height: 20px;
+}
 
-    .favourite-btn-container {
-        display: none;
-    }
-
-    .favourite-btn-container-mobile {
-        display: flex;
-        flex-shrink: 0;
-        order: 4;
-        margin-left: auto;
-    }
-
-    .favourite-btn-icon {
-        width: 15px;
-        height: 15px;
-        padding: 0;
-    }
-
-    .ai-card:hover,
+@media (hover: hover) {
     .favourite-btn:hover {
-        transform: none;
+        transform: scale(1.1);
+        border-color: var(--color-border-hover);
     }
 
     .favourite-btn:hover .favourite-btn-icon {
-        content: none;
+        content: url("../assets/heart-hover.png");
+    }
+
+    .favourite-btn[aria-pressed="true"]:hover .favourite-btn-icon {
+        content: url("../assets/heart-red.png");
+    }
+}
+
+/* ---- Mobile: compact horizontal card layout ---- */
+@media (max-width: 600px) {
+    .ai-card {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        grid-template-rows: auto auto;
+        align-items: center;
+        column-gap: 6px;
+        row-gap: 8px;
+        padding: 12px;
+    }
+
+    .ai-card-link {
+        grid-column: 1;
+        grid-row: 1;
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        min-width: 0;
+    }
+
+    .image-container {
+        width: 52px;
+        height: 52px;
+        border-radius: var(--radius-sm);
+    }
+
+    .ai-card .ai-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .ai-card-body {
+        flex: 1;
+        width: auto;
+        min-width: 0;
+    }
+
+    .ai-card .name {
+        margin-top: 0;
+        font-size: 15px;
+        line-height: 1.25;
+    }
+
+    .ai-card .description {
+        margin-top: 2px;
+        font-size: 12.5px;
+        line-height: 1.35;
+        min-height: 0;
+    }
+
+    .card-footer {
+        display: contents;
+    }
+
+    .card-meta {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .pricing-badge {
+        position: static;
+        max-width: none;
+        padding: 1px 8px;
+        font-size: 11px;
+        line-height: 16px;
+        color: var(--color-accent-text);
+    }
+
+    .category-chips {
+        gap: 5px;
+    }
+
+    .chip {
+        padding: 1px 7px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .favourite-btn {
+        grid-column: 2;
+        grid-row: 1;
+        align-self: center;
+        margin: 0 -4px 0 0;
+    }
+
+    .favourite-btn-icon {
+        width: 18px;
+        height: 18px;
     }
 }
