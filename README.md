@@ -16,7 +16,7 @@
 
 **AI Verse** is a curated discovery platform for navigating the world of AI tools. Whether you're a developer, designer, student, or entrepreneur — AI Verse helps you find the right AI tool for the job.
 
-With **147 hand-picked tools** across 15 categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
+With **218 hand-picked tools** across 17 categories, smart search, favorites, and pricing filters — it's your one-stop destination to explore the best AI has to offer.
 
 ---
 
@@ -93,7 +93,7 @@ ai-verse/
 ├── src/
 │   ├── components/          # React components
 │   ├── data/
-│   │   ├── tools.json       # AI tools database (147 tools)
+│   │   ├── tools.json       # AI tools database (218 tools)
 │   │   └── categories.json  # Category definitions (15 categories)
 │   ├── App.jsx              # Main app component
 │   └── main.jsx             # Entry point

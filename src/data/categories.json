@@ -88,5 +88,17 @@
         "label": "AI Agents",
         "value": "AI Agents",
         "icon": "Bot"
+    },
+    {
+        "id": "llm-inference",
+        "label": "LLM & Inference",
+        "value": "LLM & Inference",
+        "icon": "Cpu"
+    },
+    {
+        "id": "search-discovery",
+        "label": "Search & Discovery",
+        "value": "Search & Discovery",
+        "icon": "Search"
     }
 ]
